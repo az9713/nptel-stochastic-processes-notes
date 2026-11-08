@@ -1,0 +1,37 @@
+{
+  "seed": 202611086,
+  "samples": 60000,
+  "two_state": {
+    "rate12": 2.0,
+    "rate21": 1.0,
+    "time": 0.7,
+    "transition": [
+      [
+        0.41497095216865465,
+        0.2925145239156727
+      ],
+      [
+        0.5850290478313454,
+        0.7074854760843273
+      ]
+    ],
+    "sample_P11": 0.41331666666666667,
+    "correlation_time": 0.3333333333333333,
+    "mean_residence_times": [
+      0.5,
+      1.0
+    ]
+  },
+  "walk": {
+    "rplus": 3.0,
+    "rminus": 1.0,
+    "ell": 0.5,
+    "time": 2.0,
+    "exact_mean": 2.0,
+    "exact_variance": 2.0,
+    "sample_mean": 1.9985583333333334,
+    "sample_variance": 1.9931270882638887,
+    "zero_probability": 0.052922415061362325
+  },
+  "clockwise_ring_stationary_current": 0.3333333333333333
+}

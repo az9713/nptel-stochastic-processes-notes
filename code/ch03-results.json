@@ -1,0 +1,61 @@
+{
+  "walk_rows": [
+    {
+      "n": 10,
+      "cdf_distance": 0.123046875,
+      "continuity_corrected_grid_error": 0.0026861602537622264,
+      "exact_variance": 1.0000000000000002,
+      "central_mass": 0.24609375,
+      "parity_aware_central_mass": 0.252313252202016
+    },
+    {
+      "n": 50,
+      "cdf_distance": 0.05613758632960858,
+      "continuity_corrected_grid_error": 0.000541703993537701,
+      "exact_variance": 0.9999999999999993,
+      "central_mass": 0.11227517265921712,
+      "parity_aware_central_mass": 0.11283791670955126
+    },
+    {
+      "n": 200,
+      "cdf_distance": 0.028174239504628273,
+      "continuity_corrected_grid_error": 0.00013603169150566696,
+      "exact_variance": 0.9999999999999998,
+      "central_mass": 0.056348479009256436,
+      "parity_aware_central_mass": 0.05641895835477563
+    },
+    {
+      "n": 1000,
+      "cdf_distance": 0.012612509089180823,
+      "continuity_corrected_grid_error": 2.716595658680543e-05,
+      "exact_variance": 1.0000000000000007,
+      "central_mass": 0.025225018178360824,
+      "parity_aware_central_mass": 0.025231325220201602
+    }
+  ],
+  "uniform_rows": [
+    {
+      "n": 2,
+      "cdf_grid_error": 0.01643076528768661
+    },
+    {
+      "n": 4,
+      "cdf_grid_error": 0.007384207428599132
+    },
+    {
+      "n": 16,
+      "cdf_grid_error": 0.0017440675526310956
+    }
+  ],
+  "four_uniform_density_at_zero": 0.38490017945975047,
+  "fourier_inversion_cutoff_100": 0.3849001095014367,
+  "diffusion_example": {
+    "D": 0.5,
+    "dt": 0.01,
+    "t": 1.0,
+    "ell": 0.1,
+    "steps": 100,
+    "mean_square_displacement": 1.0000000000000002,
+    "gaussian_probability_outside_walk_support": 1.523970604832094e-23
+  }
+}

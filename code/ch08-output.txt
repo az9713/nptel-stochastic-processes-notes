@@ -1,0 +1,4 @@
+Immigration-death mean: exact=4.218017549, sample=4.219325000
+Immigration-death variance: exact=3.998229882, sample=3.997671544
+Stationary mean=variance=3.000000
+Linear branching mean=3.644237601, variance=10.985319564

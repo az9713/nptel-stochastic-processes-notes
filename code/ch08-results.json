@@ -1,0 +1,75 @@
+{
+  "seed": 202611088,
+  "samples": 40000,
+  "immigration_death": {
+    "a": 3.0,
+    "b": 1.0,
+    "initial": 12,
+    "time": 2.0,
+    "exact_mean": 4.218017549129515,
+    "exact_variance": 3.9982298824647042,
+    "sample_mean": 4.219325,
+    "sample_variance": 3.9976715443749997,
+    "stationary_mean": 3.0
+  },
+  "geometric_weights": [
+    {
+      "ratio": 0.4,
+      "partial_weight_sums": {
+        "10": 1.6665967616,
+        "100": 1.666666666666667,
+        "1000": 1.666666666666667
+      },
+      "normalizable": true,
+      "exact_mean_if_normalizable": 0.6666666666666667
+    },
+    {
+      "ratio": 0.8,
+      "partial_weight_sums": {
+        "10": 4.570503270400001,
+        "100": 4.999999999185187,
+        "1000": 5.000000000000002
+      },
+      "normalizable": true,
+      "exact_mean_if_normalizable": 4.000000000000001
+    },
+    {
+      "ratio": 0.98,
+      "partial_weight_sums": {
+        "10": 9.963432462510202,
+        "100": 43.50164176115706,
+        "1000": 49.999999917534545
+      },
+      "normalizable": true,
+      "exact_mean_if_normalizable": 48.99999999999996
+    },
+    {
+      "ratio": 1,
+      "partial_weight_sums": {
+        "10": 11.0,
+        "100": 101.0,
+        "1000": 1001.0
+      },
+      "normalizable": false,
+      "exact_mean_if_normalizable": null
+    },
+    {
+      "ratio": 1.02,
+      "partial_weight_sums": {
+        "10": 12.168715419732616,
+        "100": 319.4769520308695,
+        "1000": 20311497184.564945
+      },
+      "normalizable": false,
+      "exact_mean_if_normalizable": null
+    }
+  ],
+  "branching": {
+    "birth": 0.7,
+    "death": 0.4,
+    "initial": 2,
+    "time": 2,
+    "mean": 3.6442376007810173,
+    "variance": 10.985319563870947
+  }
+}

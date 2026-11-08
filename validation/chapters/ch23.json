@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "chapter": 23,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_18_25",
+  "artifact_hashes": {
+    "chapter-23-nonmarkovian-anomalous-transport.html": "0256a7e1dd0e8e758b8e5542b4d9b9e3c94581a162aec8b90baaddcdf4815adb",
+    "code/ch23_anomalous.py": "d0c2b206cb3a4b09986064aa972667744bc5ad6aac175a618a17d0dbc0fdf491",
+    "code/ch23-results.json": "c32c61bdb740c4ff92bf2bc5199f7344f9aabd9c84a201d25ab51ff8e76d7c64",
+    "code/ch23-output.txt": "7f68b04f3a409e11e8404e78bb998fa09bb68a45bb2b2b29b9ad606d1791f62d",
+    "figures/ch23_anomalous.py": "54d63c0f7cdebb976377ba8ac061d12e09642fed67883cc1e68e98b9fe1e677b",
+    "assets/ch23-anomalous.svg": "21a0ecfc96a109c5421294f56b9e5580731af531adf650c5e2d50a4de5bd03cf"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "c1384d97cd79466c1d92d30b3232a6e6f6efec33f9dfcb2c5fc522c4bdeec995",
+      "targeted_repairs": []
+    },
+    {
+      "reviewer_id": "/root/author_10_17",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "4a3e0b31b033ca15564aa86240cebc7bb5d616f0a0a32e73f14a3014d84149d2",
+      "targeted_repairs": []
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

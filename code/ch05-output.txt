@@ -1,0 +1,6 @@
+Three-state stationary law: 0.264705882, 0.323529412, 0.411764706
+n=0: distance=0.735294118
+n=1: distance=0.335294118
+n=5: distance=0.033404706
+n=20: distance=0.000003400
+Hidden cycle: one-step probability of staying = 0.5; two-step = 0.

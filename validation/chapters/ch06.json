@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "chapter": 6,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_02_09",
+  "artifact_hashes": {
+    "chapter-06-generators-counting-and-telegraph.html": "1f76e1006eb3ed1105bb6a534eba2b53d51ee46f46bb2777f7cb4a014a85d551",
+    "code/ch06-output.txt": "81bb3fd3c0d12698a50eee0cd107629259ad49eed7f6811047a32d30b0bd68bd",
+    "code/ch06-results.json": "32a18944fd47bdc88dffdaecddbb359e212ca5924f6d192bf5330eeb2a52c5e1",
+    "code/ch06_jumps.py": "666ce681ea2cd1940c34e4f07f235e112126e061aafb9a73265beb3ba715785c",
+    "figures/ch06_jumps.py": "5c6321ad910d5755730cd100c45048c28c82e651930c96aa10de78da4f101494",
+    "assets/ch06-jumps.svg": "b6e08bb4b8510f555e6171c8b2e6b865461396c88e56ab6d08f84dd66d5124c1"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "89638de016034c11b660d1ad627583fbc106217121d5b185eadde2a922c365cc",
+      "targeted_repairs": [
+        {
+          "sha256": "9c12862d4973b5ec3e98264b5fdac890922b7390330a16a946564258d69ab1ad"
+        },
+        {
+          "sha256": "3a8a5e6e36364639419580949aa9fe657ca619cf3f623b78a80c2620a052ff88"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "1f9806eb44621e0cc1a4e2746a61b1bc68d534ec93e8542a70e8c615104c17a6",
+      "targeted_repairs": [
+        {
+          "sha256": "284f6cea3318175a06705f6c8d37e96296c25fd33a3ca19df5fbfc53a1101105"
+        }
+      ]
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

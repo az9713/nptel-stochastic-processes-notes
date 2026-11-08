@@ -1,0 +1,103 @@
+{
+  "chapter": 19,
+  "status": "accepted",
+  "author_id": "/root/author_18_25",
+  "scientific_files": [
+    "chapter-19-telegraph-diffusion.html",
+    "code/ch19_telegraph.py",
+    "code/ch19-results.json",
+    "code/ch19-output.txt",
+    "figures/ch19_telegraph.py",
+    "assets/ch19-telegraph.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 22,
+      "sequentially_read": true,
+      "transcript_spans": [
+        [
+          20.9,
+          318.2,
+          "persistent motion model"
+        ],
+        [
+          318.2,
+          1154.1,
+          "Poisson counts and dichotomous covariance"
+        ],
+        [
+          1154.1,
+          1725.1,
+          "persistent lattice and continuum state equations"
+        ],
+        [
+          1725.1,
+          2436.4,
+          "initial derivative conditions"
+        ],
+        [
+          2436.4,
+          2673.4,
+          "damped wave and diffusion motivation"
+        ],
+        [
+          2673.4,
+          3051.6,
+          "Bessel mixed law and fronts"
+        ],
+        [
+          3051.6,
+          3642.7,
+          "MSD and diffusion asymptotics"
+        ],
+        [
+          3643.7,
+          4023.6,
+          "crossing motivation and state memory"
+        ]
+      ],
+      "visual_coverage": "One timed frame at2995s inspected; frontgeometry visible, detailedcoefficients partlyoccluded. Independent mixture proof used.",
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch19_telegraph.py"
+  ],
+  "figures": [
+    "assets/ch19-telegraph.svg"
+  ],
+  "solutions": 6,
+  "artifact_hashes": {
+    "chapter-19-telegraph-diffusion.html": "deb1a256229c378452ff966a0170a7613ded631884f79bcbbf28506b0247d999",
+    "code/ch19_telegraph.py": "4ba85c7f90e655f30b9fc113a97bc7b68e9231a6e1c243db0438f7329f154788",
+    "code/ch19-results.json": "98016490a3f6d1d0a26f9c06fc1d7997b12e027e0b31883cf932a794908fb4d7",
+    "code/ch19-output.txt": "1d9e8ab81a76e8dc953fd84a12a98b7ebf67742e2b2bcd052029ea483b20d653",
+    "figures/ch19_telegraph.py": "fce78b61333d66e554f8497e765e75c0f10f3d356a193686f447cc63fbe4258e",
+    "assets/ch19-telegraph.svg": "f0423aaede631186ae557ad80e846464986f8e3eab244df9f892f83083951161"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch19-r1.md",
+      "report_sha256": "a048e3f42c2af83dd30dc61436183b9e606d49e8cf61e171b50417aa98faa899",
+      "targeted_repairs": []
+    },
+    {
+      "reviewer_id": "/root/author_10_17",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch19-r2.md",
+      "report_sha256": "8d0b961ac1a14a09fc03574e7ab0044bacd62c58512eed9339d3f4575b8d9bbb",
+      "targeted_repairs": []
+    }
+  ],
+  "review_audit": "work/reviews/ch19-review-audit.json"
+}

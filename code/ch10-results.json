@@ -1,0 +1,74 @@
+{
+  "units": "gamma=theta=1",
+  "seed": 2026110810,
+  "rows": [
+    {
+      "t": 0.01,
+      "stationary_msd": 9.966749833610622e-05,
+      "fixed_v0_variance": 6.616899170634738e-07,
+      "local_slope": 1.9966722185154582
+    },
+    {
+      "t": 0.1,
+      "stationary_msd": 0.009674836071919157,
+      "fixed_v0_variance": 0.0006189190658563715,
+      "local_slope": 1.9672184883885775
+    },
+    {
+      "t": 1.0,
+      "stationary_msd": 0.7357588823428847,
+      "fixed_v0_variance": 0.33618248144915663,
+      "local_slope": 1.718281828459045
+    },
+    {
+      "t": 10.0,
+      "stationary_msd": 18.000090799859525,
+      "fixed_v0_variance": 17.000181597657896,
+      "local_slope": 1.1110550620978439
+    },
+    {
+      "t": 100.0,
+      "stationary_msd": 198.0,
+      "fixed_v0_variance": 197.0,
+      "local_slope": 1.0101010101010102
+    }
+  ],
+  "euler": [
+    {
+      "h": 0.1,
+      "stationary_variance": 1.0526315789473684,
+      "relative_bias": 0.05263157894736836
+    },
+    {
+      "h": 0.5,
+      "stationary_variance": 1.3333333333333333,
+      "relative_bias": 0.33333333333333326
+    },
+    {
+      "h": 1.0,
+      "stationary_variance": 2.0,
+      "relative_bias": 1.0
+    }
+  ],
+  "joint_sample_covariance": [
+    [
+      0.03754452773806982,
+      0.18171257646217306
+    ],
+    [
+      0.18171257646217306,
+      1.0022099443689536
+    ]
+  ],
+  "joint_exact_covariance": [
+    [
+      0.037461506155963775,
+      0.18126924692201818
+    ],
+    [
+      0.18126924692201818,
+      1.0
+    ]
+  ],
+  "checks": "quadrature, positive covariance, initial ensemble, sampling"
+}

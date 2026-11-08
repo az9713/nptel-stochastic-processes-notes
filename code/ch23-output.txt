@@ -1,0 +1,5 @@
+t=1: E[N]=0.675802; sample=0.679050; biased variance=0.678054; biased MSD=0.719157
+t=10: E[N]=3.083128; sample=3.062350; biased variance=3.457654; biased MSD=4.313165
+t=100: E[N]=10.788494; sample=10.674900; biased variance=16.356321; biased MSD=26.831565
+t=1000: E[N]=35.183969; sample=35.491250; biased variance=97.423803; biased MSD=208.835855
+Lag10 ensemble MSD=3.083128; time-average mean=0.353841, across-path SD=0.319048

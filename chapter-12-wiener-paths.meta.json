@@ -1,0 +1,72 @@
+{
+  "chapter": 12,
+  "status": "accepted",
+  "author_id": "/root/author_10_17",
+  "scientific_files": [
+    "chapter-12-wiener-paths.html",
+    "code/ch12_wiener.py",
+    "code/ch12-results.json",
+    "code/ch12-output.txt",
+    "figures/ch12_roughness.py",
+    "assets/ch12-roughness.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 15,
+      "sequentially_read": true,
+      "transcript_spans": [
+        [
+          0.1,
+          3407.4
+        ]
+      ],
+      "visual_coverage": "3 timed frames1580,2130,2880; substantially occluded",
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch12_wiener.py"
+  ],
+  "figures": [
+    "assets/ch12-roughness.svg"
+  ],
+  "solutions": 6,
+  "checks": [
+    "lab QV mean+variance, finite-difference variance, occupation CDF illustration, OU clock passed",
+    "figure preview inspected",
+    "tex/links/code passed; rawmathcomparison repaired"
+  ],
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch12-r1.md",
+      "report_sha256": "accbf33b0ff2999b8188826a0c63d85361ad29ae6d4104459e351007bb5feecb",
+      "targeted_repairs": []
+    },
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch12-r2.md",
+      "report_sha256": "b7070ad44d5ad925e6ff71bbfdea5cb3a86388427bffc493d25500a5b5275e77",
+      "targeted_repairs": []
+    }
+  ],
+  "artifact_hashes": {
+    "chapter-12-wiener-paths.html": "02db8d7238667bbd10bf69eb548cd85c9d2190667fcbfe3165205d577db7a24d",
+    "code/ch12_wiener.py": "30f431fefe51a36e9341f23fa78fb3b3fb1820edab9c1f3f957f8f5d8fb7581c",
+    "code/ch12-results.json": "600d65653a0e406b4e13599f2e2e277b1ae311cc06c48a14b4b219a60f7bd508",
+    "code/ch12-output.txt": "6135d94e367e5d713d9de392495393b24899a25c945c4a3e4e6f60671062517d",
+    "figures/ch12_roughness.py": "d886034ab8e22acb60f6c00e5f326179332354c8404edc40b6198b4c908b5fab",
+    "assets/ch12-roughness.svg": "8c186bf844a5e3089720e9e255d2239e012e90180f85926e54e6f6fcd8aec11b"
+  },
+  "review_audit": "work/reviews/ch12-review-audit.json"
+}

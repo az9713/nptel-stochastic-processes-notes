@@ -1,0 +1,131 @@
+{
+  "number": 8,
+  "status": "accepted",
+  "author_id": "/root/author_02_09",
+  "scientific_files": [
+    "chapter-08-stationary-populations.html",
+    "code/ch08-output.txt",
+    "code/ch08-results.json",
+    "code/ch08_equilibrium.py",
+    "figures/ch08_equilibrium.py",
+    "assets/ch08-equilibrium.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 10,
+      "sequentially_read": true,
+      "transcript_spans": [
+        {
+          "start": 17,
+          "end": 446,
+          "topic": "Birthdeath boundaryequations and affine momentclosure",
+          "sections": [
+            "weights",
+            "moments"
+          ]
+        },
+        {
+          "start": 446,
+          "end": 909,
+          "topic": "Stationary productformula and normalization",
+          "sections": [
+            "weights"
+          ]
+        },
+        {
+          "start": 909,
+          "end": 1738,
+          "topic": "Sedimentation, reflectingfloor, geometricheight and continuumscaleheight",
+          "sections": [
+            "sedimentation"
+          ]
+        },
+        {
+          "start": 1738,
+          "end": 1971,
+          "topic": "Reservoir chemicalconversion with Poisson equilibrium",
+          "sections": [
+            "chemistry"
+          ]
+        },
+        {
+          "start": 1971,
+          "end": 2212,
+          "topic": "Oscillator absorption and emission rates, geometricoccupation",
+          "sections": [
+            "radiation"
+          ]
+        },
+        {
+          "start": 2212,
+          "end": 2722,
+          "topic": "Linearbranching mean andvariance, separatebirthdeath identification, boundarynotes",
+          "sections": [
+            "branching"
+          ]
+        },
+        {
+          "start": 2722,
+          "end": 3052,
+          "topic": "Continuousstate ChapmanKolmogorov and masterequation introduction",
+          "sections": [
+            "continuum"
+          ]
+        }
+      ],
+      "visual_coverage": {
+        "times_seconds": [
+          850,
+          2140
+        ],
+        "coverage": "Stationary product/normalizer and reservoir chemistry rateboard inspected; partial visualcoverage, some motionblur/occlusion."
+      },
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch08_equilibrium.py"
+  ],
+  "figures": [
+    "assets/ch08-equilibrium.svg"
+  ],
+  "solutions": 6,
+  "artifact_hashes": {
+    "chapter-08-stationary-populations.html": "99c0a4ff26e11e2411a817e9508fd827e6cf183e635aeccb85659503b3a15b58",
+    "code/ch08-output.txt": "d3a23f258572daa21b76230b7a1c678ccb049936d9a991d6cfc0af10eea2e1dd",
+    "code/ch08-results.json": "f29fae96b69b33afebc4248a888608ab044129de469a30bb4bceb2715cb53a87",
+    "code/ch08_equilibrium.py": "4c40bb9481ad57ceacf98a4fa2f9a04e3436e93efa892b2a72e2a920ca143e56",
+    "figures/ch08_equilibrium.py": "e11ff35f6dca697127cacae8cb2ed7030650d83ee05e7d8fafd91c3fb9079865",
+    "assets/ch08-equilibrium.svg": "c08bb130f05eb24b0ed0f35a115940afb214f3dd616ba921918e462917488a97"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch08-r1.md",
+      "report_sha256": "265851d67abc1d0ad4738d7283ae0e0074cfbb63d7bb82701dac85bb0aee0e86",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch08-r1-targeted.md",
+          "sha256": "d41ab4ad4f61c5f2fb703a3c68ed4c33f6f7042aca39b5529aba5b08a5076df9"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch08-r2.md",
+      "report_sha256": "48cdf951620aa8d8df292dd458d14f2250efa8473aa0fa3933538d3520684b1b",
+      "targeted_repairs": []
+    }
+  ],
+  "review_audit": "work/reviews/ch08-review-audit.json"
+}

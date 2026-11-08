@@ -1,0 +1,27 @@
+Equal mean = 4 counts; exact probabilities, not fitted data.
+Binomial(20, 0.2): variance=3.200000, F=0.800000, P0=0.01152922, P(X>=10)=0.00259483
+  sampled mean=4.004430, variance=3.195246, F=0.797928
+Poisson(4): variance=4.000000, F=1.000000, P0=0.01831564, P(X>=10)=0.00813224
+  sampled mean=3.996200, variance=3.991986, F=0.998945
+Geometric(mean 4): variance=20.000000, F=5.000000, P0=0.20000000, P(X>=10)=0.10737418
+  sampled mean=3.991210, variance=19.986383, F=5.007600
+Negative binomial(r=4, mean 4): variance=8.000000, F=2.000000, P0=0.06250000, P(X>=10)=0.04614258
+  sampled mean=4.006865, variance=8.059438, F=2.011407
+Binomial -> Poisson: trials=20, TV=0.056000051
+Binomial -> Poisson: trials=100, TV=0.010242342
+Binomial -> Poisson: trials=1000, TV=0.001004976
+Binomial -> Poisson: trials=10000, TV=0.000100309
+Skellam(7, 3): mean=4, variance=10, P0=0.05801782
+Thermal modes r=1: variance=20.000000, P0=0.20000000, TV=0.38506035
+Thermal modes r=2: variance=12.000000, P0=0.11111111, TV=0.26123811
+Thermal modes r=4: variance=8.000000, P0=0.06250000, TV=0.16779433
+Thermal modes r=20: variance=4.800000, P0=0.02608405, TV=0.04544384
+Thermal modes r=100: variance=4.160000, P0=0.01980004, TV=0.00982451
+At efficiency 0.25: input variance 3.2 -> mean 1, variance 0.95, F 0.95; input variance 4 -> mean 1, variance 1, F 1; input variance 20 -> mean 1, variance 2, F 2; input variance 8 -> mean 1, variance 1.25, F 1.25
+Equal mean/variance counterexample: P0=0.04511176 versus 0.06250000
+Shared Poisson X=Y: sum mean=8 variance=16; difference variance=0
+NB(4, mean 4) third cumulant=24.000000
+Unequal thermal modes (3,1): exact mean=4 variance=14 P0=0.125 effective shape=1.6 detected F=1.625
+  sampled mean=3.994950, variance=14.016985, P0=0.126510
+Dice: mean=7, variance=5.83333333, P7=0.16666667, P3=0.05555556
+All exact-law and sampling checks passed.

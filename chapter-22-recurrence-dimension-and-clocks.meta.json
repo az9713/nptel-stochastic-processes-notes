@@ -1,0 +1,108 @@
+{
+  "chapter": 22,
+  "status": "accepted",
+  "author_id": "/root/author_18_25",
+  "scientific_files": [
+    "chapter-22-recurrence-dimension-and-clocks.html",
+    "code/ch22_dimension_clocks.py",
+    "code/ch22-results.json",
+    "code/ch22-output.txt",
+    "figures/ch22_dimension_clocks.py",
+    "assets/ch22-dimension-clocks.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 26,
+      "sequentially_read": true,
+      "transcript_spans": [
+        [
+          20.8,
+          505.6,
+          "recurrence criterion"
+        ],
+        [
+          505.6,
+          1097,
+          "lattice Fourier transform"
+        ],
+        [
+          1097,
+          1619.9,
+          "Green integral dimensionality"
+        ],
+        [
+          1619.9,
+          1984.3,
+          "return parity and paths"
+        ],
+        [
+          1984.3,
+          2642.2,
+          "hierarchical walk rescaling"
+        ],
+        [
+          2642.2,
+          3198.2,
+          "continuous-time Markov walks"
+        ],
+        [
+          3198.2,
+          3601.3,
+          "random jump clock"
+        ],
+        [
+          3601.3,
+          4283.2,
+          "waiting law renewal convolution"
+        ]
+      ],
+      "visual_coverage": "One still1375s inspected; small-wave-number denominator partlyvisible, algebraoccluded.",
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch22_dimension_clocks.py"
+  ],
+  "figures": [
+    "assets/ch22-dimension-clocks.svg"
+  ],
+  "solutions": 6,
+  "artifact_hashes": {
+    "chapter-22-recurrence-dimension-and-clocks.html": "8dbe5d2d1f11adbdf66d7c1ce412d620f394092c305f5c987d34568a88156419",
+    "code/ch22_dimension_clocks.py": "7fffee10983892def5362936bc77a0a7a672bf26dc288475497ef212bd6f82d3",
+    "code/ch22-results.json": "9b9369fbae60e122911453f6a87ac3db9d83450185c81ad573ac34c2d8614248",
+    "code/ch22-output.txt": "58a59b8a7141d1b35a45f4722db6e01b1f6770e59fe8838d9db31c0fdbe934a4",
+    "figures/ch22_dimension_clocks.py": "c40eee934471a1f2417f79ca65b8ae25f97db61ed0f99da7171ae29e13002e05",
+    "assets/ch22-dimension-clocks.svg": "a6fb814b640957c45e653c13f8c6bbb7a87cfbef7cd3e34d4e0b93329eb4096a"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch22-r1.md",
+      "report_sha256": "c92a921b55d1316b896d0af680d611fd82bace71fd12c03c203ee8ce9be8cb58",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch22-r1-targeted.md",
+          "sha256": "a02a55af702b40fa3a48b715f98e54a610fd5047c9d1a59b57be5dd4cc2bfd9b"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root/author_10_17",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch22-r2.md",
+      "report_sha256": "e8ddf771a0e5abb72d1e441c00f37dd89d39c0351315e66f67de72f0c0c13aaf",
+      "targeted_repairs": []
+    }
+  ],
+  "review_audit": "work/reviews/ch22-review-audit.json"
+}

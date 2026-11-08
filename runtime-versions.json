@@ -1,0 +1,13 @@
+{
+  "python": "3.13.5",
+  "platform_family": "Windows",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.16.0",
+    "matplotlib": "3.9.3",
+    "beautifulsoup4": "4.14.3",
+    "playwright": "1.57.0",
+    "PyMuPDF": "1.27.1"
+  },
+  "scope": "Environment used for the retained numerical and rendering checks; not a promise of byte identity across versions."
+}

@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "chapter": 2,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_02_09",
+  "artifact_hashes": {
+    "chapter-02-continuous-random-variables.html": "3eb4bfec3f6cbdaf312914ea80a707114b64ad37209d3dedd517927aba9f99dc",
+    "code/ch02_energy.py": "56b238310e075a33cea5fb2731752bcbfffdf01da985161f2f50156756ea73cf",
+    "code/ch02-results.json": "3e1b5cfa786375edcf59106463cf99b2f3bbe27e207177741860376d201f377e",
+    "code/ch02-output.txt": "93ab6587486ffb70e936cba98ffc8e62ca8306c9f16a941ae7ed910de80070b0",
+    "figures/ch02_energy.py": "7140acf4734b67b62239075b06dec78e872d2bc1978324bf77065bceb9c325cc",
+    "assets/ch02-energy.svg": "c816997b78f51c2f0fbf008b5c8b48f566a4e7e6d7d5bf51ff03edb42ad7887f"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "4c0c5e24f97577afa84709b6725a018796dc57d18fba43c83b563974239dd7df",
+      "targeted_repairs": [
+        {
+          "sha256": "344c70ab208ce3c28f6953d13699a66d106b4ebe841bcda53173aaaf2a27c93d"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root/author_10_17",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "8353d3a7e442a9e74aeeb3858850d9275bf1ee6b6f38ad124d238787389754e7",
+      "targeted_repairs": []
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

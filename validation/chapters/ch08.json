@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "chapter": 8,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_02_09",
+  "artifact_hashes": {
+    "chapter-08-stationary-populations.html": "99c0a4ff26e11e2411a817e9508fd827e6cf183e635aeccb85659503b3a15b58",
+    "code/ch08-output.txt": "d3a23f258572daa21b76230b7a1c678ccb049936d9a991d6cfc0af10eea2e1dd",
+    "code/ch08-results.json": "f29fae96b69b33afebc4248a888608ab044129de469a30bb4bceb2715cb53a87",
+    "code/ch08_equilibrium.py": "4c40bb9481ad57ceacf98a4fa2f9a04e3436e93efa892b2a72e2a920ca143e56",
+    "figures/ch08_equilibrium.py": "e11ff35f6dca697127cacae8cb2ed7030650d83ee05e7d8fafd91c3fb9079865",
+    "assets/ch08-equilibrium.svg": "c08bb130f05eb24b0ed0f35a115940afb214f3dd616ba921918e462917488a97"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "265851d67abc1d0ad4738d7283ae0e0074cfbb63d7bb82701dac85bb0aee0e86",
+      "targeted_repairs": [
+        {
+          "sha256": "d41ab4ad4f61c5f2fb703a3c68ed4c33f6f7042aca39b5529aba5b08a5076df9"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "48cdf951620aa8d8df292dd458d14f2250efa8473aa0fa3933538d3520684b1b",
+      "targeted_repairs": []
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

@@ -1,0 +1,5 @@
+gamma  t       exact Cxx     overdamped Cxx
+  0.5    0.5    0.88713672      0.36787944
+  2.0    2.0    0.40600585      0.36787944
+ 10.0   10.0    0.36789873      0.36787944
+All covariance and critical-limit checks passed.

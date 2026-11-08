@@ -1,0 +1,40 @@
+{
+  "seed": 2026110813,
+  "D": 0.5,
+  "paths": 100000,
+  "square_identity_max_error": 3.597122599785507e-14,
+  "mean_quadratic_correction": 0.9992561183037495,
+  "radial": [
+    {
+      "dimension": 1,
+      "sample_mean_r2": 1.0010322163153185,
+      "exact_mean_r2": 1.0,
+      "sample_variance_r2": 1.9940205895669685,
+      "exact_variance_r2": 2.0
+    },
+    {
+      "dimension": 2,
+      "sample_mean_r2": 2.000750361558799,
+      "exact_mean_r2": 2.0,
+      "sample_variance_r2": 4.003174577642668,
+      "exact_variance_r2": 4.0
+    },
+    {
+      "dimension": 3,
+      "sample_mean_r2": 3.0011860575806315,
+      "exact_mean_r2": 3.0,
+      "sample_variance_r2": 6.05409223332351,
+      "exact_variance_r2": 6.0
+    }
+  ],
+  "gbm": {
+    "a": 0.1,
+    "b": 1.2,
+    "time": 1.0,
+    "exact_mean": 1.1051709180756477,
+    "sample_mean": 1.1059510797160237,
+    "median": 0.5379444375946745,
+    "euler_negative_probability": 0.17965866916478535,
+    "euler_negative_fraction": 0.1791
+  }
+}

@@ -1,0 +1,9 @@
+work/
+HANDOFF.md
+AGENTS.md
+README.txt
+__pycache__/
+*.pyc
+.serena/
+BOOK-STATE.yaml
+*.bak

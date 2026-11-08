@@ -1,0 +1,188 @@
+{
+  "number": 6,
+  "status": "accepted",
+  "author_id": "/root/author_02_09",
+  "scientific_files": [
+    "chapter-06-generators-counting-and-telegraph.html",
+    "code/ch06-output.txt",
+    "code/ch06-results.json",
+    "code/ch06_jumps.py",
+    "figures/ch06_jumps.py",
+    "assets/ch06-jumps.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 7,
+      "sequentially_read": true,
+      "transcript_spans": [
+        {
+          "start": 17,
+          "end": 1187,
+          "topic": "Generator columns, semigroup, eigenvalue spectrum, stationary law",
+          "sections": [
+            "generator",
+            "balance"
+          ]
+        },
+        {
+          "start": 1187,
+          "end": 1532,
+          "topic": "Detailed balance and symmetric rates",
+          "sections": [
+            "balance"
+          ]
+        },
+        {
+          "start": 1532,
+          "end": 2097,
+          "topic": "Two-state stationary law and residence times",
+          "sections": [
+            "two-state"
+          ]
+        },
+        {
+          "start": 2097,
+          "end": 2880,
+          "topic": "Two-state matrix exponential, long-time law and relaxation scale",
+          "sections": [
+            "two-state",
+            "covariance"
+          ]
+        },
+        {
+          "start": 2880,
+          "end": 3223,
+          "topic": "Stationary mean, variance and covariance preview",
+          "sections": [
+            "covariance"
+          ]
+        }
+      ],
+      "visual_coverage": {
+        "times_seconds": [
+          1245,
+          2380
+        ],
+        "coverage": "Detailedbalance and two-state exponential sampled; some board occluded."
+      },
+      "audio_reviewed_independently": false
+    },
+    {
+      "lecture": 8,
+      "sequentially_read": true,
+      "transcript_spans": [
+        {
+          "start": 0.12,
+          "end": 557,
+          "topic": "Centered covariance and two-state decay",
+          "sections": [
+            "covariance"
+          ]
+        },
+        {
+          "start": 557,
+          "end": 1448,
+          "topic": "Poisson infinitesimal law, boundary equation, generatingfunction, count law",
+          "sections": [
+            "poisson"
+          ]
+        },
+        {
+          "start": 1448,
+          "end": 1668,
+          "topic": "Forward/backward recurrence at arbitrary observation time",
+          "sections": [
+            "inspection"
+          ]
+        },
+        {
+          "start": 1668,
+          "end": 2692,
+          "topic": "Discrete-time biased latticewalk, parity, binomial law, mean and variance",
+          "sections": [
+            "walk"
+          ]
+        },
+        {
+          "start": 2692,
+          "end": 3571,
+          "topic": "Poissonclock latticewalk, masterequation, Laurent/Bessel/Skellam solution",
+          "sections": [
+            "walk"
+          ]
+        },
+        {
+          "start": 3571,
+          "end": 3714,
+          "topic": "Diffusion scaling preview and microscopic speed",
+          "sections": [
+            "walk",
+            "limits"
+          ]
+        }
+      ],
+      "visual_coverage": {
+        "times_seconds": [
+          1290,
+          3265
+        ],
+        "coverage": "Poisson generatingfunction and lattice Laurent/Bessel expressions inspected; no continuousvideo review."
+      },
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch06_jumps.py"
+  ],
+  "figures": [
+    "assets/ch06-jumps.svg"
+  ],
+  "solutions": 6,
+  "artifact_hashes": {
+    "chapter-06-generators-counting-and-telegraph.html": "1f76e1006eb3ed1105bb6a534eba2b53d51ee46f46bb2777f7cb4a014a85d551",
+    "code/ch06-output.txt": "81bb3fd3c0d12698a50eee0cd107629259ad49eed7f6811047a32d30b0bd68bd",
+    "code/ch06-results.json": "32a18944fd47bdc88dffdaecddbb359e212ca5924f6d192bf5330eeb2a52c5e1",
+    "code/ch06_jumps.py": "666ce681ea2cd1940c34e4f07f235e112126e061aafb9a73265beb3ba715785c",
+    "figures/ch06_jumps.py": "5c6321ad910d5755730cd100c45048c28c82e651930c96aa10de78da4f101494",
+    "assets/ch06-jumps.svg": "b6e08bb4b8510f555e6171c8b2e6b865461396c88e56ab6d08f84dd66d5124c1"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch06-r1.md",
+      "report_sha256": "89638de016034c11b660d1ad627583fbc106217121d5b185eadde2a922c365cc",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch06-r1-targeted.md",
+          "sha256": "9c12862d4973b5ec3e98264b5fdac890922b7390330a16a946564258d69ab1ad"
+        },
+        {
+          "path": "work/reviews/ch06-r1-targeted-02.md",
+          "sha256": "3a8a5e6e36364639419580949aa9fe657ca619cf3f623b78a80c2620a052ff88"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch06-r2.md",
+      "report_sha256": "1f9806eb44621e0cc1a4e2746a61b1bc68d534ec93e8542a70e8c615104c17a6",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch06-r2-targeted.md",
+          "sha256": "284f6cea3318175a06705f6c8d37e96296c25fd33a3ca19df5fbfc53a1101105"
+        }
+      ]
+    }
+  ],
+  "review_audit": "work/reviews/ch06-review-audit.json"
+}

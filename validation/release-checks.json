@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "scope": "whole-course integrity and evidence binding",
+  "content_digest": "1bb57a818895f41c93a77a8548a31286e2b5b6510a6188d8c25da7f3019dcbb1",
+  "chapters": 25,
+  "independent_full_reviews": 50,
+  "checks": {
+    "course-static-checks": {
+      "passed": true,
+      "chapters": 25
+    },
+    "course-browser-checks": {
+      "passed": true,
+      "chapters": 25
+    },
+    "course-reproduction-checks": {
+      "passed": true,
+      "chapters": 25
+    }
+  },
+  "limits": [
+    "mathematical acceptance comes from recorded independent scientific reviews",
+    "caption reading and sampled stills do not constitute continuous audiovisual review",
+    "finite seeded numerical tests are not mathematical proofs"
+  ],
+  "producer_report_sha256": "cd9befb39909e990c220b30b09e25a29c696db3fd29ca63a8fa3787b30add4d6",
+  "evidence_origin": "exported producer checks; private raw evidence excluded"
+}

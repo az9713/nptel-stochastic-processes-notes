@@ -1,0 +1,83 @@
+{
+  "chapter": 13,
+  "status": "accepted",
+  "author_id": "/root/author_10_17",
+  "scientific_files": [
+    "chapter-13-ito-and-radial-diffusion.html",
+    "code/ch13_transform.py",
+    "code/ch13-results.json",
+    "code/ch13-output.txt",
+    "figures/ch13_radial.py",
+    "assets/ch13-radial.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 16,
+      "sequentially_read": true,
+      "transcript_spans": [
+        [
+          20.4,
+          2834.2
+        ]
+      ],
+      "visual_coverage": "3 timed frames950,1415,2545; partial and partly occluded",
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch13_transform.py"
+  ],
+  "figures": [
+    "assets/ch13-radial.svg"
+  ],
+  "solutions": 6,
+  "checks": [
+    "pathwise finite-sum square identity, radial mean/variance, GBM quadrature and sampling checks passed",
+    "plot inspected",
+    "tex163segments+lt+links pass",
+    "embedded code long-line repair applied"
+  ],
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch13-r1.md",
+      "report_sha256": "72d9b78f5ceea79b373fcfbc03dc05f59f7736d4892a3b20421f5578034efae5",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch13-r1-targeted.md",
+          "sha256": "3291491e640ba703e4a4a2dfa074b1ba9efc83a3426842891567f875b8e4b22d"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch13-r2.md",
+      "report_sha256": "4dd7b761c3745e7cfba70e031d45412f439465604c4e465bf709243ce4f9c5c6",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch13-r2-targeted.md",
+          "sha256": "7be072f608c5af1798194a816a366dbb649681542dc578c5bfac8a2983979621"
+        }
+      ]
+    }
+  ],
+  "artifact_hashes": {
+    "chapter-13-ito-and-radial-diffusion.html": "84c96ecb1c8a83d9e3a12fb330f6f1a8776298db425ca6325b70e7f214c72cfc",
+    "code/ch13_transform.py": "754966ae2fb0e1ec809e6cd958e0febb3783cd211261f9d66e63f944f3bd5635",
+    "code/ch13-results.json": "5e60cca232b254edc07693772933dc285d765216c658557311298a5ad7b15778",
+    "code/ch13-output.txt": "aea2f8dfd6743311419113db256e586b881c3bfb6ee60519f7b89ef31cc591cc",
+    "figures/ch13_radial.py": "61ca3e5f3d6bf8ce8018fdbbf03ca3732459ab729e3e0c49dac245d97eb7be2b",
+    "assets/ch13-radial.svg": "44e3e72015dfbe01ec198938b7c00cd8143489c7b3ecfaf7898116975e10eae5"
+  },
+  "review_audit": "work/reviews/ch13-review-audit.json"
+}

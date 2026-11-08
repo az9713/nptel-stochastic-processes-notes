@@ -1,0 +1,955 @@
+{
+  "status": "approved_2026-11-08; pilot and first figure approved; autonomous course completion authorized",
+  "chapters": [
+    {
+      "number": 1,
+      "slug": "discrete-distributions",
+      "title": "Counting fluctuations: discrete distributions and cumulants",
+      "lectures": [
+        1,
+        2
+      ],
+      "prerequisites": [],
+      "pages": 24,
+      "case": "Distinguish independent particle counts from thermal bunching using equal mean counts.",
+      "coverage": "Bernoulli, binomial, geometric, Poisson, Skellam, negative binomial; generating functions, moments, and cumulants.",
+      "lab": "Compare exact probability masses and cumulants with seeded sampling; diagnose when equal means conceal different variances.",
+      "figure": "Equal-mean count distributions and their variance-to-mean ratios.",
+      "sections": [
+        {
+          "title": "Independent trials and the rare-event limit",
+          "statement": "For n independent Bernoulli trials with success probability p, the count has probability-generating function (1-p+p*z)^n; its mean is n*p and variance n*p*(1-p). With n*p fixed at lambda as n tends to infinity, its law converges to Poisson(lambda).",
+          "check": "Check normalization and moments by exact finite sums; test convergence of masses as trial count grows.",
+          "boundary": "Independence and rare-event scaling are hypotheses; an arbitrary event count is not Poisson."
+        },
+        {
+          "title": "Bunching, summation, and signed counts",
+          "statement": "A geometric count on nonnegative integers with mean mu has variance mu*(1+mu). A sum of r independent such counts is negative binomial for positive integer r. The difference of independent Poisson counts of means lambda_plus and lambda_minus has mean lambda_plus-lambda_minus and variance lambda_plus+lambda_minus.",
+          "check": "Recover the geometric law at r=1 and the one-sided Poisson law when the negative-count mean vanishes.",
+          "boundary": "State support and parameter conventions; the integer-sum construction alone does not establish every real-shape parameterization."
+        },
+        {
+          "title": "Cumulants expose independence",
+          "statement": "For a random variable whose moment-generating function exists near zero, cumulants are derivatives at zero of its logarithm. Independent sums add cumulants. Translation changes only the first cumulant; cumulants of order k scale by the kth power under scalar multiplication.",
+          "check": "Derive the first four cumulants from the generating functions and verify the Poisson special case.",
+          "boundary": "A moment-generating function need not exist; later chapters use characteristic functions for heavy tails."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "slug": "continuous-random-variables",
+      "title": "Densities, transformations, and characteristic functions",
+      "lectures": [
+        3
+      ],
+      "prerequisites": [
+        1
+      ],
+      "pages": 16,
+      "case": "Convert a Gaussian velocity model into the kinetic-energy distribution of an ideal gas.",
+      "coverage": "Continuous densities, characteristic functions, Gaussian moments and cumulants, ideal-gas energy.",
+      "lab": "Compare change-of-variable formulas with sampled velocities and energy histograms, including Jacobian normalization.",
+      "figure": "Velocity-to-energy mapping with the positive and negative preimages shown explicitly.",
+      "sections": [
+        {
+          "title": "Probability transforms with every preimage",
+          "statement": "For a differentiable transformation y=g(x), a continuous input density transforms to the sum of input density divided by absolute derivative over regular inverse branches. The branch formula applies away from critical values, with singular behavior treated by integration.",
+          "check": "Use y=x squared for a centered Gaussian and integrate the resulting positive density to one.",
+          "boundary": "A noninvertible transformation requires all preimages; atoms and flat branches need separate treatment."
+        },
+        {
+          "title": "Characteristic functions and the Gaussian law",
+          "statement": "The characteristic function of a real random variable is the expectation of exp(i*k*X) for real k and always exists. A Gaussian with mean mu and variance sigma squared has characteristic function exp(i*k*mu-sigma squared*k squared/2). Its cumulants beyond order two vanish.",
+          "check": "Recover the variance by differentiating the characteristic function and verify Gaussian fourth moment equals three times the squared variance.",
+          "boundary": "Differentiation under expectation needs moment conditions; existence of the characteristic function does not imply existence of moments."
+        },
+        {
+          "title": "Energy as a sum of squared Gaussian coordinates",
+          "statement": "If d independent velocity components are centered Gaussians of variance k_B*T/m, the kinetic energy m times squared speed divided by two has a gamma density of shape d/2 and scale k_B*T. Its mean is d*k_B*T/2.",
+          "check": "Check the one-coordinate density against the transformation formula and the d=3 mean against equipartition.",
+          "boundary": "This is classical, nonrelativistic equilibrium with independent quadratic degrees of freedom."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "slug": "central-limit-and-diffusion",
+      "title": "The central limit theorem and the diffusion scale",
+      "lectures": [
+        4
+      ],
+      "prerequisites": [
+        1,
+        2
+      ],
+      "pages": 16,
+      "case": "Decide when a many-step random flight can be replaced by a Gaussian propagator.",
+      "coverage": "Gaussian sums, finite-variance central limit theorem, uniform sums, random flights, diffusion scaling.",
+      "lab": "Measure distributional convergence and lattice-to-diffusion error across step sizes; compare the central region with tails.",
+      "figure": "Rescaled walk densities approaching a Gaussian and ballistic lattice support at finite time.",
+      "sections": [
+        {
+          "title": "Convolution becomes multiplication",
+          "statement": "For independent real variables, the characteristic function of their sum is the product of their characteristic functions. Independent Gaussian sums are Gaussian with summed means and variances.",
+          "check": "Compare an exact convolution of uniform densities with a numerical Fourier inversion.",
+          "boundary": "Dependence invalidates factorization even when the marginals are Gaussian."
+        },
+        {
+          "title": "A finite-variance central limit theorem",
+          "statement": "For independent identically distributed variables with finite mean mu and positive finite variance sigma squared, the centered sum divided by sigma times the square root of the number of terms converges in distribution to a standard Gaussian.",
+          "check": "Derive the characteristic-function limit and compare exact binomial cumulative probabilities with the Gaussian approximation.",
+          "boundary": "Convergence in distribution gives neither a universal finite-sample rate nor uniformly correct rare-event tails."
+        },
+        {
+          "title": "The Brownian scaling of a lattice walk",
+          "statement": "For independent unbiased steps of length ell taken every delta_t, the variance after elapsed time t is ell squared*t/delta_t on grid times. Holding ell squared/(2*delta_t)=D fixed yields the one-dimensional diffusion kernel in the continuum scaling limit.",
+          "check": "Recover variance 2*D*t and test the continuum kernel against the discrete law after accounting for lattice parity.",
+          "boundary": "A continuum approximation loses finite-speed support and needs a stated mode of convergence."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "slug": "stable-and-divisible-laws",
+      "title": "Stable laws, heavy tails, and infinite divisibility",
+      "lectures": [
+        5
+      ],
+      "prerequisites": [
+        1,
+        2,
+        3
+      ],
+      "pages": 16,
+      "case": "Determine whether averaging repeated measurements actually reduces their scatter.",
+      "coverage": "Stable-law definitions, Gaussian/Cauchy/Levy examples, divisibility and infinite divisibility.",
+      "lab": "Compare Gaussian and Cauchy sample means using quantiles rather than nonexistent Cauchy moments.",
+      "figure": "Width of sample-mean quantiles versus sample size for Gaussian and Cauchy inputs.",
+      "sections": [
+        {
+          "title": "Stable scaling",
+          "statement": "A symmetric strictly stable law with index alpha in (0,2] and characteristic function exp(-c*absolute(k)^alpha), c positive, is closed under independent sums: n equal copies rescale by n raised to 1/alpha without centering.",
+          "check": "Multiply characteristic functions and recover Gaussian square-root scaling at alpha=2 and Cauchy linear scaling at alpha=1.",
+          "boundary": "Use this symmetric subclass for the proof; general skewed stable laws need explicit centering and parameter conventions."
+        },
+        {
+          "title": "Why the sample mean may not concentrate",
+          "statement": "The mean of n independent centered Cauchy variables with scale s has the same Cauchy law and scale s for every positive integer n. For a centered Gaussian of variance sigma squared, the sample mean has variance sigma squared/n.",
+          "check": "Compare empirical interquartile ranges of repeated means with the exact Cauchy and Gaussian quantiles.",
+          "boundary": "The Cauchy mean and variance do not exist; a sample average is still a defined random variable."
+        },
+        {
+          "title": "Divisibility is a property of the whole law",
+          "statement": "A law is infinitely divisible when, for each positive integer n, it is the law of a sum of n independent identically distributed variables. Poisson laws have this property by dividing their intensity; a nondegenerate fixed-trial binomial law is not infinitely divisible on the real line.",
+          "check": "Derive the Poisson factorization; give a separate support-and-variance argument for the binomial obstruction and examine geometric and Skellam cases.",
+          "boundary": "Being decomposable into a particular number of summands is weaker than infinite divisibility; the one-sided Levy example is separate from the symmetric subclass."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "slug": "processes-and-markov-state",
+      "title": "From random variables to Markov state descriptions",
+      "lectures": [
+        6
+      ],
+      "prerequisites": [
+        1,
+        2
+      ],
+      "pages": 16,
+      "case": "Explain why matching single-time histograms does not determine the evolution of a system.",
+      "coverage": "Joint and conditional laws, stationarity, Markov property, chains, Chapman-Kolmogorov, equilibrium relaxation.",
+      "lab": "Construct processes with equal marginals and different correlations; evolve a finite transition matrix.",
+      "figure": "Two processes with identical marginals but contrasting temporal persistence.",
+      "sections": [
+        {
+          "title": "A process is a family of joint laws",
+          "statement": "Strict stationarity means invariance of every finite-dimensional joint distribution under a common time shift. Constancy of the one-time marginal alone does not imply strict stationarity.",
+          "check": "Construct a counterexample with constant marginals and a time-dependent two-time law.",
+          "boundary": "Wide-sense stationarity is a different, second-moment condition; Gaussianity is needed to recover the full law from first and second moments."
+        },
+        {
+          "title": "State sufficiency and composition",
+          "statement": "For a time-homogeneous Markov chain with K_ij equal to the probability of the next state being i given current state j, distribution columns evolve by multiplication by K. Multi-step transitions satisfy K raised to (n+m)=K raised to n times K raised to m.",
+          "check": "Compare path enumeration with matrix multiplication in a three-state chain.",
+          "boundary": "An observed coordinate of a Markov process need not itself be Markov."
+        },
+        {
+          "title": "Equilibrium is not automatic convergence",
+          "statement": "A stationary probability column pi satisfies K*pi=pi. A finite irreducible aperiodic chain converges to its unique stationary distribution from every initial distribution; irreducibility without aperiodicity is insufficient.",
+          "check": "Contrast a mixing two-state chain with a deterministic two-cycle.",
+          "boundary": "Infinite state spaces require additional recurrence conditions; a stationary vector alone does not prove mixing."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "slug": "generators-counting-and-telegraph",
+      "title": "Generators, detailed balance, and exactly soluble jump processes",
+      "lectures": [
+        7,
+        8
+      ],
+      "prerequisites": [
+        1,
+        5
+      ],
+      "pages": 24,
+      "case": "Predict relaxation, event counts, and displacement from transition rates rather than time-step probabilities.",
+      "coverage": "Master-equation semigroups, stationary laws, detailed balance, dichotomous correlations, Poisson process, biased lattice walks.",
+      "lab": "Compare exact matrix exponentials and generating functions with event-driven jump simulations.",
+      "figure": "State diagram and correlation decay of a two-state fluctuator beside a Poisson counting path.",
+      "sections": [
+        {
+          "title": "A conservative generator",
+          "statement": "For a finite-state continuous-time chain with nonnegative off-diagonal rates Q_ij from j to i and zero column sums, the probability column satisfies dp/dt=Q*p and evolves by exp(t*Q). A stationary law satisfies Q*pi=0; detailed balance requires Q_ij*pi_j=Q_ji*pi_i.",
+          "check": "Verify probability conservation and compare reversible and circulating three-state chains.",
+          "boundary": "Detailed balance is sufficient for stationarity and stronger than it; infinite generators need nonexplosion and domain control."
+        },
+        {
+          "title": "Two states retain a correlation time",
+          "statement": "For a symmetric process taking values plus or minus a and switching at rate nu from either state, the stationary mean is zero and autocovariance is a squared times exp(-2*nu*absolute(tau)).",
+          "check": "Derive the conditional transition probabilities and check the covariance at zero and long lag.",
+          "boundary": "Asymmetric switching changes the mean and variance; starting out of equilibrium changes two-time statistics."
+        },
+        {
+          "title": "Counting and displacement generating functions",
+          "statement": "A homogeneous Poisson process of rate lambda has count generating function exp(lambda*t*(z-1)). The difference of two independent Poisson processes with rates r_plus and r_minus has mean displacement ell*(r_plus-r_minus)*t and variance ell squared*(r_plus+r_minus)*t.",
+          "check": "Recover the one-way counting process and the unbiased lattice diffusion coefficient.",
+          "boundary": "Independent stationary increments and exponential waiting times distinguish these models from general renewal processes."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "slug": "lattice-transport-birth-death",
+      "title": "Lattice transport and state-dependent birth and death",
+      "lectures": [
+        9
+      ],
+      "prerequisites": [
+        1,
+        6
+      ],
+      "pages": 16,
+      "case": "Identify which observables remain tractable when event rates depend on the present population.",
+      "coverage": "Walk cumulants, higher-dimensional walks, one-step birth/death generators, nonstationary Poisson counts, linear rates.",
+      "lab": "Compare exact walk cumulants and moment equations with event-driven population simulations.",
+      "figure": "Ballistic mean displacement and diffusive spread; population-dependent transition arrows.",
+      "sections": [
+        {
+          "title": "Transport cumulants",
+          "statement": "For lattice displacement ell times the difference of independent Poisson counts with rates r_plus and r_minus, the kth displacement cumulant is ell raised to k times (r_plus+(-1) raised to k*r_minus)*t. Independent coordinate walks factorize their joint characteristic function.",
+          "check": "Separate odd drift cumulants from even fluctuation cumulants and verify a two-dimensional example.",
+          "boundary": "Coordinate independence is an assumption, not a consequence of living on a lattice."
+        },
+        {
+          "title": "One-step population generators",
+          "statement": "For births at rate lambda_n and deaths at rate delta_n in population state n, with delta_0=0, the probability equation is dp_n/dt=lambda_(n-1)*p_(n-1)+delta_(n+1)*p_(n+1)-(lambda_n+delta_n)*p_n, with nonexistent negative-state terms omitted.",
+          "check": "Sum the equations to establish conservation, explicitly handling the n=0 boundary.",
+          "boundary": "Unbounded state spaces can permit explosion; a formal conservative expression is insufficient without existence conditions."
+        },
+        {
+          "title": "Time-dependent intensity",
+          "statement": "A nonhomogeneous Poisson process with deterministic locally integrable rate lambda(t) has count mean and variance equal to the integrated rate from zero to t, and Poisson increments on disjoint intervals are independent.",
+          "check": "Solve its generating-function equation and test a piecewise constant intensity by time rescaling.",
+          "boundary": "A random intensity defines a different model; replacing it by its expectation generally loses overdispersion."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "slug": "stationary-populations",
+      "title": "Stationary populations, fluctuations, and physical balance",
+      "lectures": [
+        10
+      ],
+      "prerequisites": [
+        6,
+        7
+      ],
+      "pages": 16,
+      "case": "Decide whether a rate model admits an equilibrium population or only a formal stationary sequence.",
+      "coverage": "Birth/death stationary products; sedimentation, chemistry, radiation, population models; linear-rate moments.",
+      "lab": "Reproduce immigration-death equilibrium and diagnose a nonnormalizable stationary candidate.",
+      "figure": "Stationary population tails as birth/death ratios cross the normalization boundary.",
+      "sections": [
+        {
+          "title": "The stationary product formula",
+          "statement": "For an irreducible birth-death chain on nonnegative integers with positive neighbor rates and zero boundary current, a stationary probability is proportional to the product from j=0 to n-1 of lambda_j/delta_(j+1), provided the sum of these weights is finite and the process is nonexplosive.",
+          "check": "Recover Poisson immigration-death equilibrium from constant birth rate and linear death rate.",
+          "boundary": "A positive recurrence criterion cannot be replaced by writing down unnormalized weights."
+        },
+        {
+          "title": "Balance laws in physical examples",
+          "statement": "If nearest-neighbor rate ratios equal exp(-(E_(n+1)-E_n)/(k_B*T)), the zero-current stationary weights are proportional to exp(-E_n/(k_B*T)) whenever normalizable.",
+          "check": "Apply the ratio condition to sedimentation on a height lattice and distinguish state degeneracy from transition multiplicity.",
+          "boundary": "Thermal balance requires the stated bath assumptions; population models need not be thermal or reversible."
+        },
+        {
+          "title": "Closed moment equations",
+          "statement": "For a nonexplosive birth-death process with finite required moments, the derivative of the mean equals the expectation of lambda_n-delta_n; the derivative of the second moment equals the expectation of (2*n+1)*lambda_n+(-2*n+1)*delta_n. Affine rates close these equations.",
+          "check": "Solve immigration-death mean and variance transients and compare exact equilibrium limits.",
+          "boundary": "Nonlinear rates generally introduce higher moments; closure is then an approximation requiring justification."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "slug": "master-to-fokker-planck",
+      "title": "From jump generators to diffusion equations",
+      "lectures": [
+        11
+      ],
+      "prerequisites": [
+        3,
+        6,
+        7,
+        8
+      ],
+      "pages": 16,
+      "case": "Choose a continuum approximation that preserves drift, fluctuations, and probability current.",
+      "coverage": "Continuous-state master equations, Kramers-Moyal, Pawula scope, Fokker-Planck, Smoluchowski, Wiener and SDE correspondence.",
+      "lab": "Match lattice drift and diffusion coefficients and measure continuum approximation error under grid refinement.",
+      "figure": "Jump kernel, continuum density, and boundary probability flux in the same transport model.",
+      "sections": [
+        {
+          "title": "Conditional increment moments",
+          "statement": "For an It\u00f4 diffusion dX=a(X,t)*dt+b(X,t)*dW with scalar Wiener process W, sufficient coefficient regularity, and an existing smooth density rho, the forward equation is partial_t rho=-partial_x(a*rho)+(1/2)*partial_xx(b squared*rho).",
+          "check": "Recover constant-drift Gaussian transport and check mass conservation by integrating the probability current.",
+          "boundary": "Noise amplitude b and diffusion coefficient b squared/2 differ; singular boundaries require boundary classification."
+        },
+        {
+          "title": "The controlled lattice limit",
+          "statement": "For a nearest-neighbor walk with spacing ell and rates r_plus and r_minus, drift is ell*(r_plus-r_minus) and diffusion coefficient is ell squared*(r_plus+r_minus)/2. A diffusive limit holds when these combinations approach finite values and higher jump effects vanish in the limit.",
+          "check": "Recover the unbiased heat equation and demonstrate loss of accuracy before the many-jump regime.",
+          "boundary": "Truncating the Kramers-Moyal series is not automatically a positive probability evolution; cite Pawula's precise theorem after verifying its source."
+        },
+        {
+          "title": "Current, confinement, and stationary density",
+          "statement": "For constant D positive and drift -M*U'(x) with mobility M positive, zero stationary current yields density proportional to exp(-M*U(x)/D), if normalizable. At thermal equilibrium D=M*k_B*T gives the Gibbs density.",
+          "check": "Use a quadratic potential to recover a Gaussian stationary law and show failure for a nonconfining flat potential on the line.",
+          "boundary": "Zero-current equilibrium depends on the domain and boundary conditions; it is distinct from a driven steady state."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "slug": "ornstein-uhlenbeck-brownian",
+      "title": "Velocity relaxation and the emergence of spatial diffusion",
+      "lectures": [
+        12,
+        13
+      ],
+      "prerequisites": [
+        2,
+        6,
+        9
+      ],
+      "pages": 24,
+      "case": "Find when a Brownian particle's displacement changes from ballistic to diffusive.",
+      "coverage": "Langevin/FPE correspondence, thermal noise strength, OU transition law, velocity correlation, MSD, Green-Kubo, joint density and Gaussian-Markov qualification.",
+      "lab": "Compare exact OU updates with Euler discretization and recover the ballistic-to-diffusive displacement crossover.",
+      "figure": "Mean-square displacement and its local logarithmic slope across the momentum-relaxation time.",
+      "sections": [
+        {
+          "title": "The velocity transition law",
+          "statement": "For dV=-gamma*V*dt+sqrt(2*gamma*k_B*T/m)*dW, gamma positive, deterministic initial velocity v0, and independent Wiener increments, V(t) is Gaussian with mean v0*exp(-gamma*t) and variance (k_B*T/m)*(1-exp(-2*gamma*t)).",
+          "check": "Recover deterministic initial data as t tends to zero and the Maxwell velocity variance at long time.",
+          "boundary": "gamma is a velocity relaxation rate, not the dimensional drag coefficient m*gamma."
+        },
+        {
+          "title": "Correlation and integrated displacement",
+          "statement": "With a thermal stationary initial velocity, the velocity autocovariance is (k_B*T/m)*exp(-gamma*absolute(tau)). The displacement variance is 2*D*(t-(1-exp(-gamma*t))/gamma), where D=k_B*T/(m*gamma).",
+          "check": "Recover ballistic variance (k_B*T/m)*t squared at short times and 2*D*t at long times.",
+          "boundary": "The quoted displacement law uses stationary initial velocity; a fixed initial velocity gives a different transient variance."
+        },
+        {
+          "title": "Green-Kubo and joint phase-space dynamics",
+          "statement": "For a stationary zero-mean velocity with integrable autocovariance C_v, displacement variance equals twice the integral from zero to t of (t-s)*C_v(s) ds, and its long-time diffusion coefficient equals the integral of C_v from zero to infinity. Position and velocity together form a Markov state in the inertial Langevin model.",
+          "check": "Integrate the OU covariance and compare the joint Gaussian covariance with sampled trajectories.",
+          "boundary": "The position coordinate alone generally has memory at finite inertia; Doob classification requires a separate precise cited statement."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "slug": "harmonic-and-kramers",
+      "title": "Confinement, phase space, and the overdamped limit",
+      "lectures": [
+        14
+      ],
+      "prerequisites": [
+        9,
+        10
+      ],
+      "pages": 16,
+      "case": "Determine whether eliminating velocity preserves the relaxation times of a trapped particle.",
+      "coverage": "Coupled position/velocity Langevin equations, harmonic stationary density and rates, high friction, arbitrary-potential Kramers equation.",
+      "lab": "Compare inertial and overdamped harmonic correlations as damping changes; check equilibrium covariances.",
+      "figure": "Two phase-space relaxation rates and the parameter range where one-coordinate reduction is accurate.",
+      "sections": [
+        {
+          "title": "A linear stochastic oscillator",
+          "statement": "For dX=V*dt and dV=(-gamma*V-omega0 squared*X)*dt+sqrt(2*gamma*k_B*T/m)*dW, positive gamma and omega0 give stable mean dynamics whose eigenvalues solve r squared+gamma*r+omega0 squared=0.",
+          "check": "Distinguish oscillatory, critical, and overdamped mean relaxation and verify the critical limit without dividing by a vanishing root difference.",
+          "boundary": "Stability of mean dynamics alone is not a proof of the full stationary distribution."
+        },
+        {
+          "title": "Kramers equilibrium",
+          "statement": "For a confining differentiable potential U, the inertial Langevin forward operator with force -U' and thermal noise admits a stationary phase-space density proportional to exp(-(m*v squared/2+U(x))/(k_B*T)), when the normalization is finite and boundary flux conditions hold.",
+          "check": "Substitute the density into the Kramers equation and recover independent harmonic position and velocity variances.",
+          "boundary": "Stationary phase-space streaming need not vanish term by term; do not impose overdamped detailed-balance language on each current component."
+        },
+        {
+          "title": "Eliminating the fast velocity",
+          "statement": "For the harmonic model with gamma much larger than omega0, one relaxation rate approaches -gamma and the slow rate approaches -omega0 squared/gamma. On slow time scales, constant-friction thermal reduction gives dX=-U'(X)/(m*gamma)*dt+sqrt(2*k_B*T/(m*gamma))*dW.",
+          "check": "Compare exact eigenvalues and simulated position covariances across the time-scale separation.",
+          "boundary": "The reduction fails at momentum time scales; position-dependent friction needs additional care."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "slug": "wiener-paths",
+      "title": "Wiener paths, roughness, and exceptional time statistics",
+      "lectures": [
+        15
+      ],
+      "prerequisites": [
+        3,
+        9,
+        10,
+        11
+      ],
+      "pages": 16,
+      "case": "Understand why refining a Brownian trajectory makes its apparent velocity more erratic.",
+      "coverage": "Vector Langevin dynamics, free and magnetic velocity correlations as a bridge; Wiener covariance, rough paths, Holder regularity, arcsine law, iterated logarithm, OU-Wiener relation.",
+      "lab": "Measure mesh-dependent finite-difference velocities and quadratic variation; illustrate occupation-time distributions without claiming proof.",
+      "figure": "Nested Brownian increments and converging quadratic variation despite diverging apparent velocity variance.",
+      "sections": [
+        {
+          "title": "Covariance without stationarity",
+          "statement": "A standard Wiener process starts at zero, has continuous paths and independent Gaussian increments of variance equal to elapsed time. Its covariance at nonnegative times s and t is min(s,t); the process is nonstationary although its increments are stationary.",
+          "check": "Compute the covariance from independent increments and compare a covariance heat map with ensemble samples.",
+          "boundary": "Continuous paths do not imply differentiable paths; Brownian motion is not finite-correlation colored noise."
+        },
+        {
+          "title": "Quadratic variation and path regularity",
+          "statement": "On uniform partitions of a fixed time interval, the sum of squared Wiener increments converges in mean square to the interval length. Finite-difference velocity over a step h has variance 1/h. Almost-sure differentiability and Holder claims require their own theorem statements and verified citations.",
+          "check": "Derive the mean and variance of quadratic-variation sums and perform mesh refinement.",
+          "boundary": "A numerical path cannot prove almost-sure nondifferentiability, the arcsine law, or the iterated-logarithm theorem."
+        },
+        {
+          "title": "Gaussian time changes and exceptional observables",
+          "statement": "The zero-initial OU process solving dX=-gamma*X*dt+b*dW has the same finite-dimensional law as b*exp(-gamma*t)*B((exp(2*gamma*t)-1)/(2*gamma)), where B is a standard Wiener process. The equality is in law unless a coupling is constructed.",
+          "check": "Match both Gaussian covariance functions; separately plan cited statements and numerical illustrations of occupation-time and iterated-logarithm results.",
+          "boundary": "Finite-dimensional law equivalence should not be confused with equality of arbitrary sampled paths."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "slug": "ito-and-radial-diffusion",
+      "title": "It\u00f4 transformations, radial diffusion, and multiplicative noise",
+      "lectures": [
+        16
+      ],
+      "prerequisites": [
+        2,
+        9,
+        12
+      ],
+      "pages": 16,
+      "case": "Transform a noisy coordinate without silently losing its noise-induced drift.",
+      "coverage": "It\u00f4/FPE transformation, radial diffusion, Bessel and squared-Bessel conventions, powers/exponentials of Wiener motion, geometric Brownian motion, Black-Scholes boundary.",
+      "lab": "Contrast correct It\u00f4 transformed moments with an ordinary-chain-rule implementation; check positive geometric paths.",
+      "figure": "Radial entropic drift and the discrepancy caused by omitting the It\u00f4 correction.",
+      "sections": [
+        {
+          "title": "The second derivative survives",
+          "statement": "For scalar dX=a*dt+b*dW and a sufficiently smooth function g(x,t), It\u00f4's rule gives dg=(partial_t g+a*partial_x g+(b squared/2)*partial_xx g)*dt+b*partial_x g*dW, under standard local integrability and existence hypotheses.",
+          "check": "Apply the rule to X squared and recover the missing b squared drift.",
+          "boundary": "This is the It\u00f4 convention; Stratonovich notation carries a different chain rule and drift conversion."
+        },
+        {
+          "title": "Radius and squared radius",
+          "statement": "For d-dimensional Brownian diffusion with coordinate noise amplitude sqrt(2*D), the radius away from zero has drift D*(d-1)/R and noise amplitude sqrt(2*D). Its square Z obeys dZ=2*d*D*dt+sqrt(8*D*Z)*dB.",
+          "check": "Recover mean squared radius 2*d*D*t and the chi radial law from independent coordinates.",
+          "boundary": "The radius formula is singular at zero; d=1 requires treatment of the reflecting local-time term. State which scaled process is called Bessel or squared Bessel."
+        },
+        {
+          "title": "Exponential transformations",
+          "statement": "For dS=a_S*S*dt+b_S*S*dW with positive initial S, the solution is S0*exp((a_S-b_S squared/2)*t+b_S*W(t)). Its expectation is S0*exp(a_S*t) when the coefficients are constant.",
+          "check": "Compare exact logarithmic updates with discretizations that can generate negative values.",
+          "boundary": "The Black-Scholes equation additionally requires a market and pricing argument; it does not follow from the change of variables alone."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "slug": "level-crossing",
+      "title": "Threshold crossings and extremes of smooth random signals",
+      "lectures": [
+        17
+      ],
+      "prerequisites": [
+        2,
+        5,
+        10,
+        11,
+        12
+      ],
+      "pages": 16,
+      "case": "Estimate false alarm crossings from a fluctuating signal without counting every sampled sign change as a physical event.",
+      "coverage": "Crossing counts and rates, up/down crossings, Brownian oscillator, extrema, introductory spectral examples.",
+      "lab": "Compare sampled crossing rates of an integrated velocity oscillator with the Gaussian Rice prediction and test sampling bias.",
+      "figure": "Resolved versus missed crossings as the same differentiable signal is sampled at different intervals.",
+      "sections": [
+        {
+          "title": "Crossings require a derivative law",
+          "statement": "For a stationary differentiable real process with a regular joint density of value and derivative and finite crossing intensity, the mean upcrossing rate at level u is the integral over positive v of v times that joint density at (u,v).",
+          "check": "Derive the swept-interval argument and recover equal up/down mean rates for a stationary symmetric model.",
+          "boundary": "These regularity hypotheses exclude direct application to nondifferentiable Wiener and OU coordinates."
+        },
+        {
+          "title": "The Gaussian Rice rate",
+          "statement": "For a stationary zero-mean differentiable Gaussian process with positive value and derivative standard deviations sigma_X and sigma_V, the upcrossing rate is sigma_V/(2*pi*sigma_X) times exp(-u squared/(2*sigma_X squared)); stationarity makes value and derivative uncorrelated and hence independent.",
+          "check": "Recover the harmonic Brownian position's zero-level crossing rate from equilibrium variances.",
+          "boundary": "Finite derivative variance is essential; high-frequency smoothing changes crossing statistics."
+        },
+        {
+          "title": "Extrema and finite-window events",
+          "statement": "For a twice differentiable regular process, counting maxima can be expressed as zero crossings of the derivative weighted by negative second derivative. The expected number of level crossings does not by itself specify the probability of at least one crossing in a time window.",
+          "check": "Construct repeated clustered crossings with the same expected count as a more dispersed process and compare event probabilities.",
+          "boundary": "Poisson approximations for rare crossings need additional dependence assumptions. The Brownian oscillator's velocity is not differentiable; do not apply this twice-differentiable extrema formula to it without smoothing."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "slug": "magnetic-diffusion",
+      "title": "Charged Brownian motion and anisotropic diffusion",
+      "lectures": [
+        18
+      ],
+      "prerequisites": [
+        10,
+        11,
+        12
+      ],
+      "pages": 16,
+      "case": "Explain how a magnetic field suppresses transverse diffusion without changing thermal speed variance.",
+      "coverage": "Vector Langevin and FPE, rotating frame, velocity density and correlation matrix, Green-Kubo tensor, longitudinal and transverse diffusion.",
+      "lab": "Use exact linear-Gaussian velocity updates to compare field-parallel and perpendicular displacement variances.",
+      "figure": "Rotating velocity correlations and field-dependent longitudinal/transverse diffusion.",
+      "sections": [
+        {
+          "title": "Rotation and damping",
+          "statement": "For a uniform magnetic field, isotropic drag rate gamma positive, and thermal additive noise, the velocity drift matrix is -gamma times identity plus the antisymmetric Lorentz-rotation matrix. The matrix exponential is exponential damping times the corresponding rotation.",
+          "check": "Verify kinetic energy is unchanged by the Lorentz term and recover the zero-field OU law.",
+          "boundary": "Specify signed charge, field orientation, and rotation convention before component formulas."
+        },
+        {
+          "title": "Velocity covariance and thermal invariance",
+          "statement": "For stationary thermal velocity, the equal-time covariance matrix is (k_B*T/m) times identity. At positive lag the covariance is the drift matrix exponential times this equal-time covariance, so transverse correlations oscillate while decaying.",
+          "check": "Solve the covariance balance equation and test both signed cross-correlations.",
+          "boundary": "Antisymmetric cross-correlations do not imply an antisymmetric covariance at equal times."
+        },
+        {
+          "title": "The symmetric diffusion tensor",
+          "statement": "With cyclotron frequency magnitude omega_c, longitudinal diffusion is k_B*T/(m*gamma) and transverse diffusion is (k_B*T/m)*gamma/(gamma squared+omega_c squared). The displacement-covariance diffusion tensor is the symmetric part of the integrated velocity-correlation matrix.",
+          "check": "Recover isotropy at zero field and transverse suppression at large omega_c/gamma.",
+          "boundary": "An antisymmetric integrated response can encode Hall transport; it is not a contribution to mean-square displacement."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "slug": "noise-spectra",
+      "title": "Noise spectra, filters, and thermal fluctuations",
+      "lectures": [
+        19
+      ],
+      "prerequisites": [
+        6,
+        10,
+        12,
+        14
+      ],
+      "pages": 16,
+      "case": "Infer a relaxation time from a noisy record without confusing spectral convention or finite-record artifacts with physics.",
+      "coverage": "Wiener-Khinchin, white/colored noise, linear transfer functions, matrix spectra, resistor thermal noise.",
+      "lab": "Compare covariance integration, a periodogram averaged over ensembles, and an analytic OU Lorentzian.",
+      "figure": "The same OU process in covariance and spectral representations, with spectral-area normalization.",
+      "sections": [
+        {
+          "title": "Convention and Wiener-Khinchin",
+          "statement": "For a real stationary zero-mean process with integrable autocovariance C, define the two-sided angular-frequency spectral density S(omega) as the integral over all lag of C(tau)*exp(i*omega*tau). Then C(0) equals the integral of S divided by 2*pi under the corresponding inversion conditions.",
+          "check": "Transform an exponential covariance and integrate the resulting Lorentzian to recover the variance.",
+          "boundary": "White noise is a generalized process; a nonzero mean adds a zero-frequency delta to the uncentered spectrum."
+        },
+        {
+          "title": "Linear filtering and matrix spectra",
+          "statement": "For a stable linear time-invariant filter with transfer matrix H and stationary input spectral matrix S_in, the output spectral matrix is H*S_in*H conjugate-transpose. A valid spectral matrix is Hermitian and positive semidefinite at each frequency where defined.",
+          "check": "Recover the scalar modulus-squared transfer rule and test positivity for correlated two-channel noise.",
+          "boundary": "Transfer formulas require a stationary output and appropriate stability/integrability assumptions."
+        },
+        {
+          "title": "Thermal-noise normalization",
+          "statement": "In the classical low-frequency equilibrium limit, the resistor voltage-noise density is 2*k_B*T*R in the two-sided angular-frequency convention used here; the corresponding one-sided density per hertz is 4*k_B*T*R. Integrating a physically filtered spectrum gives finite measured variance.",
+          "check": "Derive the conversion of conventions and recover capacitor equipartition through a resistor-capacitor filter.",
+          "boundary": "The ideal white spectrum is bandwidth-limited physically; quantum and frequency-dependent corrections lie outside this approximation."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "slug": "linear-response",
+      "title": "Causality, susceptibility, and fluctuation-dissipation",
+      "lectures": [
+        20
+      ],
+      "prerequisites": [
+        10,
+        11,
+        16
+      ],
+      "pages": 16,
+      "case": "Predict the weak driven motion of a Brownian particle from its spontaneous fluctuations.",
+      "coverage": "Dynamic mobility, causal response, generalized susceptibility, first/second fluctuation-dissipation relations, analyticity, classical response, LCR example.",
+      "lab": "Compare equilibrium spectral estimates with a weak periodic-force response and identify nonlinear-drive failure.",
+      "figure": "Response amplitude and phase alongside the equilibrium fluctuation spectrum of the same oscillator.",
+      "sections": [
+        {
+          "title": "A retarded response kernel",
+          "statement": "A causal linear response has change in mean observable at time t equal to the integral over nonnegative lag of response kernel times applied field at t minus lag. With the positive-exponential Fourier convention, susceptibility is the one-sided transform of this kernel.",
+          "check": "Solve the driven damped velocity equation and derive mobility 1/(m*(gamma-i*omega)).",
+          "boundary": "Linear response is a small-perturbation statement around a specified reference state."
+        },
+        {
+          "title": "Fluctuations and dissipation",
+          "statement": "For a classical equilibrium coordinate coupled to a force through energy -force times coordinate, its centered two-sided spectrum satisfies S_x(omega)=2*k_B*T*Im(chi_x(omega))/omega for nonzero real omega in the stated convention, with the zero-frequency limit taken when it exists.",
+          "check": "Recover both the harmonic oscillator spectrum and the free-particle velocity mobility relation using the correctly conjugate variables.",
+          "boundary": "The observable, conjugate field, equilibrium hypothesis, and transform sign determine the formula; do not transplant it to arbitrary driven noise."
+        },
+        {
+          "title": "Causality constrains frequency response",
+          "statement": "For a sufficiently decaying real causal response kernel, the positive-exponential susceptibility is analytic in the upper complex-frequency half-plane and obeys conjugate symmetry on the real axis. Dispersion relations require the corresponding decay or subtraction hypotheses.",
+          "check": "Locate the damped oscillator poles in the lower half-plane and verify the real/imaginary response relation numerically with a finite-band error study.",
+          "boundary": "A truncated numerical Hilbert transform is a check with bandwidth error, not a proof of a dispersion relation."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "slug": "shot-noise",
+      "title": "Random pulses, counting cumulants, and shot noise",
+      "lectures": [
+        21
+      ],
+      "prerequisites": [
+        1,
+        6,
+        16
+      ],
+      "pages": 16,
+      "case": "Separate information about pulse shape from information about event timing in a detector's noise spectrum.",
+      "coverage": "Poisson pulse sequences, Campbell cumulants, Carson spectrum, rectangular pulses, Barkhausen example, integrated dichotomous process bridge.",
+      "lab": "Simulate stationary shot noise with burn-in and boundary padding; compare mean, covariance, and spectral envelope.",
+      "figure": "A pulse train and the pulse-shape envelope of its centered power spectrum.",
+      "sections": [
+        {
+          "title": "Poisson pulses and mean level",
+          "statement": "For stationary Poisson arrivals on the real time axis of intensity lambda, independent identically distributed amplitudes A, and an integrable pulse shape h, the signal sum A_j*h(t-T_j) has mean lambda*E[A] times the integral of h when the required integrability conditions hold.",
+          "check": "Calculate the mean for finite-width rectangular pulses and compare with a padded stationary simulation.",
+          "boundary": "Starting arrivals at time zero produces a transient; it is not the stationary construction."
+        },
+        {
+          "title": "Covariance and cumulants",
+          "statement": "Under square-integrable h and finite amplitude second moment, the centered covariance is lambda*E[A squared] times the integral of h(s)*h(s+tau) ds. At one time, the kth cumulant is lambda*E[A raised to k] times the integral of h raised to k when finite.",
+          "check": "Recover triangular covariance for rectangular pulses and verify the second cumulant equals the variance.",
+          "boundary": "Use amplitude raw moments in these formulas, not amplitude cumulants; correlated arrivals change the result."
+        },
+        {
+          "title": "Pulse spectra and persistent motion",
+          "statement": "The centered shot-noise spectrum is lambda*E[A squared]*absolute(H(omega)) squared for pulse transform H. A nonzero mean contributes a separate delta at zero frequency to the uncentered spectrum. Integrating a two-state velocity process creates a continuous position process with memory in its velocity.",
+          "check": "Derive the rectangular-pulse spectral zeros and connect two-state velocity correlation to the next chapter's displacement variance.",
+          "boundary": "A finite-record zero-frequency bin is not a literal Dirac delta; distinguish centered and uncentered estimates."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "slug": "telegraph-diffusion",
+      "title": "Persistent walks and finite-speed diffusion",
+      "lectures": [
+        22
+      ],
+      "prerequisites": [
+        6,
+        10,
+        18
+      ],
+      "pages": 16,
+      "case": "Construct transport with finite propagation speed and determine when ordinary diffusion becomes accurate.",
+      "coverage": "Poisson covariance, persistent lattice walk, dichotomous diffusion equations, initial data, exact law, MSD, diffusion limit.",
+      "lab": "Compare event-driven telegraph trajectories with the density's continuous part and ballistic front masses.",
+      "figure": "Finite-speed support, decaying ballistic atoms, and the long-time Gaussian core.",
+      "sections": [
+        {
+          "title": "Velocity as the missing state variable",
+          "statement": "For velocity plus or minus v with symmetric switching rate nu, the two position densities satisfy coupled advection-switching equations. Their sum rho satisfies partial_tt rho+2*nu*partial_t rho=v squared*partial_xx rho, with two initial conditions inherited from the initial position and velocity law.",
+          "check": "Recover the no-switching wave limit and verify conservation of total probability.",
+          "boundary": "The second-order equation alone does not specify initial velocity bias; position is not a Markov state by itself."
+        },
+        {
+          "title": "Atoms at the propagation fronts",
+          "statement": "Starting at the origin with equally likely initial velocities, the position law has atoms of mass exp(-nu*t)/2 at each of plus and minus v*t, in addition to a continuous interior component for positive time.",
+          "check": "Identify the zero-switch event probability and check that interior probability plus both atoms sums to one.",
+          "boundary": "A histogram or smooth density formula that omits the atoms is incomplete at finite time."
+        },
+        {
+          "title": "The ballistic-to-diffusive crossover",
+          "statement": "The displacement mean square for symmetric stationary initial velocity is (v squared/nu)*(t-(1-exp(-2*nu*t))/(2*nu)). At long time the effective diffusion coefficient is v squared/(2*nu); at short time the mean square is v squared*t squared.",
+          "check": "Integrate the velocity covariance and compare with the inertial Brownian crossover.",
+          "boundary": "A Gaussian diffusion limit describes the central scaling region and does not preserve finite-speed fronts."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "slug": "first-passage",
+      "title": "First passage, absorbing boundaries, and renewal",
+      "lectures": [
+        23,
+        24
+      ],
+      "prerequisites": [
+        6,
+        9,
+        12,
+        19
+      ],
+      "pages": 24,
+      "case": "Choose between eventual arrival probability, typical arrival time, and mean arrival time for the same target.",
+      "coverage": "Telegraph crossings, first-passage density and moments, lattice backward equations, renewal transforms, random walk dimension and fractal introduction.",
+      "lab": "Compare exact absorbing-interval results with numerical backward equations; demonstrate bias from discrete-time missed crossings.",
+      "figure": "A heavy first-passage tail beside finite-interval survival and the effect of absorbing versus reflecting boundaries.",
+      "sections": [
+        {
+          "title": "Arrival is a stopping event",
+          "statement": "For one-dimensional Brownian diffusion of coefficient D starting distance a positive from an absorbing target on an otherwise unbounded line, the first-arrival density is a*exp(-a squared/(4*D*t))/sqrt(4*pi*D*t cubed) for t positive. Its total probability is one while its mean time diverges.",
+          "check": "Derive by reflection or image construction, integrate the density, and inspect its long-time first-moment integral.",
+          "boundary": "A finite simulation cutoff can produce a finite sample mean even when the mathematical mean is infinite."
+        },
+        {
+          "title": "The backward generator answers a different question",
+          "statement": "For Brownian diffusion in an interval (0,L) absorbed at both endpoints, the mean first-exit time solves D*T''=-1 with T(0)=T(L)=0 and equals x*(L-x)/(2*D). The probability of first exiting at L is x/L.",
+          "check": "Solve both boundary-value problems and compare with a finite-state absorbing-chain calculation.",
+          "boundary": "Changing either boundary to reflecting changes the problem; forward and backward operators act on different arguments."
+        },
+        {
+          "title": "Renewal and Laplace transforms",
+          "statement": "For a time-homogeneous Markov process with a regenerative first-arrival decomposition at the target and appropriate transition density or mass, the target propagator is the time convolution of first-arrival law with the target-to-target propagator. Laplace transforms turn this convolution into a product.",
+          "check": "Derive the Brownian first-arrival transform exp(-a*sqrt(s/D)) and a discrete lattice generating-function counterpart.",
+          "boundary": "Point targets in higher-dimensional continuous space and non-Markov observations need separate hitting and renewal assumptions; fractal scaling is not Euclidean by default."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "slug": "returns-and-fractal-walks",
+      "title": "Return laws, recurrence, and fractal transport",
+      "lectures": [
+        25
+      ],
+      "prerequisites": [
+        3,
+        6,
+        20
+      ],
+      "pages": 16,
+      "case": "Determine whether a walk returns almost surely even when its mean return time is infinite.",
+      "coverage": "Sierpinski walk dimension, first-passage/return generating functions, recurrence criterion, biased/unbiased line walks and divergent means.",
+      "lab": "Compute first-return probabilities by absorbing-chain methods and explore transport scaling on finite gasket approximations.",
+      "figure": "First-return tails for biased and unbiased line walks; a separately labelled finite gasket scaling example.",
+      "sections": [
+        {
+          "title": "A first return excludes time zero",
+          "statement": "For a discrete-time Markov chain started at state i, let u_n be the probability of being at i at step n with u_0=1 and f_n its first-return probability for n at least one. The renewal identity is u_n equal to the sum over k=1 through n of f_k*u_(n-k); hence U(z)=1/(1-F(z)) for absolute z less than one.",
+          "check": "Verify the identity by exact path enumeration for a small finite chain.",
+          "boundary": "A return time starts after the initial visit; including time zero destroys the first-return definition."
+        },
+        {
+          "title": "Almost-sure return and infinite mean",
+          "statement": "The state is recurrent exactly when the sum of its return probabilities u_n diverges. For the unbiased nearest-neighbor walk on the integer line, return is almost sure but the mean positive return time is infinite. A biased walk with positive step probabilities p and 1-p has return probability 2*min(p,1-p).",
+          "check": "Obtain the return generating function and check its limit as bias tends to zero.",
+          "boundary": "Recurrence does not imply a finite mean return time or a normalizable invariant law on an infinite lattice."
+        },
+        {
+          "title": "Geometry changes the walk scale",
+          "statement": "On a finite absorbing graph with transient transition submatrix K_TT in the book's column convention, expected exit times satisfy (identity-K_TT transpose)*T=ones. Scaling these solutions across graph sizes defines a numerical walk-dimension estimate rather than a theorem by itself.",
+          "check": "Recover quadratic exit-time scaling on a line; derive or obtain a page-verified renormalization argument before stating an exact gasket walk exponent.",
+          "boundary": "Separate graph distance, embedding distance, finite-size fit, and exact asymptotic walk dimension."
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "slug": "recurrence-dimension-and-clocks",
+      "title": "Recurrence by dimension and random walk clocks",
+      "lectures": [
+        26
+      ],
+      "prerequisites": [
+        3,
+        6,
+        20,
+        21
+      ],
+      "pages": 16,
+      "case": "Separate the geometry of a lattice walk from the clock that determines its physical-time progress.",
+      "coverage": "Return on d-dimensional lattices, recurrence/transience threshold, continuous-time walks, exponential and nonexponential waiting times.",
+      "lab": "Estimate lattice return Green functions with parity handled correctly; attach exponential and heavy-tailed clocks to identical spatial jumps.",
+      "figure": "One spatial jump path with different renewal clocks, alongside dimension-dependent return probabilities.",
+      "sections": [
+        {
+          "title": "The return-probability criterion in dimension d",
+          "statement": "The symmetric nearest-neighbor walk on the integer d-dimensional lattice is recurrent for d=1 or d=2 and transient for d at least 3. The local return probability on its allowed even times decays proportionally to n raised to -d/2 at large n.",
+          "check": "Derive the small-wave-number Green-function divergence and check parity against exact low-step counts.",
+          "boundary": "A continuum Gaussian density at a point is not itself a lattice return probability; the allowed-time lattice normalization matters."
+        },
+        {
+          "title": "A random number of jumps",
+          "statement": "For independent identically distributed jumps and independent identically distributed positive waiting times, the position at time t is the sum of the first N(t) jumps, where N(t) is the renewal count. Exponential waiting times give a memoryless clock and a continuous-time Markov walk.",
+          "check": "Recover Poisson jump counts for exponential waiting and compare equal-rate discrete and continuous time laws.",
+          "boundary": "Spatial jump recurrence and elapsed-time return moments are different questions."
+        },
+        {
+          "title": "Age restores information about the clock",
+          "statement": "For a waiting density psi with survival function Psi positive at age a, the conditional instantaneous event rate is psi(a)/Psi(a). This hazard is constant for an exponential law; for a general waiting law the position alone omits the elapsed waiting age needed to determine future jump timing.",
+          "check": "Derive residual waiting survival as Psi(a+t)/Psi(a) and compare several ages.",
+          "boundary": "A non-Markov position process can often be embedded in a larger Markov state containing age, but existence and boundary details must be specified."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "slug": "nonmarkovian-anomalous-transport",
+      "title": "Renewal memory and anomalous diffusion",
+      "lectures": [
+        27
+      ],
+      "prerequisites": [
+        1,
+        3,
+        20,
+        22
+      ],
+      "pages": 16,
+      "case": "Diagnose subdiffusion without interpreting a biased walk's mean-square displacement as its centered variance.",
+      "coverage": "Biased continuous-time random walks, Fourier-Laplace solution, mean/variance asymptotics, non-Markovian and subdiffusive criteria.",
+      "lab": "Compare ensemble displacement, centered variance, and time averages under exponential and infinite-mean clocks.",
+      "figure": "Distinct mean, centered variance, and uncentered mean-square displacement for heavy-tailed clocks with and without drift.",
+      "sections": [
+        {
+          "title": "The Fourier-Laplace renewal solution",
+          "statement": "For a decoupled continuous-time walk started at a renewal at the origin, jump characteristic function phi(k), and waiting-time Laplace transform psi_tilde(s), its position transform is (1-psi_tilde(s))/(s*(1-psi_tilde(s)*phi(k))) for positive s, under the usual nonexplosive renewal construction.",
+          "check": "Recover the Markov compound-Poisson transform for exponential waits.",
+          "boundary": "Aged initial conditions and coupled jump/wait laws change this formula."
+        },
+        {
+          "title": "Mean and variance from a random sum",
+          "statement": "For independent jumps with finite mean mu_J and variance sigma_J squared, independent of the renewal clock, mean position is mu_J*E[N(t)] and centered position variance is sigma_J squared*E[N(t)]+mu_J squared*Var(N(t)).",
+          "check": "Use total expectation and total variance; verify the Poisson-clock limit.",
+          "boundary": "Uncentered mean-square displacement also contains the squared mean; bias changes scaling conclusions."
+        },
+        {
+          "title": "An infinite-mean waiting scale",
+          "statement": "If the waiting transform obeys 1-psi_tilde(s) asymptotic to (tau0*s)^alpha for alpha in (0,1), standard renewal Tauberian hypotheses yield E[N(t)] asymptotic to (t/tau0)^alpha/Gamma(1+alpha). For zero-mean finite-variance independent jumps this gives centered displacement variance asymptotic to sigma_J squared times that expression.",
+          "check": "State the Tauberian conditions and compare ensemble scaling with finite-horizon simulations using uncertainty estimates.",
+          "boundary": "A power-law fit over a short window does not establish an asymptotic exponent or ergodicity; biased clocks add a separate renewal-count variance term."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "slug": "deterministic-probability",
+      "title": "Deterministic maps, invariant measures, and coarse observations",
+      "lectures": [
+        28
+      ],
+      "prerequisites": [
+        2,
+        5,
+        21
+      ],
+      "pages": 16,
+      "case": "Explain how deterministic evolution can produce probabilistic observations without replacing the dynamics by an arbitrary random model.",
+      "coverage": "Flows and maps, coarse graining, invariant measure, Frobenius-Perron evolution, ergodicity, escape/return definitions, Poincare statement.",
+      "lab": "Evolve densities under the doubling map and compare exact symbolic cylinders with finite-precision orbit experiments.",
+      "figure": "Map preimages, density transfer, and the distinction between an orbit and an ensemble.",
+      "sections": [
+        {
+          "title": "Pushforward probability",
+          "statement": "A measurable map T transports a probability measure mu to a measure assigning each measurable set A the value mu(T inverse of A). An invariant measure satisfies mu(T inverse of A)=mu(A) for every measurable A.",
+          "check": "Use the doubling map modulo one to verify invariance of uniform measure on intervals.",
+          "boundary": "An invariant density depends on the reference measure and need not exist for every invariant measure."
+        },
+        {
+          "title": "The transfer operator counts preimages",
+          "statement": "For a piecewise smooth map with regular inverse branches and nonzero branch derivatives, density transfer at y is the sum of input density at each inverse point divided by the absolute map derivative. For the doubling map it is one half of rho(y/2)+rho((y+1)/2).",
+          "check": "Verify mass conservation and transfer a nonuniform density through repeated iterations.",
+          "boundary": "Coarse-grained cells need not form an exact Markov chain; finite-precision periodicity is a numerical artifact to examine explicitly."
+        },
+        {
+          "title": "Ergodicity and recurrence are separate",
+          "statement": "For a measure-preserving map on a probability space, ergodicity means every invariant measurable set has measure zero or one. Under the ergodic theorem, time averages of integrable observables equal their invariant-measure mean almost everywhere when the map is ergodic.",
+          "check": "Compare a map with disconnected invariant components with the doubling map; distinguish the theorem from finite-time convergence evidence.",
+          "boundary": "Measure preservation alone yields recurrence in finite measure but does not imply ergodicity or mixing."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "slug": "sojourn-and-dynamical-recurrence",
+      "title": "Sojourn, escape, and recurrence in deterministic dynamics",
+      "lectures": [
+        29
+      ],
+      "prerequisites": [
+        20,
+        21,
+        24
+      ],
+      "pages": 16,
+      "case": "Choose the correct entrance-conditioned statistic when measuring residence and return times from a coarse-grained orbit.",
+      "coverage": "Sojourn and escape distributions, recurrence differences, Poincare proof, Smoluchowski modification, Bernoulli shift example.",
+      "lab": "Enumerate symbolic cylinders and compare residence, first-return, and arbitrary-time residual residence laws.",
+      "figure": "A binary occupancy record with entrance, exit, return, and residual intervals separately marked.",
+      "sections": [
+        {
+          "title": "Sampling residence intervals",
+          "statement": "For an independent binary occupancy sequence with occupied probability q in (0,1), the occupied-run length observed at an entrance has probability (1-q)*q raised to (n-1) for positive n. An interval sampled at an arbitrary occupied time is length-biased relative to the entrance-sampled interval.",
+          "check": "Enumerate short binary words and compare entrance-sampled lengths with occupancy-sampled total run lengths.",
+          "boundary": "Define discrete endpoints before differencing sojourn probabilities; memoryless residual lengths do not eliminate length bias of total intervals."
+        },
+        {
+          "title": "Finite-measure recurrence",
+          "statement": "For a measure-preserving transformation on a finite-measure space and a measurable set A, almost every point of A returns to A infinitely often. This requires neither independent visits nor ergodicity.",
+          "check": "Prove recurrence using disjoint escaping sets and finite measure, handling the null set of exceptional points.",
+          "boundary": "The theorem does not bound return time and fails without its finite invariant measure hypothesis."
+        },
+        {
+          "title": "Mean returns and correlated observations",
+          "statement": "For an ergodic measure-preserving transformation on a probability space and A of positive measure, the conditional mean positive return time to A is 1/mu(A), under the standard Kac return-time theorem. Independent Bernoulli visits provide a geometric example; overlapping symbolic cylinders generally produce correlated visits.",
+          "check": "Verify the geometric mean by summation, then enumerate an overlapping cylinder to expose failure of an independence-based recurrence formula.",
+          "boundary": "Kac's formula needs its precise measure-theoretic conditions; any Smoluchowski or finite-difference sojourn formula must be verified against the lecture's endpoint and conditioning conventions before drafting."
+        }
+      ]
+    }
+  ]
+}

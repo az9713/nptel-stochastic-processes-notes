@@ -1,0 +1,81 @@
+{
+  "chapter": 17,
+  "status": "accepted",
+  "author_id": "/root/author_10_17",
+  "scientific_files": [
+    "chapter-17-linear-response.html",
+    "code/ch17_response.py",
+    "code/ch17-results.json",
+    "code/ch17-output.txt",
+    "figures/ch17_response.py",
+    "assets/ch17-response.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 20,
+      "sequentially_read": true,
+      "transcript_spans": [
+        [
+          22,
+          3684.9
+        ]
+      ],
+      "visual_coverage": "Three timed frames at 795, 2450, and 3470 seconds inspected; partial instructor occlusion, with force-spectrum, Poisson-bracket, and series-circuit formulas visible.",
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch17_response.py"
+  ],
+  "figures": [
+    "assets/ch17-response.svg"
+  ],
+  "solutions": 6,
+  "checks": [
+    "Algebraic oscillator FDT and independent spectral-area quadrature pass",
+    "Driven ODE response fits agree with harmonic susceptibility at both drive amplitudes",
+    "Deterministic nonlinear control is explicitly distinct from a thermal nonlinear response experiment",
+    "Cauchy-weight dispersion reconstruction converges with increasing cutoff",
+    "Exact-transition equilibrium ensemble spectrum relative RMS discrepancy 0.05275627",
+    "Figure inspected",
+    "207 math segments: TeX, raw inequalities, internal links, and code-block checks pass"
+  ],
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch17-r1.md",
+      "report_sha256": "f631748fbe52c16c5ae67f9303d9e20a8d230f1bf14aebd4c7b6e341d4136569",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch17-r1-targeted.md",
+          "sha256": "0d40ce00b78f541d9913cd83d15f53ddbc888cb6f61c0c59a37e01ed7f34031b"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch17-r2.md",
+      "report_sha256": "1433ee78deceb9ded20bda73ec491467f18a3c2f6d5fa746e5a089ee15945bca",
+      "targeted_repairs": []
+    }
+  ],
+  "artifact_hashes": {
+    "chapter-17-linear-response.html": "ef9355b31edbaf6eea2307fa0dce57ac6782df71959bd2b3503c6e8ef7f261ec",
+    "code/ch17_response.py": "227bf89c21d4bb655478c66f931905f18f5291d6b646ab065ab310c515c886c4",
+    "code/ch17-results.json": "2948e198f17e9b6943cc2faf86149b85e4b12bcd42b35507166f7157c96c1cd0",
+    "code/ch17-output.txt": "6a757e61696c37b2d20218f52ecc5ddde5dbcca47193fcfd460852920d4356b4",
+    "figures/ch17_response.py": "952f554e6bbfe1b0d264bf8e6c4d28ba9e9e0e74c930dd367c2f139c8a60de4d",
+    "assets/ch17-response.svg": "cc526014485d809dd53391bd8da04b0538817309aeac05234f3ecebce65022fc"
+  },
+  "review_audit": "work/reviews/ch17-review-audit.json"
+}

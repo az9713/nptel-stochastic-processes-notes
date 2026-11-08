@@ -1,0 +1,7 @@
+Exact hit probability by t=1: 0.47950012
+dt=0.100: endpoint=0.37440; bridge=0.47694
+dt=0.020: endpoint=0.43318; bridge=0.48192
+dt=0.005: endpoint=0.45707; bridge=0.48209
+cutoff=10: partial first moment=1.328542
+cutoff=100: partial first moment=5.155995
+cutoff=1000: partial first moment=17.345701

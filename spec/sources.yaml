@@ -1,0 +1,54 @@
+{
+  "format": "JSON, a YAML 1.2 subset",
+  "sources": [
+    {
+      "id": "S001",
+      "citation": "V. Balakrishnan, Physical Applications of Stochastic Processes, IIT Madras, NPTEL 115106089, 29 recordings",
+      "type": "lecture recordings",
+      "url": "https://www.youtube.com/playlist?list=PLbMVogVj5nJQo8D9D-D6lMqh4FJbPeE_f",
+      "inventory": "source-manifest.json",
+      "local_path": "work/sources/captions/",
+      "coverage": {
+        "identity": "verified from playlist and official instructor notes",
+        "caption_acquisition": "29 English publisher tracks acquired; human authorship not established",
+        "sequential_reading": "lectures 1–2 complete; 3–29 pending",
+        "visual": "fifteen timed stills from lectures 1–2 inspected; partial and sometimes occluded",
+        "audio": "not reviewed independently",
+        "citation": "timestamp-addressable; section intervals not yet assigned"
+      }
+    },
+    {
+      "id": "S002",
+      "citation": "V. Balakrishnan, NPTEL Course: Physical Applications of Stochastic Processes, official instructor notes",
+      "type": "lecture notes PDF",
+      "url": "https://archive.nptel.ac.in/content/storage2/courses/115106089/STOCHASTIC_PROCESSES_NPTEL.pdf",
+      "local_path": "work/sources/official/STOCHASTIC_PROCESSES_NPTEL.pdf",
+      "pdf_pages": 118,
+      "sha256": "3f529b900ebc5a559d253f354c3609196551137a80ddb04bb4601959b7a9e2db",
+      "verified_pages": [1, 2, 3, 4, 5, 6],
+      "notes": "Opening identity/scope and syllabus checked for planning. Main exposition covers lectures 1–11. Do not treat the syllabus and later quiz as complete written exposition of lectures 12–29. No full-PDF scientific reading claimed."
+    }
+  ],
+  "pilot_research_sources": [
+    {
+      "id": "S003", "author": "R. J. Glauber",
+      "title": "Coherent and Incoherent States of the Radiation Field",
+      "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.131.2766",
+      "local_path": "work/sources/papers/glauber-1963.pdf",
+      "verified_locator": "printed page 2769, PDF page 4, equations (3.1)–(3.9), inspected as rendered scan",
+      "used_for": "coherent-state number expansion and Poisson number probabilities"
+    },
+    {
+      "id": "S004", "author": "NIST",
+      "title": "DLMF equation 10.35.1",
+      "url": "https://dlmf.nist.gov/10.35.E1",
+      "verified_locator": "equation 10.35.1; formula read on official page",
+      "used_for": "independent reference for modified-Bessel generating identity"
+    }
+  ],
+  "research_queue": [
+    "Page-verified precise statements for path regularity, arcsine law, iterated logarithm, Gaussian-Markov classification, Pawula theorem, renewal Tauberian conditions, ergodic theorem, and Kac return theorem",
+    "Verify lecture-specific endpoint and conditioning conventions for sojourn, escape, and recurrence differences before drafting chapter 25",
+    "Verify any primary-paper claim at the actual cited page; do not inherit citations merely because a previous course used them"
+  ]
+}

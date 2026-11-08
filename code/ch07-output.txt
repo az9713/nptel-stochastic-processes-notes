@@ -1,0 +1,4 @@
+Yule mean: exact=3.320116923, sample=3.320250000
+Yule variance: exact=7.703059458, sample=7.713489938
+NHPP at t=2: exact mean=variance=8, sample mean=7.976950, variance=7.914869
+Walk cumulants: 2.000000, 2.000000, 0.500000, 0.500000

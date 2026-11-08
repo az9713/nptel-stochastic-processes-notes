@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "chapter": 16,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_10_17",
+  "artifact_hashes": {
+    "chapter-16-noise-spectra.html": "c7b510b4894dffbc87256b59a98dab29c37d0b27d9a7fde0fd2446decb281d5c",
+    "code/ch16_spectra.py": "91dd861a9d2e03e2d025dd1c7a669eb214b8274fed58fb7ca97d0154ee99c97b",
+    "code/ch16-results.json": "4214bc8f319ed28727f12f36977be29e0da474f59cf3fdbe2975d31493d42f82",
+    "code/ch16-output.txt": "e96bd1f91c82c167dd1df50e2f2a598cb3be558f333c71040fa2e3683dd4c3b2",
+    "figures/ch16_spectra.py": "398cff920258eea94b39f231b08d13e01ea69f4e6cf731f9bbb84b4bb32fdf53",
+    "assets/ch16-spectra.svg": "c9ac18d4eafeeda72fa297b1bcd8107c462b9191f4bf21c735d9aef06e87843d"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "26ea9dafca71eb2edb336a14a2363c87fda76c51ef41327b8c7ece0ab57387da",
+      "targeted_repairs": []
+    },
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "87cbf14647f2b16e751318243eb6f8874c2c28bb96ca74fd57d5596ada39529a",
+      "targeted_repairs": []
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

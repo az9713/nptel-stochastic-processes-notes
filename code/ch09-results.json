@@ -1,0 +1,54 @@
+{
+  "drift": 0.7,
+  "diffusion": 0.4,
+  "time": 1.0,
+  "rows": [
+    {
+      "ell": 0.5,
+      "rplus": 2.3,
+      "rminus": 0.9000000000000001,
+      "cell_mass_total_variation": 0.03788430923384261,
+      "third_increment_moment_rate": 0.175,
+      "fourth_increment_moment_rate": 0.2
+    },
+    {
+      "ell": 0.25,
+      "rplus": 7.800000000000001,
+      "rminus": 5.0,
+      "cell_mass_total_variation": 0.009462083386757976,
+      "third_increment_moment_rate": 0.04375,
+      "fourth_increment_moment_rate": 0.05
+    },
+    {
+      "ell": 0.125,
+      "rplus": 28.400000000000002,
+      "rminus": 22.8,
+      "cell_mass_total_variation": 0.0023857489623956615,
+      "third_increment_moment_rate": 0.0109375,
+      "fourth_increment_moment_rate": 0.0125
+    },
+    {
+      "ell": 0.0625,
+      "rplus": 108.0,
+      "rminus": 96.80000000000001,
+      "cell_mass_total_variation": 0.0005973974592835491,
+      "third_increment_moment_rate": 0.002734375,
+      "fourth_increment_moment_rate": 0.003125
+    }
+  ],
+  "symmetric_jump": {
+    "rate": 2.0,
+    "ell": 0.5,
+    "A2": 0.5,
+    "A3": 0.0,
+    "A4": 0.125,
+    "k": 10.0,
+    "exact_log_phi": -1.4326756290735476,
+    "fourth_order_truncated_log_phi": 27.083333333333336
+  },
+  "harmonic_equilibrium": {
+    "variance": 0.25,
+    "normalization": 1.000000000000001,
+    "maximum_current_residual": 0.0
+  }
+}

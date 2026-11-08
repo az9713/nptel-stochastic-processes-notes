@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "chapter": 9,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_02_09",
+  "artifact_hashes": {
+    "chapter-09-master-to-fokker-planck.html": "3adadd07a159dbf5843d0563b3049113233ee38a865ca188b3f208f27c4d3ef7",
+    "code/ch09-output.txt": "61ad808f7c3b61d670d64b63172d0cfae177e81dab654b65cf52b6a78cf0e1a3",
+    "code/ch09-results.json": "4969e68558b8b1bc8f4a84d356686fa852b000caecf2037e5ac3bff24ea50ed9",
+    "code/ch09_diffusion_limit.py": "b9388921f3575e181a1a213762c8656508df22f6b44d51b5a25a7afc6462dee4",
+    "figures/ch09_diffusion_limit.py": "2a56bc3b489454def3c1262ae654b5bd02f1c46c84742441c4e193f6d60c72b3",
+    "assets/ch09-diffusion-limit.svg": "ebd33a5b0be16ab4a5d247633941b1759a8650c4db4ac6ca127aec05633ff7ab"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "57f26372a821b1c0baddd1127087132b8b24f6ca9038aa97d328f3a9a5acc08e",
+      "targeted_repairs": []
+    },
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "ca7099caecac2ab5ff9b6d0a7e4486e42df9abe2bb06f4753fd5397418d4e0b7",
+      "targeted_repairs": []
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

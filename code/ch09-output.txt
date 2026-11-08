@@ -1,0 +1,6 @@
+ell=0.5000: cell-mass TV=0.037884309, A4=0.200000000
+ell=0.2500: cell-mass TV=0.009462083, A4=0.050000000
+ell=0.1250: cell-mass TV=0.002385749, A4=0.012500000
+ell=0.0625: cell-mass TV=0.000597397, A4=0.003125000
+Symmetric jump: A3=0.0, A4=0.125
+k=10: exact log phi=-1.432675629; fourth-order log phi=27.083333333

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "content_digest": "1bb57a818895f41c93a77a8548a31286e2b5b6510a6188d8c25da7f3019dcbb1",
+  "chapters": 25,
+  "independent_full_reviews": 50,
+  "producer_report_sha256": {
+    "course-static-checks": "98d22f25f229d36c0d552e5d7982ede8f6404caf9f08129398782265c66d9258",
+    "course-browser-checks": "d9edff38eb54d1a39a8ef1eb2d21411d82ef255e8f00f5a85b6077a246752834",
+    "course-reproduction-checks": "1c12ffc7b57057fb2a36848614aa42e609196bd928d517a87c85bbec7ec61433",
+    "book-checks": "cd9befb39909e990c220b30b09e25a29c696db3fd29ca63a8fa3787b30add4d6"
+  },
+  "scope": "public attestation export after actual private evidence audit",
+  "private_raw_reports_included": false
+}

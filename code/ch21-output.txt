@@ -1,0 +1,10 @@
+side=1: vertices=3; mean exit=1.000000 steps
+side=2: vertices=6; mean exit=5.000000 steps
+side=4: vertices=15; mean exit=25.000000 steps
+side=8: vertices=42; mean exit=125.000000 steps
+side=16: vertices=123; mean exit=625.000000 steps
+side=32: vertices=366; mean exit=3125.000000 steps
+side=64: vertices=1095; mean exit=15625.000000 steps
+walk dimension=2.32192809
+p=0.5: return=1.000000; partial mass=0.99435817; partial moment=112.836506
+p=0.6: return=0.800000; partial mass=0.80000000; partial moment=4.800000

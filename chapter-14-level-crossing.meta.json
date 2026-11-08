@@ -1,0 +1,73 @@
+{
+  "chapter": 14,
+  "status": "accepted",
+  "author_id": "/root/author_10_17",
+  "scientific_files": [
+    "chapter-14-level-crossing.html",
+    "code/ch14_crossings.py",
+    "code/ch14-results.json",
+    "code/ch14-output.txt",
+    "figures/ch14_sampling.py",
+    "assets/ch14-sampling.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 17,
+      "sequentially_read": true,
+      "transcript_spans": [
+        [
+          0.1,
+          3246.3
+        ]
+      ],
+      "visual_coverage": "3 timed frames1725,1870,2575; partial and partly occluded",
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch14_crossings.py"
+  ],
+  "figures": [
+    "assets/ch14-sampling.svg"
+  ],
+  "solutions": 6,
+  "checks": [
+    "exactlinearGaussian ensemble and sampling/Rice comparison passed",
+    "bivariateGaussian endpoint target retained",
+    "figure purpose repaired by truthful firstpairedcrossing selection, allpath rates unaffected",
+    "tex122segments+lt+links+code passed"
+  ],
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch14-r1.md",
+      "report_sha256": "075c041901fe9f1c72becc1201c772a44aaee14ec97dd89ba959a4eb09739b6d",
+      "targeted_repairs": []
+    },
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch14-r2.md",
+      "report_sha256": "46233a9709f69213d68e87ee9404e2e443095cf639059008f7e3c39072871b43",
+      "targeted_repairs": []
+    }
+  ],
+  "artifact_hashes": {
+    "chapter-14-level-crossing.html": "bd28581c15a3351918db15ace5a04e890ec846073b39f33b085ee941cf18542a",
+    "code/ch14_crossings.py": "52fcdd0cfc93ea524e5b5f5a9787f9b8e8c07ae860989305954ab7b6fe09e831",
+    "code/ch14-results.json": "29fc4f9c25bc30a34d24bfb9de2dc6fd58d090bfc7932da2f26462cc149e4cf9",
+    "code/ch14-output.txt": "0f44704360f38d2f54d99dd97e5653b64c73608c48d803403eb7bda8b8ed2b14",
+    "figures/ch14_sampling.py": "a366283b946480ce5251817f927ad9b4f03145956863039ecd878434fdee9653",
+    "assets/ch14-sampling.svg": "27af44a8f11d442357ecbd1c0e6aea80e2c669463c2c6292dd300e46ec0afdd7"
+  },
+  "review_audit": "work/reviews/ch14-review-audit.json"
+}

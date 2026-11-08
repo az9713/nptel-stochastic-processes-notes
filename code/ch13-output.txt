@@ -1,0 +1,7 @@
+Mean squared-increment correction: 0.99925612
+dimension   sample mean R²   exact mean R²
+        1       1.00103222      1.00000000
+        2       2.00075036      2.00000000
+        3       3.00118606      3.00000000
+GBM exact mean=1.10517092, median=0.53794444
+One-step Euler negative probability=0.17965867

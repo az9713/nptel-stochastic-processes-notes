@@ -1,0 +1,7 @@
+Normalized symmetric lattice walk (variance one):
+n=10: CDF distance=0.12304688, corrected grid error=0.00268616, central mass=0.24609375, parity approximation=0.25231325
+n=50: CDF distance=0.05613759, corrected grid error=0.00054170, central mass=0.11227517, parity approximation=0.11283792
+n=200: CDF distance=0.02817424, corrected grid error=0.00013603, central mass=0.05634848, parity approximation=0.05641896
+n=1000: CDF distance=0.01261251, corrected grid error=0.00002717, central mass=0.02522502, parity approximation=0.02523133
+Four-uniform density at zero: 0.384900179
+Fourier inversion cutoff100: 0.384900110

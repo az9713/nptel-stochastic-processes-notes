@@ -1,0 +1,943 @@
+{
+  "passed": true,
+  "scope": "numerical labs and figure generators without private source inputs",
+  "chapters": [
+    {
+      "chapter": 1,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch01_counting.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch01_equal_mean.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch01-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "61464e731cad743733e531975e3986c89d8ab4e2c14dc06c22510c7e522bda2f",
+          "actual_sha256": "61464e731cad743733e531975e3986c89d8ab4e2c14dc06c22510c7e522bda2f"
+        },
+        {
+          "path": "code/ch01-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "99b3ae68d269c81f9fdcdf9fa4165fc6541a6365d98c17a93539a56446ab6fce",
+          "actual_sha256": "99b3ae68d269c81f9fdcdf9fa4165fc6541a6365d98c17a93539a56446ab6fce"
+        },
+        {
+          "path": "assets/ch01-equal-mean.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "fbefc18ed11361334eb3c4f0c3d042a5143f0fda1fa814532bc16c49f48b2c03",
+          "actual_sha256": "fbefc18ed11361334eb3c4f0c3d042a5143f0fda1fa814532bc16c49f48b2c03"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch02_energy.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch02_energy.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch02-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "3e1b5cfa786375edcf59106463cf99b2f3bbe27e207177741860376d201f377e",
+          "actual_sha256": "3e1b5cfa786375edcf59106463cf99b2f3bbe27e207177741860376d201f377e"
+        },
+        {
+          "path": "code/ch02-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "93ab6587486ffb70e936cba98ffc8e62ca8306c9f16a941ae7ed910de80070b0",
+          "actual_sha256": "93ab6587486ffb70e936cba98ffc8e62ca8306c9f16a941ae7ed910de80070b0"
+        },
+        {
+          "path": "assets/ch02-energy.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "c816997b78f51c2f0fbf008b5c8b48f566a4e7e6d7d5bf51ff03edb42ad7887f",
+          "actual_sha256": "c816997b78f51c2f0fbf008b5c8b48f566a4e7e6d7d5bf51ff03edb42ad7887f"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch03_diffusion.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch03_diffusion.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch03-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "0823c924fd37bdf3eea0823c2e2e3253fefc0fc6a787bcf1229be64385a6ff8e",
+          "actual_sha256": "0823c924fd37bdf3eea0823c2e2e3253fefc0fc6a787bcf1229be64385a6ff8e"
+        },
+        {
+          "path": "code/ch03-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "a4ec9804b886ca8bb28915b174db61627c45c54870a7aa9792e02b3bd8944e70",
+          "actual_sha256": "a4ec9804b886ca8bb28915b174db61627c45c54870a7aa9792e02b3bd8944e70"
+        },
+        {
+          "path": "assets/ch03-diffusion.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "7f1f6426d2669bf4c7ab1ad2b1f37519949964d72ef57c70e19d296398ea5461",
+          "actual_sha256": "7f1f6426d2669bf4c7ab1ad2b1f37519949964d72ef57c70e19d296398ea5461"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch04_stable.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch04_stable.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch04-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "b58f761429cce742397b98ffd2e24730dadfef5eb79eb3c967a988438d648a2e",
+          "actual_sha256": "b58f761429cce742397b98ffd2e24730dadfef5eb79eb3c967a988438d648a2e"
+        },
+        {
+          "path": "code/ch04-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "f4b0a96ba26130f6057e1d62399cd9c46517529f1f3d2c77f0c1696aa5102999",
+          "actual_sha256": "f4b0a96ba26130f6057e1d62399cd9c46517529f1f3d2c77f0c1696aa5102999"
+        },
+        {
+          "path": "assets/ch04-stable.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "af4dbfdfa15fea5799b7db5742f96acd0155c51b731e9b4eb6337b4c9199c077",
+          "actual_sha256": "af4dbfdfa15fea5799b7db5742f96acd0155c51b731e9b4eb6337b4c9199c077"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch05_markov.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch05_markov.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch05-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "256c05d0fdf83b98411f0d757b783ed5bb98c5099d01c14097a57e5211f0c3b4",
+          "actual_sha256": "256c05d0fdf83b98411f0d757b783ed5bb98c5099d01c14097a57e5211f0c3b4"
+        },
+        {
+          "path": "code/ch05-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "fc03add4971878d8e373d1141703d3e44860f34fc3c00d32da79027b52a94a50",
+          "actual_sha256": "fc03add4971878d8e373d1141703d3e44860f34fc3c00d32da79027b52a94a50"
+        },
+        {
+          "path": "assets/ch05-markov.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "50b95ee8bc86e5f0abc3bee26bbb7c7fef8a8645efa60160a8ed2501ba450974",
+          "actual_sha256": "50b95ee8bc86e5f0abc3bee26bbb7c7fef8a8645efa60160a8ed2501ba450974"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch06_jumps.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch06_jumps.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch06-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "81bb3fd3c0d12698a50eee0cd107629259ad49eed7f6811047a32d30b0bd68bd",
+          "actual_sha256": "81bb3fd3c0d12698a50eee0cd107629259ad49eed7f6811047a32d30b0bd68bd"
+        },
+        {
+          "path": "code/ch06-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "32a18944fd47bdc88dffdaecddbb359e212ca5924f6d192bf5330eeb2a52c5e1",
+          "actual_sha256": "32a18944fd47bdc88dffdaecddbb359e212ca5924f6d192bf5330eeb2a52c5e1"
+        },
+        {
+          "path": "assets/ch06-jumps.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "b6e08bb4b8510f555e6171c8b2e6b865461396c88e56ab6d08f84dd66d5124c1",
+          "actual_sha256": "b6e08bb4b8510f555e6171c8b2e6b865461396c88e56ab6d08f84dd66d5124c1"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch07_populations.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch07_populations.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch07-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "a2abb03fe5d67c207fe06689b559201610d3aaf18e8047e423b20cc3d7f453be",
+          "actual_sha256": "a2abb03fe5d67c207fe06689b559201610d3aaf18e8047e423b20cc3d7f453be"
+        },
+        {
+          "path": "code/ch07-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "79046bfe5a560c3a31cd9f6f03ca7d392c9e3b574fc760485bd3bc1ea1224852",
+          "actual_sha256": "79046bfe5a560c3a31cd9f6f03ca7d392c9e3b574fc760485bd3bc1ea1224852"
+        },
+        {
+          "path": "assets/ch07-populations.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "4aaf67a2d1ef7a1a0f1c0f0c001ecfdf555ee5a5e0f954eba95b3855a306aeed",
+          "actual_sha256": "4aaf67a2d1ef7a1a0f1c0f0c001ecfdf555ee5a5e0f954eba95b3855a306aeed"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch08_equilibrium.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch08_equilibrium.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch08-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "d3a23f258572daa21b76230b7a1c678ccb049936d9a991d6cfc0af10eea2e1dd",
+          "actual_sha256": "d3a23f258572daa21b76230b7a1c678ccb049936d9a991d6cfc0af10eea2e1dd"
+        },
+        {
+          "path": "code/ch08-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "f29fae96b69b33afebc4248a888608ab044129de469a30bb4bceb2715cb53a87",
+          "actual_sha256": "f29fae96b69b33afebc4248a888608ab044129de469a30bb4bceb2715cb53a87"
+        },
+        {
+          "path": "assets/ch08-equilibrium.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "c08bb130f05eb24b0ed0f35a115940afb214f3dd616ba921918e462917488a97",
+          "actual_sha256": "c08bb130f05eb24b0ed0f35a115940afb214f3dd616ba921918e462917488a97"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch09_diffusion_limit.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch09_diffusion_limit.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch09-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "61ad808f7c3b61d670d64b63172d0cfae177e81dab654b65cf52b6a78cf0e1a3",
+          "actual_sha256": "61ad808f7c3b61d670d64b63172d0cfae177e81dab654b65cf52b6a78cf0e1a3"
+        },
+        {
+          "path": "code/ch09-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "4969e68558b8b1bc8f4a84d356686fa852b000caecf2037e5ac3bff24ea50ed9",
+          "actual_sha256": "4969e68558b8b1bc8f4a84d356686fa852b000caecf2037e5ac3bff24ea50ed9"
+        },
+        {
+          "path": "assets/ch09-diffusion-limit.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "ebd33a5b0be16ab4a5d247633941b1759a8650c4db4ac6ca127aec05633ff7ab",
+          "actual_sha256": "ebd33a5b0be16ab4a5d247633941b1759a8650c4db4ac6ca127aec05633ff7ab"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch10_ou.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch10_crossover.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch10-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "31bb2ef77562e6d5776bff8ac3a9b3fea0bc14223936d97140b1641bee52df29",
+          "actual_sha256": "31bb2ef77562e6d5776bff8ac3a9b3fea0bc14223936d97140b1641bee52df29"
+        },
+        {
+          "path": "code/ch10-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "779335c5fb8a8433ae970e59c8400c6b09cf29baff0049505bde0b43700f921b",
+          "actual_sha256": "779335c5fb8a8433ae970e59c8400c6b09cf29baff0049505bde0b43700f921b"
+        },
+        {
+          "path": "assets/ch10-crossover.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "22ed7255a6168955f64ecd08fb5f660126a3bda01de3f74bd8d0925292bdc823",
+          "actual_sha256": "22ed7255a6168955f64ecd08fb5f660126a3bda01de3f74bd8d0925292bdc823"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch11_trap.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch11_relaxation.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch11-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "3528b085ee625ddb2cd8af53595cbf4b4715160f5740029b035a7f435c9dd168",
+          "actual_sha256": "3528b085ee625ddb2cd8af53595cbf4b4715160f5740029b035a7f435c9dd168"
+        },
+        {
+          "path": "code/ch11-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "3b6efb80618bf83a27bcb91e1e268bceb20a76585b938a0f95026c70397ac87d",
+          "actual_sha256": "3b6efb80618bf83a27bcb91e1e268bceb20a76585b938a0f95026c70397ac87d"
+        },
+        {
+          "path": "assets/ch11-relaxation.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "35d22159045645530af8cb8fa711909cfcef72ba80c6fbbf1f636e0f08ba128b",
+          "actual_sha256": "35d22159045645530af8cb8fa711909cfcef72ba80c6fbbf1f636e0f08ba128b"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch12_wiener.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch12_roughness.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch12-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "600d65653a0e406b4e13599f2e2e277b1ae311cc06c48a14b4b219a60f7bd508",
+          "actual_sha256": "600d65653a0e406b4e13599f2e2e277b1ae311cc06c48a14b4b219a60f7bd508"
+        },
+        {
+          "path": "code/ch12-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "6135d94e367e5d713d9de392495393b24899a25c945c4a3e4e6f60671062517d",
+          "actual_sha256": "6135d94e367e5d713d9de392495393b24899a25c945c4a3e4e6f60671062517d"
+        },
+        {
+          "path": "assets/ch12-roughness.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "8c186bf844a5e3089720e9e255d2239e012e90180f85926e54e6f6fcd8aec11b",
+          "actual_sha256": "8c186bf844a5e3089720e9e255d2239e012e90180f85926e54e6f6fcd8aec11b"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch13_transform.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch13_radial.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch13-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "5e60cca232b254edc07693772933dc285d765216c658557311298a5ad7b15778",
+          "actual_sha256": "5e60cca232b254edc07693772933dc285d765216c658557311298a5ad7b15778"
+        },
+        {
+          "path": "code/ch13-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "aea2f8dfd6743311419113db256e586b881c3bfb6ee60519f7b89ef31cc591cc",
+          "actual_sha256": "aea2f8dfd6743311419113db256e586b881c3bfb6ee60519f7b89ef31cc591cc"
+        },
+        {
+          "path": "assets/ch13-radial.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "44e3e72015dfbe01ec198938b7c00cd8143489c7b3ecfaf7898116975e10eae5",
+          "actual_sha256": "44e3e72015dfbe01ec198938b7c00cd8143489c7b3ecfaf7898116975e10eae5"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch14_crossings.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch14_sampling.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch14-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "29fc4f9c25bc30a34d24bfb9de2dc6fd58d090bfc7932da2f26462cc149e4cf9",
+          "actual_sha256": "29fc4f9c25bc30a34d24bfb9de2dc6fd58d090bfc7932da2f26462cc149e4cf9"
+        },
+        {
+          "path": "code/ch14-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "0f44704360f38d2f54d99dd97e5653b64c73608c48d803403eb7bda8b8ed2b14",
+          "actual_sha256": "0f44704360f38d2f54d99dd97e5653b64c73608c48d803403eb7bda8b8ed2b14"
+        },
+        {
+          "path": "assets/ch14-sampling.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "27af44a8f11d442357ecbd1c0e6aea80e2c669463c2c6292dd300e46ec0afdd7",
+          "actual_sha256": "27af44a8f11d442357ecbd1c0e6aea80e2c669463c2c6292dd300e46ec0afdd7"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch15_magnetic.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch15_magnetic.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch15-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "93fb67d5b89545fb20a1edeef42788964ec28ea8db7a2f2348e8e7c726dd1711",
+          "actual_sha256": "93fb67d5b89545fb20a1edeef42788964ec28ea8db7a2f2348e8e7c726dd1711"
+        },
+        {
+          "path": "code/ch15-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "2e5f36dceedde4f6ec7577de5635d216664d94abed594ee48d18845a69a4533f",
+          "actual_sha256": "2e5f36dceedde4f6ec7577de5635d216664d94abed594ee48d18845a69a4533f"
+        },
+        {
+          "path": "assets/ch15-magnetic.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "655ea1377f5f1ea8474654187dd47ef7253691d944dbb8eb9e694ed8bdbe767c",
+          "actual_sha256": "655ea1377f5f1ea8474654187dd47ef7253691d944dbb8eb9e694ed8bdbe767c"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch16_spectra.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch16_spectra.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch16-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "4214bc8f319ed28727f12f36977be29e0da474f59cf3fdbe2975d31493d42f82",
+          "actual_sha256": "4214bc8f319ed28727f12f36977be29e0da474f59cf3fdbe2975d31493d42f82"
+        },
+        {
+          "path": "code/ch16-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "e96bd1f91c82c167dd1df50e2f2a598cb3be558f333c71040fa2e3683dd4c3b2",
+          "actual_sha256": "e96bd1f91c82c167dd1df50e2f2a598cb3be558f333c71040fa2e3683dd4c3b2"
+        },
+        {
+          "path": "assets/ch16-spectra.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "c9ac18d4eafeeda72fa297b1bcd8107c462b9191f4bf21c735d9aef06e87843d",
+          "actual_sha256": "c9ac18d4eafeeda72fa297b1bcd8107c462b9191f4bf21c735d9aef06e87843d"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch17_response.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch17_response.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch17-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "2948e198f17e9b6943cc2faf86149b85e4b12bcd42b35507166f7157c96c1cd0",
+          "actual_sha256": "2948e198f17e9b6943cc2faf86149b85e4b12bcd42b35507166f7157c96c1cd0"
+        },
+        {
+          "path": "code/ch17-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "6a757e61696c37b2d20218f52ecc5ddde5dbcca47193fcfd460852920d4356b4",
+          "actual_sha256": "6a757e61696c37b2d20218f52ecc5ddde5dbcca47193fcfd460852920d4356b4"
+        },
+        {
+          "path": "assets/ch17-response.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "cc526014485d809dd53391bd8da04b0538817309aeac05234f3ecebce65022fc",
+          "actual_sha256": "cc526014485d809dd53391bd8da04b0538817309aeac05234f3ecebce65022fc"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch18_shot_noise.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch18_shot_noise.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch18-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "b9e78ac7f56bdbfc704e2188706357560002d1aaf985c036dfa1ab558120f598",
+          "actual_sha256": "b9e78ac7f56bdbfc704e2188706357560002d1aaf985c036dfa1ab558120f598"
+        },
+        {
+          "path": "code/ch18-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "67a384e4b87bf6e6000cc5712dfae00adca6df94e2b69a4f49c27bfd94178ea0",
+          "actual_sha256": "67a384e4b87bf6e6000cc5712dfae00adca6df94e2b69a4f49c27bfd94178ea0"
+        },
+        {
+          "path": "assets/ch18-shot-noise.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "9270edbadb10f6f8a86d200e1ad3d4386a9e1be438ae9be51299c19c7d4437c0",
+          "actual_sha256": "9270edbadb10f6f8a86d200e1ad3d4386a9e1be438ae9be51299c19c7d4437c0"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch19_telegraph.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch19_telegraph.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch19-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "98016490a3f6d1d0a26f9c06fc1d7997b12e027e0b31883cf932a794908fb4d7",
+          "actual_sha256": "98016490a3f6d1d0a26f9c06fc1d7997b12e027e0b31883cf932a794908fb4d7"
+        },
+        {
+          "path": "code/ch19-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "1d9e8ab81a76e8dc953fd84a12a98b7ebf67742e2b2bcd052029ea483b20d653",
+          "actual_sha256": "1d9e8ab81a76e8dc953fd84a12a98b7ebf67742e2b2bcd052029ea483b20d653"
+        },
+        {
+          "path": "assets/ch19-telegraph.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "f0423aaede631186ae557ad80e846464986f8e3eab244df9f892f83083951161",
+          "actual_sha256": "f0423aaede631186ae557ad80e846464986f8e3eab244df9f892f83083951161"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch20_first_passage.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch20_first_passage.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch20-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "0e438061813b637f4c5c4ff3369c6221b5b2313f1282b7764a6142d4b3e4e1d2",
+          "actual_sha256": "0e438061813b637f4c5c4ff3369c6221b5b2313f1282b7764a6142d4b3e4e1d2"
+        },
+        {
+          "path": "code/ch20-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "0f025df27054420ac878af406b31341dce5558de7f1d62d6fceb4ec8ccb3b255",
+          "actual_sha256": "0f025df27054420ac878af406b31341dce5558de7f1d62d6fceb4ec8ccb3b255"
+        },
+        {
+          "path": "assets/ch20-first-passage.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "d87e38fe6455daa80878025a8975fa0694a2580c95212cd7894f0708e664d5c7",
+          "actual_sha256": "d87e38fe6455daa80878025a8975fa0694a2580c95212cd7894f0708e664d5c7"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch21_returns_graphs.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch21_returns_graphs.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch21-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "5ad3929f78420aec728d9817b083e48dd6bf52b61f18e29f8088ae13a2ef80ad",
+          "actual_sha256": "5ad3929f78420aec728d9817b083e48dd6bf52b61f18e29f8088ae13a2ef80ad"
+        },
+        {
+          "path": "code/ch21-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "60455f107c066c79cdd810702c222ec8158042b16c18b98f261438701460a1c4",
+          "actual_sha256": "60455f107c066c79cdd810702c222ec8158042b16c18b98f261438701460a1c4"
+        },
+        {
+          "path": "assets/ch21-returns-graphs.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "e8b5190eb784786dac7d65842cf36e6b84bd7fdfb1706db2f892f98c944fbc19",
+          "actual_sha256": "e8b5190eb784786dac7d65842cf36e6b84bd7fdfb1706db2f892f98c944fbc19"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch22_dimension_clocks.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch22_dimension_clocks.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch22-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "9b9369fbae60e122911453f6a87ac3db9d83450185c81ad573ac34c2d8614248",
+          "actual_sha256": "9b9369fbae60e122911453f6a87ac3db9d83450185c81ad573ac34c2d8614248"
+        },
+        {
+          "path": "code/ch22-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "58a59b8a7141d1b35a45f4722db6e01b1f6770e59fe8838d9db31c0fdbe934a4",
+          "actual_sha256": "58a59b8a7141d1b35a45f4722db6e01b1f6770e59fe8838d9db31c0fdbe934a4"
+        },
+        {
+          "path": "assets/ch22-dimension-clocks.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "a6fb814b640957c45e653c13f8c6bbb7a87cfbef7cd3e34d4e0b93329eb4096a",
+          "actual_sha256": "a6fb814b640957c45e653c13f8c6bbb7a87cfbef7cd3e34d4e0b93329eb4096a"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch23_anomalous.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch23_anomalous.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch23-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "c32c61bdb740c4ff92bf2bc5199f7344f9aabd9c84a201d25ab51ff8e76d7c64",
+          "actual_sha256": "c32c61bdb740c4ff92bf2bc5199f7344f9aabd9c84a201d25ab51ff8e76d7c64"
+        },
+        {
+          "path": "code/ch23-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "7f68b04f3a409e11e8404e78bb998fa09bb68a45bb2b2b29b9ad606d1791f62d",
+          "actual_sha256": "7f68b04f3a409e11e8404e78bb998fa09bb68a45bb2b2b29b9ad606d1791f62d"
+        },
+        {
+          "path": "assets/ch23-anomalous.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "21a0ecfc96a109c5421294f56b9e5580731af531adf650c5e2d50a4de5bd03cf",
+          "actual_sha256": "21a0ecfc96a109c5421294f56b9e5580731af531adf650c5e2d50a4de5bd03cf"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch24_deterministic.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch24_deterministic.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch24-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "b43df26bc92583a29c705a734e6703156d076a5ba691a71661b13718fa5d8e6f",
+          "actual_sha256": "b43df26bc92583a29c705a734e6703156d076a5ba691a71661b13718fa5d8e6f"
+        },
+        {
+          "path": "code/ch24-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "d58bb0a8e1e4aa13b5eb9ff24790b6c2a1168337855caea6a5be1de220596aa3",
+          "actual_sha256": "d58bb0a8e1e4aa13b5eb9ff24790b6c2a1168337855caea6a5be1de220596aa3"
+        },
+        {
+          "path": "assets/ch24-deterministic.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "b1853b5671bd65ce4aaef6277dfde91569737e16f46dbcc627267b1484e09d19",
+          "actual_sha256": "b1853b5671bd65ce4aaef6277dfde91569737e16f46dbcc627267b1484e09d19"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "passed": true,
+      "scripts": [
+        {
+          "script": "code/ch25_sojourn.py",
+          "exit_code": 0
+        },
+        {
+          "script": "figures/ch25_sojourn.py",
+          "exit_code": 0
+        }
+      ],
+      "outputs": [
+        {
+          "path": "code/ch25-results.json",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "51776f0c37c543808462764a9eb86ba3f2c35d2aafcd2e41bb675ca51c5e920c",
+          "actual_sha256": "51776f0c37c543808462764a9eb86ba3f2c35d2aafcd2e41bb675ca51c5e920c"
+        },
+        {
+          "path": "code/ch25-output.txt",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "b15bcfd11f940790aa5326f6e29537ba9585aa6d473557dae491cc52cb1af5e5",
+          "actual_sha256": "b15bcfd11f940790aa5326f6e29537ba9585aa6d473557dae491cc52cb1af5e5"
+        },
+        {
+          "path": "assets/ch25-sojourn.svg",
+          "exists": true,
+          "byte_identical": true,
+          "expected_sha256": "efe39a591754039f1a64b2fd1ec71c6b84f9a6d270a3f06499e692efbe63a19f",
+          "actual_sha256": "efe39a591754039f1a64b2fd1ec71c6b84f9a6d270a3f06499e692efbe63a19f"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "passed": true,
+    "byte_identical_pages": {
+      "index.html": true,
+      "source-map.html": true,
+      "laboratories.html": true
+    },
+    "evidence_mode": "preserved exported acceptance records; private reports not reopened"
+  },
+  "content_digest": "1bb57a818895f41c93a77a8548a31286e2b5b6510a6188d8c25da7f3019dcbb1",
+  "producer_report_sha256": "1c12ffc7b57057fb2a36848614aa42e609196bd928d517a87c85bbec7ec61433",
+  "evidence_origin": "exported producer checks; private raw evidence excluded"
+}

@@ -1,0 +1,6 @@
+Reduced units: k_B T = m = 1; E/(k_B T) is dimensionless.
+d=1: mass=1.000000000, mean=0.499668, variance=0.501427, KS=0.001491, P(E>3 k_B T)=0.01430588
+d=2: mass=1.000000000, mean=1.003337, variance=1.005157, KS=0.001716, P(E>3 k_B T)=0.04978707
+d=3: mass=1.000000000, mean=1.498797, variance=1.497460, KS=0.001876, P(E>3 k_B T)=0.11161023
+Incorrect one-branch mass: 0.500000000
+Gaussian FWHM/sigma: 2.354820045

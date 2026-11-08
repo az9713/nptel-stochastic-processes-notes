@@ -1,0 +1,124 @@
+{
+  "number": 3,
+  "status": "accepted",
+  "author_id": "/root/author_02_09",
+  "scientific_files": [
+    "chapter-03-central-limit-and-diffusion.html",
+    "code/ch03-output.txt",
+    "code/ch03-results.json",
+    "code/ch03_diffusion.py",
+    "figures/ch03_diffusion.py",
+    "assets/ch03-diffusion.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 4,
+      "sequentially_read": true,
+      "transcript_spans": [
+        {
+          "start": 0.12,
+          "end": 491.1,
+          "topic": "Exact Gaussian sums, rescaling and general linear combinations",
+          "sections": [
+            "closure"
+          ]
+        },
+        {
+          "start": 491.1,
+          "end": 651.8,
+          "topic": "Central limit theorem and its informal generality",
+          "sections": [
+            "clt"
+          ],
+          "qualification": "Chapter restricts theorem to iid finite positive variance; broader nonidentical extensions require extra hypotheses."
+        },
+        {
+          "start": 651.8,
+          "end": 1908.3,
+          "topic": "Uniform sums, triangular convolution, sinc characteristic function and Gaussian limit",
+          "sections": [
+            "uniform"
+          ]
+        },
+        {
+          "start": 1908.3,
+          "end": 2437.2,
+          "topic": "Isotropic random flights and mean-square displacement",
+          "sections": [
+            "flight"
+          ]
+        },
+        {
+          "start": 2437.2,
+          "end": 3216.6,
+          "topic": "One-step sphere measure, angular integral and sinc characteristic function",
+          "sections": [
+            "flight"
+          ]
+        },
+        {
+          "start": 3216.6,
+          "end": 3628.2,
+          "topic": "Diffusion scaling, Cartesian inversion and finite-variance limitations",
+          "sections": [
+            "diffusion",
+            "limits"
+          ]
+        }
+      ],
+      "visual_coverage": {
+        "times_seconds": [
+          1625,
+          3135
+        ],
+        "coverage": "Two inspected lecture stills check uniform normalization and random-flight one-step measure/transform; some board occluded."
+      },
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch03_diffusion.py"
+  ],
+  "figures": [
+    "assets/ch03-diffusion.svg"
+  ],
+  "solutions": 6,
+  "artifact_hashes": {
+    "chapter-03-central-limit-and-diffusion.html": "718812e456007bab7272ac5685401c6a9d216f55fdf89fb4df44f63f8228d8f0",
+    "code/ch03-output.txt": "0823c924fd37bdf3eea0823c2e2e3253fefc0fc6a787bcf1229be64385a6ff8e",
+    "code/ch03-results.json": "a4ec9804b886ca8bb28915b174db61627c45c54870a7aa9792e02b3bd8944e70",
+    "code/ch03_diffusion.py": "afd9e75b65cdb6d803098e0943501366126183c571ef6b5ef536bf29c8bb27a1",
+    "figures/ch03_diffusion.py": "ee37724f99bc363a244106d361c69a3ee9b6bf2ea83188a612f583316409c11b",
+    "assets/ch03-diffusion.svg": "7f1f6426d2669bf4c7ab1ad2b1f37519949964d72ef57c70e19d296398ea5461"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch03-r1.md",
+      "report_sha256": "0af80bd5b3a315c0c75c1d8609faeef6f54318ce14cee73cee188c7d7c011731",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch03-r1-targeted.md",
+          "sha256": "9f8a0dddcca83d8d923d61e7af044783f8bf76422713b9bde86c0586ec812f21"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch03-r2.md",
+      "report_sha256": "659acc6d1dfb8b67c502f55aef953154a4ba73ed1995543aa9703fff081645c7",
+      "targeted_repairs": []
+    }
+  ],
+  "review_audit": "work/reviews/ch03-review-audit.json"
+}

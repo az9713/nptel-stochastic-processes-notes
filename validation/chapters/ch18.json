@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "chapter": 18,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_18_25",
+  "artifact_hashes": {
+    "chapter-18-shot-noise.html": "b8f8bd1ab3e26a3d6846f89c3097fd718aadaf883bdde68b85984d6a5c7f969c",
+    "code/ch18_shot_noise.py": "18a55dff5bb8399ed080f36db74df472254be70c94df7be19931093d24d0e749",
+    "code/ch18-results.json": "b9e78ac7f56bdbfc704e2188706357560002d1aaf985c036dfa1ab558120f598",
+    "code/ch18-output.txt": "67a384e4b87bf6e6000cc5712dfae00adca6df94e2b69a4f49c27bfd94178ea0",
+    "figures/ch18_shot_noise.py": "a58080a01eb4d88897075adbaaabc999bf0447070bdd60b0e7819b30c1818b86",
+    "assets/ch18-shot-noise.svg": "9270edbadb10f6f8a86d200e1ad3d4386a9e1be438ae9be51299c19c7d4437c0"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 2,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "5c5e3fd1833f82422b4ba9d5c8aefbafb1773fb4cf00904d40d14b072aa3ef25",
+      "targeted_repairs": [
+        {
+          "sha256": "25d09e0ec5868f485c50a748f4004e4e7560bc04dbc39f8d34623b3136e19551"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root/author_10_17",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "7aabded2cb05d4820716c4799b8e7149d1b623abd466368db193370ae557a204",
+      "targeted_repairs": []
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

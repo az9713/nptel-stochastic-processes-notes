@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "chapter": 11,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_10_17",
+  "artifact_hashes": {
+    "chapter-11-harmonic-and-kramers.html": "da29adeab79d221cb01357a133b3b01da69516368eb4a92936c50ddf9eb33a7c",
+    "code/ch11_trap.py": "1b74801771c215a642e1c913c26206410d24e80985cd7edda0cedfe0239c50cc",
+    "code/ch11-results.json": "3528b085ee625ddb2cd8af53595cbf4b4715160f5740029b035a7f435c9dd168",
+    "code/ch11-output.txt": "3b6efb80618bf83a27bcb91e1e268bceb20a76585b938a0f95026c70397ac87d",
+    "figures/ch11_relaxation.py": "96c4b2d48b776f5ed3e5e4c7b0ad71c4e2051ba10510432a6e74a4df07806955",
+    "assets/ch11-relaxation.svg": "35d22159045645530af8cb8fa711909cfcef72ba80c6fbbf1f636e0f08ba128b"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "31e0cde7b3c9fe84004f6ebf7a828ee3fa74b3776f0c97fef11b2a37b75ff0d1",
+      "targeted_repairs": [
+        {
+          "sha256": "a147ec588e2895b863f0bf57d55a1789f34fee561e87b47cbaf5e7574ba46b93"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "b90daa2788ef071276d96e38e9447ffbc61f0553b50bc425710531fd2f030a84",
+      "targeted_repairs": []
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

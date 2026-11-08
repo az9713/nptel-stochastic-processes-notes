@@ -1,0 +1,63 @@
+{
+  "seed": 202611084,
+  "repetitions": 20000,
+  "mean_iqr_rows": [
+    {
+      "n": 1,
+      "gaussian_iqr": 1.3291023026733186,
+      "gaussian_exact_iqr": 1.3489795003921634,
+      "cauchy_iqr": 2.0067410298657613,
+      "cauchy_exact_iqr": 2.0
+    },
+    {
+      "n": 4,
+      "gaussian_iqr": 0.672885008325985,
+      "gaussian_exact_iqr": 0.6744897501960817,
+      "cauchy_iqr": 1.9975266068175002,
+      "cauchy_exact_iqr": 2.0
+    },
+    {
+      "n": 16,
+      "gaussian_iqr": 0.34190390009468674,
+      "gaussian_exact_iqr": 0.33724487509804085,
+      "cauchy_iqr": 1.971913122216887,
+      "cauchy_exact_iqr": 2.0
+    },
+    {
+      "n": 64,
+      "gaussian_iqr": 0.1667517440946251,
+      "gaussian_exact_iqr": 0.16862243754902043,
+      "cauchy_iqr": 2.0231196866728856,
+      "cauchy_exact_iqr": 2.0
+    },
+    {
+      "n": 256,
+      "gaussian_iqr": 0.08408681682163177,
+      "gaussian_exact_iqr": 0.08431121877451021,
+      "cauchy_iqr": 2.0368930058646795,
+      "cauchy_exact_iqr": 2.0
+    }
+  ],
+  "ratio_scale2_ks": 0.0029435510907495077,
+  "reciprocal_square_levy_ks": 0.0021337959886794655,
+  "levy_laplace": [
+    {
+      "s": 0.1,
+      "numerical": 0.6394073191618969,
+      "exact": 0.6394073191618971
+    },
+    {
+      "s": 1,
+      "numerical": 0.24311673443421422,
+      "exact": 0.2431167344342142
+    },
+    {
+      "s": 5,
+      "numerical": 0.04232921962320492,
+      "exact": 0.04232921962320499
+    }
+  ],
+  "levy_cdf_at_1": 0.31731050786291415,
+  "cauchy_absolute_tail_over10": 0.06345103486110713,
+  "cauchy_mean_absolute_tail_over10_for_any_n": 0.06345103486110713
+}

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "chapter": 15,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_10_17",
+  "artifact_hashes": {
+    "chapter-15-magnetic-diffusion.html": "2c4e9cfefbab89836a62d087760b7719e4e3076c1590f8e3902f23f669c62abf",
+    "code/ch15_magnetic.py": "fb0ac2082eb75db2f3b833080139e53e6b8260f55948108a89dd50a8ea1555cd",
+    "code/ch15-results.json": "93fb67d5b89545fb20a1edeef42788964ec28ea8db7a2f2348e8e7c726dd1711",
+    "code/ch15-output.txt": "2e5f36dceedde4f6ec7577de5635d216664d94abed594ee48d18845a69a4533f",
+    "figures/ch15_magnetic.py": "3e90fea0f657a3a94f6d68192618630746aa8a266464f97c1ef027bc5aa77252",
+    "assets/ch15-magnetic.svg": "655ea1377f5f1ea8474654187dd47ef7253691d944dbb8eb9e694ed8bdbe767c"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "41a8445b8ac156e9b095fb46548b9517e61fed46b05951e8a882a0f0c910f4f7",
+      "targeted_repairs": []
+    },
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "48d628b31668e325618ffd979a3fa46467fe4a4a19e44a363c9ff99792cfd2ab",
+      "targeted_repairs": []
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

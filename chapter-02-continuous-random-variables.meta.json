@@ -1,0 +1,125 @@
+{
+  "number": 2,
+  "status": "accepted",
+  "author_id": "/root/author_02_09",
+  "scientific_files": [
+    "chapter-02-continuous-random-variables.html",
+    "code/ch02_energy.py",
+    "code/ch02-results.json",
+    "code/ch02-output.txt",
+    "figures/ch02_energy.py",
+    "assets/ch02-energy.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 3,
+      "sequentially_read": true,
+      "transcript_spans": [
+        {
+          "start": 0.12,
+          "end": 1134.5,
+          "topic": "Cumulants, translation, discrete examples, scaling and independent additivity",
+          "sections": [
+            "cumulants"
+          ]
+        },
+        {
+          "start": 1134.5,
+          "end": 1289,
+          "topic": "Continuous density, normalization and atoms",
+          "sections": [
+            "density"
+          ]
+        },
+        {
+          "start": 1289,
+          "end": 1714.1,
+          "topic": "Characteristic function, positivity and convolution",
+          "sections": [
+            "characteristic"
+          ]
+        },
+        {
+          "start": 1714.1,
+          "end": 2144.5,
+          "topic": "Gaussian density and cumulative distribution",
+          "sections": [
+            "gaussian"
+          ]
+        },
+        {
+          "start": 2144.5,
+          "end": 3007.4,
+          "topic": "Gaussian moments and cumulants; kurtosis; moments problem and finite cumulant-polynomial discussion; uniform sums preview",
+          "sections": [
+            "moments"
+          ],
+          "qualification": "No proof of general finite-cumulant-polynomial theorem claimed; empirical truncation not a model."
+        },
+        {
+          "start": 3007.4,
+          "end": 3383.9,
+          "topic": "Square transformation with two branches, Maxwell velocity and energy, density of states",
+          "sections": [
+            "transform",
+            "energy"
+          ]
+        }
+      ],
+      "visual_coverage": {
+        "times_seconds": [
+          1335,
+          2485,
+          3265
+        ],
+        "coverage": "partial still sampling; Fourier sign, Gaussian moments and square branches; some board occluded"
+      },
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch02_energy.py"
+  ],
+  "figures": [
+    "assets/ch02-energy.svg"
+  ],
+  "solutions": 6,
+  "artifact_hashes": {
+    "chapter-02-continuous-random-variables.html": "3eb4bfec3f6cbdaf312914ea80a707114b64ad37209d3dedd517927aba9f99dc",
+    "code/ch02_energy.py": "56b238310e075a33cea5fb2731752bcbfffdf01da985161f2f50156756ea73cf",
+    "code/ch02-results.json": "3e1b5cfa786375edcf59106463cf99b2f3bbe27e207177741860376d201f377e",
+    "code/ch02-output.txt": "93ab6587486ffb70e936cba98ffc8e62ca8306c9f16a941ae7ed910de80070b0",
+    "figures/ch02_energy.py": "7140acf4734b67b62239075b06dec78e872d2bc1978324bf77065bceb9c325cc",
+    "assets/ch02-energy.svg": "c816997b78f51c2f0fbf008b5c8b48f566a4e7e6d7d5bf51ff03edb42ad7887f"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch02-r1.md",
+      "report_sha256": "4c0c5e24f97577afa84709b6725a018796dc57d18fba43c83b563974239dd7df",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch02-r1-targeted.md",
+          "sha256": "344c70ab208ce3c28f6953d13699a66d106b4ebe841bcda53173aaaf2a27c93d"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root/author_10_17",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch02-r2.md",
+      "report_sha256": "8353d3a7e442a9e74aeeb3858850d9275bf1ee6b6f38ad124d238787389754e7",
+      "targeted_repairs": []
+    }
+  ],
+  "review_audit": "work/reviews/ch02-review-audit.json"
+}

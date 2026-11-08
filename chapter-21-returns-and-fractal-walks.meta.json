@@ -1,0 +1,98 @@
+{
+  "chapter": 21,
+  "status": "accepted",
+  "author_id": "/root/author_18_25",
+  "scientific_files": [
+    "chapter-21-returns-and-fractal-walks.html",
+    "code/ch21_returns_graphs.py",
+    "code/ch21-results.json",
+    "code/ch21-output.txt",
+    "figures/ch21_returns_graphs.py",
+    "assets/ch21-returns-graphs.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 25,
+      "sequentially_read": true,
+      "transcript_spans": [
+        [
+          20.3,
+          139.3,
+          "walk dimension"
+        ],
+        [
+          139.3,
+          427,
+          "gasket construction"
+        ],
+        [
+          427,
+          996,
+          "exit recursion and factor5"
+        ],
+        [
+          996,
+          1229.7,
+          "geometric/dynamical dimensions"
+        ],
+        [
+          1229.7,
+          2087.4,
+          "renewal and recurrence"
+        ],
+        [
+          2087.4,
+          3186.3,
+          "biased line return generating function"
+        ],
+        [
+          3186.3,
+          3956.5,
+          "unbiased tail and mean divergence"
+        ]
+      ],
+      "visual_coverage": "One timed still at770s inspected: gasket geometry visible, algebra partlyoccluded.",
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch21_returns_graphs.py"
+  ],
+  "figures": [
+    "assets/ch21-returns-graphs.svg"
+  ],
+  "solutions": 6,
+  "artifact_hashes": {
+    "chapter-21-returns-and-fractal-walks.html": "34fc57064ca5e5c07fb6dbcd030efe7b9dd37812a5097115ce8c86bcef0fc3d2",
+    "code/ch21_returns_graphs.py": "155d7d765733d9ab9682c780a8dd360e646d88c79ec4350d7d70496005a7cc4c",
+    "code/ch21-results.json": "5ad3929f78420aec728d9817b083e48dd6bf52b61f18e29f8088ae13a2ef80ad",
+    "code/ch21-output.txt": "60455f107c066c79cdd810702c222ec8158042b16c18b98f261438701460a1c4",
+    "figures/ch21_returns_graphs.py": "71204b3c40011b813aaddb57e291df5663c56ce6d6b0211a20e2f0ce91c3c241",
+    "assets/ch21-returns-graphs.svg": "e8b5190eb784786dac7d65842cf36e6b84bd7fdfb1706db2f892f98c944fbc19"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch21-r1.md",
+      "report_sha256": "7d657195874251254305f7904d005b951caa9c9376b5fa1c44f20c142ab2f930",
+      "targeted_repairs": []
+    },
+    {
+      "reviewer_id": "/root/author_10_17",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch21-r2.md",
+      "report_sha256": "c6a59037bc8be02c4e2a9cddc2793d18c7a41df55fb49bf118645465fb8ecd3b",
+      "targeted_repairs": []
+    }
+  ],
+  "review_audit": "work/reviews/ch21-review-audit.json"
+}

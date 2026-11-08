@@ -1,0 +1,7 @@
+force  cubic stiffness  response magnitude / force
+ 0.05             0.00                  1.66666666
+ 1.00             0.00                  1.66666667
+ 0.05             0.50                  1.66664966
+ 1.00             0.50                  1.21065199
+Finite-band dispersion errors: 0.005459119, 0.00012896617, 1.0191125e-06
+Equilibrium spectrum relative RMS error=0.05275627

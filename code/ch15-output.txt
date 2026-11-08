@@ -1,0 +1,5 @@
+D_parallel=1.00000000
+D_perpendicular=0.05882353
+Suppression ratio=0.05882353
+At t=80: transverse MSD=9.51557093, parallel MSD=158.00000000
+All matrix, covariance, and thermal-variance checks passed.

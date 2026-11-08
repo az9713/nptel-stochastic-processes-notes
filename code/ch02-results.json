@@ -1,0 +1,71 @@
+{
+  "seed": 202611082,
+  "samples": 200000,
+  "dimensionless_theta": 1.0,
+  "energy_rows": [
+    {
+      "d": 1,
+      "integrated_mass": 0.9999999999997646,
+      "quadrature_error_estimate": 5.40880673582933e-11,
+      "exact_mean": 0.5,
+      "exact_variance": 0.5,
+      "sample_mean": 0.4996676802345992,
+      "sample_variance": 0.5014273348300653,
+      "ks_distance": 0.0014914591364446617,
+      "probability_energy_over_3theta": 0.014305878435429641
+    },
+    {
+      "d": 2,
+      "integrated_mass": 1.0000000000000002,
+      "quadrature_error_estimate": 5.842606703608969e-11,
+      "exact_mean": 1.0,
+      "exact_variance": 1.0,
+      "sample_mean": 1.003337288667051,
+      "sample_variance": 1.0051574070608726,
+      "ks_distance": 0.001716133516838192,
+      "probability_energy_over_3theta": 0.04978706836786395
+    },
+    {
+      "d": 3,
+      "integrated_mass": 1.0000000000009637,
+      "quadrature_error_estimate": 1.0242958703443605e-09,
+      "exact_mean": 1.5,
+      "exact_variance": 1.5,
+      "sample_mean": 1.4987967514650309,
+      "sample_variance": 1.4974604275311323,
+      "ks_distance": 0.00187590717737951,
+      "probability_energy_over_3theta": 0.11161022509471265
+    }
+  ],
+  "standard_gaussian_moments": {
+    "2": 1.000000000000001,
+    "4": 3.0000000000000053,
+    "6": 15.000000000000004
+  },
+  "characteristic_function": [
+    {
+      "k": 0,
+      "quadrature": 0.9999999999999998,
+      "exact": 1.0
+    },
+    {
+      "k": 0.5,
+      "quadrature": 0.8824969025845956,
+      "exact": 0.8824969025845955
+    },
+    {
+      "k": 1,
+      "quadrature": 0.6065306597126334,
+      "exact": 0.6065306597126334
+    },
+    {
+      "k": 2,
+      "quadrature": 0.13533528323661265,
+      "exact": 0.1353352832366127
+    }
+  ],
+  "incorrect_one_branch_mass": 0.4999999999998823,
+  "three_point_fourth_moment": 2.999999999999999,
+  "three_point_sixth_moment": 8.999999999999996,
+  "fwhm_over_sigma": 2.3548200450309493
+}

@@ -1,0 +1,5 @@
+Two-state P11(0.7): exact=0.414970952, sample=0.413316667
+Residence times: 0.5, 1; correlation time=0.333333333
+Walk mean: exact=2.000000, sample=1.998558
+Walk variance: exact=2.000000, sample=1.993127
+Stationary ring current: 0.333333333

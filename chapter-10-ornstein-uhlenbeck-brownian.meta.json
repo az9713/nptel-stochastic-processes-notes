@@ -1,0 +1,97 @@
+{
+  "chapter": 10,
+  "title": "Velocity relaxation and the emergence of spatial diffusion",
+  "status": "accepted",
+  "author_id": "/root/author_10_17",
+  "scientific_files": [
+    "chapter-10-ornstein-uhlenbeck-brownian.html",
+    "code/ch10_ou.py",
+    "code/ch10-results.json",
+    "code/ch10-output.txt",
+    "figures/ch10_crossover.py",
+    "assets/ch10-crossover.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 12,
+      "sequentially_read": true,
+      "transcript_spans": [
+        [
+          20.6,
+          3445.1
+        ]
+      ],
+      "visual_coverage": "3 timed frames:960,1590,2820; partial and sometimes occluded",
+      "audio_reviewed_independently": false
+    },
+    {
+      "lecture": 13,
+      "sequentially_read": true,
+      "transcript_spans": [
+        [
+          0.1,
+          3081.9
+        ]
+      ],
+      "visual_coverage": "3 timed frames:1215,1957,2590; partial and sometimes occluded",
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch10_ou.py"
+  ],
+  "figures": [
+    "assets/ch10-crossover.svg"
+  ],
+  "solutions": 6,
+  "checks": [
+    "lab assertions and independent quadrature passed",
+    "plot preview visually inspected",
+    "checktex:196segments0issues",
+    "checklt:0issues",
+    "check_links:0broken",
+    "check_code:0issues"
+  ],
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 2,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch10-r1.md",
+      "report_sha256": "b086754e6f685a86a9d8f2b06c6369b24f1832ebf7e451bf5002af985711c19f",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch10-r1-targeted.md",
+          "sha256": "46954c6e4142a510778bf9f9a6470fadf559b824099dfa9f5c1d518b6ef2bc2a"
+        },
+        {
+          "path": "work/reviews/ch10-r1-targeted-02.md",
+          "sha256": "4b10f85f091be133f55db07ace39bcfd85be9fafa4c9f7ce0550b7ace26930b3"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch10-r2.md",
+      "report_sha256": "b9f1471264eb08e308c9de39d49f59748380d4a39bd32d269dc847149fe6bd32",
+      "targeted_repairs": []
+    }
+  ],
+  "artifact_hashes": {
+    "chapter-10-ornstein-uhlenbeck-brownian.html": "e22f9254080c5cb8c97694801f9223b52347f3960018fc22c22623ed8d21c07d",
+    "code/ch10_ou.py": "e02cbfa22738a61c9d5ace822bb9465349dd618b3c57b21f8d251ad33f2223da",
+    "code/ch10-results.json": "31bb2ef77562e6d5776bff8ac3a9b3fea0bc14223936d97140b1641bee52df29",
+    "code/ch10-output.txt": "779335c5fb8a8433ae970e59c8400c6b09cf29baff0049505bde0b43700f921b",
+    "figures/ch10_crossover.py": "d19a9e8b3c0698155b103ccd4c7fcb41e5212213c1068f73ba9fcd3f446a15fa",
+    "assets/ch10-crossover.svg": "22ed7255a6168955f64ecd08fb5f660126a3bda01de3f74bd8d0925292bdc823"
+  },
+  "review_audit": "work/reviews/ch10-review-audit.json"
+}

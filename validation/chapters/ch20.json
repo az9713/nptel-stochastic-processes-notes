@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "chapter": 20,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_18_25",
+  "artifact_hashes": {
+    "chapter-20-first-passage.html": "19a1359d8e9c2571ecb3c3d58c5f2657630f2a962e2d39427730a35a113d824e",
+    "code/ch20_first_passage.py": "7cced270b67958c811b7ec43abc5ba40a65c8ce77861e38ea7ded6dde3d28cbc",
+    "code/ch20-results.json": "0e438061813b637f4c5c4ff3369c6221b5b2313f1282b7764a6142d4b3e4e1d2",
+    "code/ch20-output.txt": "0f025df27054420ac878af406b31341dce5558de7f1d62d6fceb4ec8ccb3b255",
+    "figures/ch20_first_passage.py": "95c7fe13ee820926e07602f2cdc7c0b9475879c542f449030ace972d04858029",
+    "assets/ch20-first-passage.svg": "d87e38fe6455daa80878025a8975fa0694a2580c95212cd7894f0708e664d5c7"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "c10078b5c49fb7211fe42a156ecb61a3025a4887d3323148e6d48557c068dba4",
+      "targeted_repairs": []
+    },
+    {
+      "reviewer_id": "/root/author_10_17",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "f122eb1b3e71fb78136ab473f8a364d5f47b3f2a7aba1b2adf91a87dedb5d051",
+      "targeted_repairs": []
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

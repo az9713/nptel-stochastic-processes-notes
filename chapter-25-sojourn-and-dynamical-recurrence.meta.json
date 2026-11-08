@@ -1,0 +1,108 @@
+{
+  "chapter": 25,
+  "status": "accepted",
+  "author_id": "/root/author_18_25",
+  "scientific_files": [
+    "chapter-25-sojourn-and-dynamical-recurrence.html",
+    "code/ch25_sojourn.py",
+    "code/ch25-results.json",
+    "code/ch25-output.txt",
+    "figures/ch25_sojourn.py",
+    "assets/ch25-sojourn.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 29,
+      "sequentially_read": true,
+      "transcript_spans": [
+        [
+          0.1,
+          501.9,
+          "stationary outside blocks and conditional survival"
+        ],
+        [
+          501.9,
+          1100.4,
+          "escape first difference and possible infinite mean"
+        ],
+        [
+          1100.4,
+          2085.5,
+          "indicator construction and return second difference"
+        ],
+        [
+          2085.5,
+          2365.9,
+          "normalization and reciprocal-measure mean"
+        ],
+        [
+          2365.9,
+          2730,
+          "large configuration recurrence examples"
+        ],
+        [
+          2730,
+          2966.1,
+          "Smoluchowski departure conditioning and sample resolution"
+        ],
+        [
+          2966.1,
+          3231.4,
+          "finite return versus infinite escape sampling distinction"
+        ],
+        [
+          3231.4,
+          3685.7,
+          "doubling map binary shift and coarse Markov observations"
+        ]
+      ],
+      "visual_coverage": "One low-resolution still2877s inspected; departure denominator partly visible and partly occluded. No continuous video review.",
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch25_sojourn.py"
+  ],
+  "figures": [
+    "assets/ch25-sojourn.svg"
+  ],
+  "solutions": 6,
+  "artifact_hashes": {
+    "chapter-25-sojourn-and-dynamical-recurrence.html": "476f1233f7578b1f22adbd48e69057fd20a71d715aa8973059852c6315f6da47",
+    "code/ch25_sojourn.py": "e30759c42645816f34cd694d8b07ea15aa3b2166d676296b82864fccd7cde4ec",
+    "code/ch25-results.json": "51776f0c37c543808462764a9eb86ba3f2c35d2aafcd2e41bb675ca51c5e920c",
+    "code/ch25-output.txt": "b15bcfd11f940790aa5326f6e29537ba9585aa6d473557dae491cc52cb1af5e5",
+    "figures/ch25_sojourn.py": "05d87194788dd6bac4d92b23f50215a1bd7fdd6d813e6c8441767d5725c15dab",
+    "assets/ch25-sojourn.svg": "efe39a591754039f1a64b2fd1ec71c6b84f9a6d270a3f06499e692efbe63a19f"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch25-r1.md",
+      "report_sha256": "646d5eb606b0a2285cd9e93e3137e828af7c21f7c18c66c832b1afd77e0d953f",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch25-r1-targeted.md",
+          "sha256": "fd270d06dd36d2ec9cee786cd6db6b0e0f8f44d74b8c2e0ed0b390e8894358d1"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root/author_10_17",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch25-r2.md",
+      "report_sha256": "025fe115af621a98c2ff5a533b16ec06dea628fc50d5254da52eb7e344b1a916",
+      "targeted_repairs": []
+    }
+  ],
+  "review_audit": "work/reviews/ch25-review-audit.json"
+}

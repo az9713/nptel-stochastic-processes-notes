@@ -1,0 +1,4 @@
+duration   mean periodogram   finite-record mean   relative variance
+   20.48         0.79962567           0.80602849          0.92260528
+  163.84         0.79662209           0.79914090          1.01739133
+RC filtered variance=0.33333333; kBT/C=0.33333333

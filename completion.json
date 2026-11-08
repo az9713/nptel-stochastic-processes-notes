@@ -1,0 +1,23 @@
+{
+  "phase": "complete",
+  "complete": true,
+  "content_digest": "1bb57a818895f41c93a77a8548a31286e2b5b6510a6188d8c25da7f3019dcbb1",
+  "review_evidence_mode": "actual private reports and repair chains checked",
+  "plan_approved": true,
+  "pilot_author_approval": "approved_2026-11-08",
+  "first_figure_approval": "approved_2026-11-08",
+  "autonomous_completion_authorized": true,
+  "planned_chapters": 25,
+  "drafted_chapters": 25,
+  "accepted_chapters": 25,
+  "scientifically_reviewed_chapters": 25,
+  "independent_full_reviews": 50,
+  "labs": 25,
+  "solved_exercises": 150,
+  "caption_tracks_acquired": 29,
+  "caption_tracks_read_sequentially": 29,
+  "continuous_audiovisual_review": false,
+  "pending_chapters": [],
+  "book_checks": "passed for current artifacts",
+  "publication": "Public GitHub study edition and GitHub Pages reader; raw sources and private reviews excluded"
+}

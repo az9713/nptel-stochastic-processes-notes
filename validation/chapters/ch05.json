@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "chapter": 5,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_02_09",
+  "artifact_hashes": {
+    "chapter-05-processes-and-markov-state.html": "40e45c5a93d59b7500a9ed68e8e4a613d9f8dc51919cb10c4e499603c429bf07",
+    "code/ch05-output.txt": "256c05d0fdf83b98411f0d757b783ed5bb98c5099d01c14097a57e5211f0c3b4",
+    "code/ch05-results.json": "fc03add4971878d8e373d1141703d3e44860f34fc3c00d32da79027b52a94a50",
+    "code/ch05_markov.py": "c8ff61a4e468af4b237b694d29f14b4642f156e9e8386649006d144e41c204dd",
+    "figures/ch05_markov.py": "aea423b9ee463fc406d992f97a8d253bbe4fe885738c28ce5427d4bbd47efcfe",
+    "assets/ch05-markov.svg": "50b95ee8bc86e5f0abc3bee26bbb7c7fef8a8645efa60160a8ed2501ba450974"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "87050167f42a50b29ec640dca3187e68fd870b43a3b8ed0e10f30be9d8b58e60",
+      "targeted_repairs": [
+        {
+          "sha256": "65dddd4d67a9d574b0a092cadec61cfc203b0fa4ce32969c99323fa735ee4c58"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "9fe8123616641a0d04d9a1fbbc4d2e6a8f866f09652a9d52fa8bceded7f721b6",
+      "targeted_repairs": [
+        {
+          "sha256": "4f19c5966fff7a8fe7b8dd9908b5d013ced83d25b3ab211c91942355f79ab159"
+        }
+      ]
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

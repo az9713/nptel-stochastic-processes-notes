@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "chapter": 7,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_02_09",
+  "artifact_hashes": {
+    "chapter-07-lattice-transport-birth-death.html": "5033316e545dd583ca0ec92f986a3b6e11f43efc0096b55adc2a603ca96d79cd",
+    "code/ch07-output.txt": "a2abb03fe5d67c207fe06689b559201610d3aaf18e8047e423b20cc3d7f453be",
+    "code/ch07-results.json": "79046bfe5a560c3a31cd9f6f03ca7d392c9e3b574fc760485bd3bc1ea1224852",
+    "code/ch07_populations.py": "24644060335cf93ce77ea3892e12958f6bd787ce76e25fd2dfa3b70548e40494",
+    "figures/ch07_populations.py": "4e11f413b2de89030e70977f1c2ce143913819360b128cc967c23d2e2b465860",
+    "assets/ch07-populations.svg": "4aaf67a2d1ef7a1a0f1c0f0c001ecfdf555ee5a5e0f954eba95b3855a306aeed"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "bb74322fabbb43bbd7bf8421a6c3b3f3dd588ac6281562748ae17087601a2c0e",
+      "targeted_repairs": [
+        {
+          "sha256": "3312555ae786e005ed9351867ec02257fffd1868e15942a5be7ce18bdb328e21"
+        },
+        {
+          "sha256": "661a855f0c7eaa13061e651fe6d8f910082c68267ffde54cbc830d4b7c464fc0"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "f0e3368be5a64b72621e871047a928a76ee6a24ccf0373e1d0816645426ccad4",
+      "targeted_repairs": [
+        {
+          "sha256": "796948c2c3ec65136037cc2493d8b541702a4b9b30d11bdd2b6e50c767cfad37"
+        }
+      ]
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

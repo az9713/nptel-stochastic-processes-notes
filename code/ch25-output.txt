@@ -1,0 +1,7 @@
+Complete occupied runs: 210221
+Entrance mean: sample=3.328112; exact=3.333333
+Occupied-time total-run mean: sample=5.647062; exact=5.666667
+Occupied-time residual mean: sample=3.323531; exact=3.333333
+Cylinder11 return masses n=1..6: [0.5, 0.0, 0.125, 0.0625, 0.0625, 0.046875]
+Cylinder11 mean from backward equations: 4.000000
+Cylinder11 unreturned at step14: 0.03723145

@@ -1,0 +1,140 @@
+{
+  "number": 4,
+  "status": "accepted",
+  "author_id": "/root/author_02_09",
+  "scientific_files": [
+    "chapter-04-stable-and-divisible-laws.html",
+    "code/ch04-output.txt",
+    "code/ch04-results.json",
+    "code/ch04_stable.py",
+    "figures/ch04_stable.py",
+    "assets/ch04-stable.svg"
+  ],
+  "source_coverage": [
+    {
+      "lecture": 5,
+      "sequentially_read": true,
+      "transcript_spans": [
+        {
+          "start": 23.8,
+          "end": 948,
+          "topic": "Stable and strictly stable definitions; affine-rescaled sums and convolution",
+          "sections": [
+            "stability"
+          ]
+        },
+        {
+          "start": 948,
+          "end": 1361.5,
+          "topic": "Stable index and characteristic exponents, indexrange, Gaussian case",
+          "sections": [
+            "stability"
+          ]
+        },
+        {
+          "start": 1361.5,
+          "end": 1703.7,
+          "topic": "Cauchy law, heavy tails and moment discussion",
+          "sections": [
+            "cauchy"
+          ],
+          "qualification": "Location not expectation; symmetricprincipalvalue is separate."
+        },
+        {
+          "start": 1703.7,
+          "end": 2367.8,
+          "topic": "L\u00c3\u00a9vy law, reciprocal Gaussian square and firstpassage preview",
+          "sections": [
+            "levy"
+          ],
+          "qualification": "Density/transform parameters made consistent; no unrestricted reciprocaldual theorem asserted."
+        },
+        {
+          "start": 2367.8,
+          "end": 2758.5,
+          "topic": "Gaussian positionratio and timecancellation",
+          "sections": [
+            "ratio"
+          ],
+          "qualification": "Scale corrected to numerator/denominator standarddeviation ratio."
+        },
+        {
+          "start": 2758.5,
+          "end": 2996.3,
+          "topic": "Momentthresholds and generalizedlimit discussion",
+          "sections": [
+            "limits"
+          ],
+          "qualification": "Moment orderalone not sufficient to specify domainofattraction."
+        },
+        {
+          "start": 2996.3,
+          "end": 4089.3,
+          "topic": "Infinite divisibility, componentroots, binomial, negativebinomial, Poisson, Gaussian, Skellam",
+          "sections": [
+            "divisibility",
+            "bounded"
+          ]
+        }
+      ],
+      "visual_coverage": {
+        "times_seconds": [
+          1765,
+          2635
+        ],
+        "coverage": "L\u00c3\u00a9vy density and Gaussianratio integral inspected; ratio derivation partly occluded. No continuous video review."
+      },
+      "audio_reviewed_independently": false
+    }
+  ],
+  "labs": [
+    "code/ch04_stable.py"
+  ],
+  "figures": [
+    "assets/ch04-stable.svg"
+  ],
+  "solutions": 6,
+  "artifact_hashes": {
+    "chapter-04-stable-and-divisible-laws.html": "7126e11f187d0bb1ffd5da5d1a14fb78f77604819a9c4f8d9a44540e71c6bd6c",
+    "code/ch04-output.txt": "b58f761429cce742397b98ffd2e24730dadfef5eb79eb3c967a988438d648a2e",
+    "code/ch04-results.json": "f4b0a96ba26130f6057e1d62399cd9c46517529f1f3d2c77f0c1696aa5102999",
+    "code/ch04_stable.py": "c5648743cdb0908e1eecc3b403182c352d235216c2252b527364f9d29acef1e7",
+    "figures/ch04_stable.py": "3cfa48048407d1630bbe275a27b9d0c597e995c08a75423228a4a7dce38b396e",
+    "assets/ch04-stable.svg": "af4dbfdfa15fea5799b7db5742f96acd0155c51b731e9b4eb6337b4c9199c077"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_18_25",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch04-r1.md",
+      "report_sha256": "e0c7a02e80c63700e0ad7a7e05edc38516e8e0857ce1cc4bf0504ae4029a903c",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch04-r1-targeted.md",
+          "sha256": "108f99c163a53ef8e6c15b4fe13adf0fdebc2d86600d9ad8e0cd51032e74b2be"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report": "work/reviews/ch04-r2.md",
+      "report_sha256": "92c12986c7dda1865646958022081432ae3d08c273debecb55eb8a06a1c85d68",
+      "targeted_repairs": [
+        {
+          "path": "work/reviews/ch04-r2-targeted.md",
+          "sha256": "4aeb1ececa9d91a7d7b27288c106362b415a226d281a8fbe35f7da571b8ea1f8"
+        }
+      ]
+    }
+  ],
+  "review_audit": "work/reviews/ch04-review-audit.json"
+}

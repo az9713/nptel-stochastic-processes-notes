@@ -1,0 +1,4 @@
+# Acceptance evidence binds exact file bytes across platforms.
+* -text whitespace=cr-at-eol
+# Matplotlib retains deterministic SVG path spacing.
+*.svg whitespace=-blank-at-eol,cr-at-eol

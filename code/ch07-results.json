@@ -1,0 +1,31 @@
+{
+  "seed": 202611087,
+  "samples": 40000,
+  "yule": {
+    "birth_rate": 0.8,
+    "time": 1.5,
+    "exact_mean": 3.320116922736548,
+    "exact_variance": 7.7030594579050575,
+    "sample_mean": 3.32025,
+    "sample_variance": 7.713489937500001,
+    "probability_still_one": 0.301194211912202
+  },
+  "nhpp": {
+    "integrated_intensity_at_1": 2,
+    "integrated_intensity_at_2": 8,
+    "sample_mean_at_2": 7.97695,
+    "sample_variance_at_2": 7.9148686975
+  },
+  "walk_cumulants": [
+    2.0,
+    1.9999999999999996,
+    0.5000000000000009,
+    0.5000000000000018
+  ],
+  "walk_exact_cumulants": [
+    2.0,
+    2.0,
+    0.5,
+    0.5
+  ]
+}

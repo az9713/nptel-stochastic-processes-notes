@@ -1,0 +1,4 @@
+mean=1.800000; variance=3.000000; third cumulant=5.400000
+stationary record mean=1.829676; variance=3.083746
+integrated Welch variance=3.086729
+first spectral zero=2.500000 Hz

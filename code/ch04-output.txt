@@ -1,0 +1,8 @@
+Repeated sample-mean IQRs (Gaussian exact shrinks; Cauchy exact = 2):
+n=1: Gaussian=1.329102 (exact 1.348980), Cauchy=2.006741
+n=4: Gaussian=0.672885 (exact 0.674490), Cauchy=1.997527
+n=16: Gaussian=0.341904 (exact 0.337245), Cauchy=1.971913
+n=64: Gaussian=0.166752 (exact 0.168622), Cauchy=2.023120
+n=256: Gaussian=0.084087 (exact 0.084311), Cauchy=2.036893
+Gaussian ratio, scale2 KS: 0.002944
+Reciprocal Gaussian square, Levy KS: 0.002134

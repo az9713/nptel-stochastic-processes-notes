@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "chapter": 25,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_18_25",
+  "artifact_hashes": {
+    "chapter-25-sojourn-and-dynamical-recurrence.html": "476f1233f7578b1f22adbd48e69057fd20a71d715aa8973059852c6315f6da47",
+    "code/ch25_sojourn.py": "e30759c42645816f34cd694d8b07ea15aa3b2166d676296b82864fccd7cde4ec",
+    "code/ch25-results.json": "51776f0c37c543808462764a9eb86ba3f2c35d2aafcd2e41bb675ca51c5e920c",
+    "code/ch25-output.txt": "b15bcfd11f940790aa5326f6e29537ba9585aa6d473557dae491cc52cb1af5e5",
+    "figures/ch25_sojourn.py": "05d87194788dd6bac4d92b23f50215a1bd7fdd6d813e6c8441767d5725c15dab",
+    "assets/ch25-sojourn.svg": "efe39a591754039f1a64b2fd1ec71c6b84f9a6d270a3f06499e692efbe63a19f"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 1,
+      "full_review_verdict": "yes_after_revision",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "646d5eb606b0a2285cd9e93e3137e828af7c21f7c18c66c832b1afd77e0d953f",
+      "targeted_repairs": [
+        {
+          "sha256": "fd270d06dd36d2ec9cee786cd6db6b0e0f8f44d74b8c2e0ed0b390e8894358d1"
+        }
+      ]
+    },
+    {
+      "reviewer_id": "/root/author_10_17",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "025fe115af621a98c2ff5a533b16ec06dea628fc50d5254da52eb7e344b1a916",
+      "targeted_repairs": []
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

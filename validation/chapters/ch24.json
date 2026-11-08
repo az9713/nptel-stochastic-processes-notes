@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "chapter": 24,
+  "scope": "producer attestation after actual private review audit",
+  "author_id": "/root/author_18_25",
+  "artifact_hashes": {
+    "chapter-24-deterministic-probability.html": "ebb8d2a308a89f09996fb8a786c0a4987e07ab674693df562b5901b425b97cb1",
+    "code/ch24_deterministic.py": "bcee110bd0451c3beb50c512f36e8c677e58a8a925ffc07e0b35fec8c9d2b73b",
+    "code/ch24-results.json": "b43df26bc92583a29c705a734e6703156d076a5ba691a71661b13718fa5d8e6f",
+    "code/ch24-output.txt": "d58bb0a8e1e4aa13b5eb9ff24790b6c2a1168337855caea6a5be1de220596aa3",
+    "figures/ch24_deterministic.py": "0d84c860b3dac67cb396fb6904d07b9a8c931e4a4a95a329521f7b031f605c15",
+    "assets/ch24-deterministic.svg": "b1853b5671bd65ce4aaef6277dfde91569737e16f46dbcc627267b1484e09d19"
+  },
+  "independent_full_reviews": [
+    {
+      "reviewer_id": "/root/author_02_09",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "fb7eadf6b910725bf5d1967ebd76d35fa45ef8e8cbbe8176235c58a154d511c9",
+      "targeted_repairs": []
+    },
+    {
+      "reviewer_id": "/root/author_10_17",
+      "review_type": "full",
+      "full_review_blocking_findings": 0,
+      "full_review_verdict": "accept",
+      "final_blocking_findings": 0,
+      "verdict": "accept",
+      "report_sha256": "869e6ba98973a82bf598080dbf8262f09e2ca3bf6d54941e87df075db2c15765",
+      "targeted_repairs": []
+    }
+  ],
+  "continuous_audiovisual_review": false
+}

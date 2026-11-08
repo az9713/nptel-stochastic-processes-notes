@@ -1817,7 +1817,7 @@
       "source_dependencies": [
         "S001"
       ],
-      "sha256": "58aa428b98f4447db7e6575c14d52d609fa8d0ba8e28aa4a3232468facf23d37"
+      "sha256": "fa8c4d557280f0fb025a777bdb2244294f3ac734d0c5449507cc9b51656b5851"
     },
     {
       "path": "requirements-numerical-lock.txt",
@@ -2252,6 +2252,15 @@
       "sha256": "96c405d33876ef2b176c804f67544dd4446750cbd020d526e0d25001827b339c"
     },
     {
+      "path": "validation/publication-checks.json",
+      "purpose": "Course reader and reproducible scientific artifact",
+      "primary": false,
+      "source_dependencies": [
+        "S001"
+      ],
+      "sha256": "cccfde784493fd8a8d4e884d971b3adbd54c4c03e0e3ca45734afba16cf1ad0d"
+    },
+    {
       "path": "validation/reader-checks.json",
       "purpose": "Course reader and reproducible scientific artifact",
       "primary": false,
@@ -2303,7 +2312,7 @@
       "source_dependencies": [
         "S001"
       ],
-      "sha256": "723b354251cee67539e0f4cfd265daafaaab14070f539129b8efa7ca4549cc5c"
+      "sha256": "c42233a38e928e564358cee8a7f80449d0ea2049d476ad337cce604de5135297"
     },
     {
       "path": "WORKFLOW.md",

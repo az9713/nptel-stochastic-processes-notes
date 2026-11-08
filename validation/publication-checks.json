@@ -1,0 +1,1601 @@
+{
+  "passed": true,
+  "scope": "served-file integrity and representative live desktop/phone browser checks",
+  "verified_content_commit": "c44546a87ddae38a14cd1dd88af926e94aca6567",
+  "reader_url": "https://az9713.github.io/nptel-stochastic-processes-notes/",
+  "served_files_checked": 256,
+  "all_served_files_match_commit_bytes": true,
+  "files": [
+    {
+      "path": "ATTRIBUTION.md",
+      "status": 200,
+      "sha256": "18cdfa7a563068bad9ec7b54b75bd15a36e81a2af0f93660e7da191df670c858",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "README.md",
+      "status": 200,
+      "sha256": "58aa428b98f4447db7e6575c14d52d609fa8d0ba8e28aa4a3232468facf23d37",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "VALIDATION.md",
+      "status": 200,
+      "sha256": "723b354251cee67539e0f4cfd265daafaaab14070f539129b8efa7ca4549cc5c",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "WORKFLOW.md",
+      "status": 200,
+      "sha256": "4a530c422073f3941f556be15d37d0cd3b5befb9f6fdc2e2d158cb57b5629405",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "analysis-ir.json",
+      "status": 200,
+      "sha256": "4bfdcc7680c23f41dfd4450bcf07fad7b13da1b9ef4065cad48a768a2d7c09ae",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "artifact-manifest.json",
+      "status": 200,
+      "sha256": "1cb12cb56edfd795aa4b1b23ddc828da20156ef8c54eb54c3f35360293b9b167",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch01-equal-mean.svg",
+      "status": 200,
+      "sha256": "fbefc18ed11361334eb3c4f0c3d042a5143f0fda1fa814532bc16c49f48b2c03",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch02-energy.svg",
+      "status": 200,
+      "sha256": "c816997b78f51c2f0fbf008b5c8b48f566a4e7e6d7d5bf51ff03edb42ad7887f",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch03-diffusion.svg",
+      "status": 200,
+      "sha256": "7f1f6426d2669bf4c7ab1ad2b1f37519949964d72ef57c70e19d296398ea5461",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch04-stable.svg",
+      "status": 200,
+      "sha256": "af4dbfdfa15fea5799b7db5742f96acd0155c51b731e9b4eb6337b4c9199c077",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch05-markov.svg",
+      "status": 200,
+      "sha256": "50b95ee8bc86e5f0abc3bee26bbb7c7fef8a8645efa60160a8ed2501ba450974",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch06-jumps.svg",
+      "status": 200,
+      "sha256": "b6e08bb4b8510f555e6171c8b2e6b865461396c88e56ab6d08f84dd66d5124c1",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch07-populations.svg",
+      "status": 200,
+      "sha256": "4aaf67a2d1ef7a1a0f1c0f0c001ecfdf555ee5a5e0f954eba95b3855a306aeed",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch08-equilibrium.svg",
+      "status": 200,
+      "sha256": "c08bb130f05eb24b0ed0f35a115940afb214f3dd616ba921918e462917488a97",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch09-diffusion-limit.svg",
+      "status": 200,
+      "sha256": "ebd33a5b0be16ab4a5d247633941b1759a8650c4db4ac6ca127aec05633ff7ab",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch10-crossover.svg",
+      "status": 200,
+      "sha256": "22ed7255a6168955f64ecd08fb5f660126a3bda01de3f74bd8d0925292bdc823",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch11-relaxation.svg",
+      "status": 200,
+      "sha256": "35d22159045645530af8cb8fa711909cfcef72ba80c6fbbf1f636e0f08ba128b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch12-roughness.svg",
+      "status": 200,
+      "sha256": "8c186bf844a5e3089720e9e255d2239e012e90180f85926e54e6f6fcd8aec11b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch13-radial.svg",
+      "status": 200,
+      "sha256": "44e3e72015dfbe01ec198938b7c00cd8143489c7b3ecfaf7898116975e10eae5",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch14-sampling.svg",
+      "status": 200,
+      "sha256": "27af44a8f11d442357ecbd1c0e6aea80e2c669463c2c6292dd300e46ec0afdd7",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch15-magnetic.svg",
+      "status": 200,
+      "sha256": "655ea1377f5f1ea8474654187dd47ef7253691d944dbb8eb9e694ed8bdbe767c",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch16-spectra.svg",
+      "status": 200,
+      "sha256": "c9ac18d4eafeeda72fa297b1bcd8107c462b9191f4bf21c735d9aef06e87843d",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch17-response.svg",
+      "status": 200,
+      "sha256": "cc526014485d809dd53391bd8da04b0538817309aeac05234f3ecebce65022fc",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch18-shot-noise.svg",
+      "status": 200,
+      "sha256": "9270edbadb10f6f8a86d200e1ad3d4386a9e1be438ae9be51299c19c7d4437c0",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch19-telegraph.svg",
+      "status": 200,
+      "sha256": "f0423aaede631186ae557ad80e846464986f8e3eab244df9f892f83083951161",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch20-first-passage.svg",
+      "status": 200,
+      "sha256": "d87e38fe6455daa80878025a8975fa0694a2580c95212cd7894f0708e664d5c7",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch21-returns-graphs.svg",
+      "status": 200,
+      "sha256": "e8b5190eb784786dac7d65842cf36e6b84bd7fdfb1706db2f892f98c944fbc19",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch22-dimension-clocks.svg",
+      "status": 200,
+      "sha256": "a6fb814b640957c45e653c13f8c6bbb7a87cfbef7cd3e34d4e0b93329eb4096a",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch23-anomalous.svg",
+      "status": 200,
+      "sha256": "21a0ecfc96a109c5421294f56b9e5580731af531adf650c5e2d50a4de5bd03cf",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch24-deterministic.svg",
+      "status": 200,
+      "sha256": "b1853b5671bd65ce4aaef6277dfde91569737e16f46dbcc627267b1484e09d19",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/ch25-sojourn.svg",
+      "status": 200,
+      "sha256": "efe39a591754039f1a64b2fd1ec71c6b84f9a6d270a3f06499e692efbe63a19f",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/chapter.css",
+      "status": 200,
+      "sha256": "05e8809b9316228cca5611db32f905f9853ec8e712aab72e366685aed454b9be",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/chapter.js",
+      "status": 200,
+      "sha256": "770da84c94ae589550ecbe88dbee3828b7481ba099284e17f6c20c24cdfbf432",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/input/tex/extensions/boldsymbol.js",
+      "status": 200,
+      "sha256": "d6771fee0772db2657796c8d0e20e1878bb3237f6d3ed1e828e1834a4ff743ca",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/input/tex/extensions/cancel.js",
+      "status": 200,
+      "sha256": "0d263ecf2671d1cc13135b8b4afcdca4d40151a9aea51b69402e68adde4cf8c9",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/input/tex/extensions/mathtools.js",
+      "status": 200,
+      "sha256": "04272d69a0b64783cd5b66820d6f8220ee510409d0b12c38626404be9ed9689c",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/math-config.js",
+      "status": 200,
+      "sha256": "5d5aab452810137da9ed3ee6e91ab9b34a0478e1500aa613908da28b92a20085",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/mathjax-LICENSE",
+      "status": 200,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/mathjax-tex-svg.js",
+      "status": 200,
+      "sha256": "d4295dc33744836935c1399feece5159577b34c5c8ffb9f1c6324cd82e03a882",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/plan.css",
+      "status": 200,
+      "sha256": "b16eb1aba338fa9e2e1346748ad0b8d9ba2dfa880f35c7243097e260473eb909",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "assets/plan.js",
+      "status": 200,
+      "sha256": "56cfbc25a25a11e9a8d4e50f2c899a7553d4114a61f6cffbc8a54763e9f571c6",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-01-discrete-distributions.html",
+      "status": 200,
+      "sha256": "a6d33eeeeeb7de47752fc6c1c6d4a84326606a8adb59524e50eab107eee4b48d",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-01-discrete-distributions.meta.json",
+      "status": 200,
+      "sha256": "7b231230f08b8f5b701d4c8243ad72129efd09542f12f72e015da664fbdf186c",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-02-continuous-random-variables.html",
+      "status": 200,
+      "sha256": "7e409bb33bcb64dc0b82e1382b97565a4a783d0d3be496db053017b948da930b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-02-continuous-random-variables.meta.json",
+      "status": 200,
+      "sha256": "f5e3bc71cf65d4ba523d6801d297488de037ce89490a5c78655162fb9a20cac9",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-03-central-limit-and-diffusion.html",
+      "status": 200,
+      "sha256": "85c26badbb7e5bb3c2df83c2c71b44cc3d98565c982f0b9f7805ee01e08dca19",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-03-central-limit-and-diffusion.meta.json",
+      "status": 200,
+      "sha256": "359c3d540cd14c170af044ee1eab37e623f3d0ac6a7efbb385dd36a58df770b2",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-04-stable-and-divisible-laws.html",
+      "status": 200,
+      "sha256": "49c3d84ab9c97cee7dc531c96341b1cc157badd42cb58d9e9328528fa94bf8fe",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-04-stable-and-divisible-laws.meta.json",
+      "status": 200,
+      "sha256": "e9b997ee27b56e86b213656f8ab435f4a462719a5c3ca2938981cf45e6fa0866",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-05-processes-and-markov-state.html",
+      "status": 200,
+      "sha256": "1593d15f77696185b2826c92b02fd0b4e294a59a96d0126f934b964c22e63d9e",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-05-processes-and-markov-state.meta.json",
+      "status": 200,
+      "sha256": "208e6eb29b72a05788416032a7f5dbcdda79d700a71707cfc8dec60764a74e75",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-06-generators-counting-and-telegraph.html",
+      "status": 200,
+      "sha256": "065af858986a7b2f34c5d3d9a560c57d74999948f960eca009055882186a9cdf",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-06-generators-counting-and-telegraph.meta.json",
+      "status": 200,
+      "sha256": "61af33bd2d8fe3905253df34b835eba292864bd79d64810bfb6548785a4740a0",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-07-lattice-transport-birth-death.html",
+      "status": 200,
+      "sha256": "371213b400fe53f4d27f4f036b7366298c02a80d623f6e22df813579cb0bd209",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-07-lattice-transport-birth-death.meta.json",
+      "status": 200,
+      "sha256": "b28c0c0b1fa3421e3fe10268dc64ffa7f6b6fe44369fb980bd462259ba8baa04",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-08-stationary-populations.html",
+      "status": 200,
+      "sha256": "d39a93d93ae03a070a08e366f38b2499d843898ed437489a60f105e024d651e8",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-08-stationary-populations.meta.json",
+      "status": 200,
+      "sha256": "40d8a67217cb5de93dc12ac98c97ff1c5988414aed61d6f390c7dbdea8bfcf23",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-09-master-to-fokker-planck.html",
+      "status": 200,
+      "sha256": "32d8f7244727891881799db3f367c4f655a7b8e2b319066e2b3222c1dc5b8324",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-09-master-to-fokker-planck.meta.json",
+      "status": 200,
+      "sha256": "8cef071d9fa9110d47a497dae9b9ea0149de5c041f476c1201da21c05bf58526",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-10-ornstein-uhlenbeck-brownian.html",
+      "status": 200,
+      "sha256": "71dd4cc4aa0d1b575a51e95dcd057fd8fd2055b9cc10d518b053505522001bdd",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-10-ornstein-uhlenbeck-brownian.meta.json",
+      "status": 200,
+      "sha256": "baf26bb49da9af177fd322870710a2d79f9c4423348f05143b5d6ed4b9e0a884",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-11-harmonic-and-kramers.html",
+      "status": 200,
+      "sha256": "3a1805a666d7cc5fab2c62d655c325c6e28fe10646062198bebce1b9e57adb28",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-11-harmonic-and-kramers.meta.json",
+      "status": 200,
+      "sha256": "4f37c816346a7cdc455110148d302ca2f2a8f994a87fbaf167676529901d52b4",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-12-wiener-paths.html",
+      "status": 200,
+      "sha256": "11c740919a9e9f3fafe68cd27658cbcaf87c951cac880dbe1c17fbe30fbfd907",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-12-wiener-paths.meta.json",
+      "status": 200,
+      "sha256": "7e38bb2ca5085823dbab62b7e9f4294ce848264889b3dd1af3bca93ef8346f76",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-13-ito-and-radial-diffusion.html",
+      "status": 200,
+      "sha256": "d91020fc6e232d19994abcdf743780e5786c2993d590c5e820a1261f18722150",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-13-ito-and-radial-diffusion.meta.json",
+      "status": 200,
+      "sha256": "73c5dfab9940cf2898098a82cb6bd4c4d89e6723d98421ee23fc605e24ea665e",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-14-level-crossing.html",
+      "status": 200,
+      "sha256": "0857879b9d8d3fe69eeea9da70221d502fb1836ae01fe7a999abaa1991d3f37f",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-14-level-crossing.meta.json",
+      "status": 200,
+      "sha256": "ec51df31a0f2e9201529b511ef09e6e33aec6e18e0d8c22ccc90c55d783ef352",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-15-magnetic-diffusion.html",
+      "status": 200,
+      "sha256": "7177803debcf7d6f4e2abd5c43784197a16c164da071f1e08604640d55080ae8",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-15-magnetic-diffusion.meta.json",
+      "status": 200,
+      "sha256": "a2b8237d846de4a759dd4b5936004642a8ad61d6a6b9f6303857e39ae1dadc8b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-16-noise-spectra.html",
+      "status": 200,
+      "sha256": "ace4e0255b46bf3d856aea66dd6b1d6bc2f940de957f0969a8c1a9364fdcbcd4",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-16-noise-spectra.meta.json",
+      "status": 200,
+      "sha256": "0f1f32e54a00dbf82a1af721556fe604eb4510bbf99942b9ac3f928840371eee",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-17-linear-response.html",
+      "status": 200,
+      "sha256": "63f77095cf2169c493345be4a9c117cd3c7b5675d18d21170baae885a576f059",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-17-linear-response.meta.json",
+      "status": 200,
+      "sha256": "4c2e86c1a8855efdb18bd0b9ea3eb096476d3b9f275ec92ce73ceacaabf85324",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-18-shot-noise.html",
+      "status": 200,
+      "sha256": "176d7b2dfdade749c5142eab48a0fe81aeb4cebffccbf75c030dbb5aa2b255dd",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-18-shot-noise.meta.json",
+      "status": 200,
+      "sha256": "cb4fcd940bda2eac945afb2ba18e45c7070ce1b8f21c1d8ed8457de9a1c04653",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-19-telegraph-diffusion.html",
+      "status": 200,
+      "sha256": "1cd0e74bf76934a50c0d9ec8fba753b7b0ada07b94757b460226338b3a574261",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-19-telegraph-diffusion.meta.json",
+      "status": 200,
+      "sha256": "ea248284956461b132b1af5869b7e602a797540f417cb8817c1bda397d4fbbfc",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-20-first-passage.html",
+      "status": 200,
+      "sha256": "9c3c1a465b66cce17a4d8bfb66e904134916d2ed7429898b9d0ac19c0cc410fa",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-20-first-passage.meta.json",
+      "status": 200,
+      "sha256": "f46a9bf5d3fa2bba7cd02c97ee2043c3bdba06f280715926863776660d0ee8dd",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-21-returns-and-fractal-walks.html",
+      "status": 200,
+      "sha256": "594285c6fb7fcf5ef23f4493dea4be716cbbc74f575e79540392abbf3fa81d1d",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-21-returns-and-fractal-walks.meta.json",
+      "status": 200,
+      "sha256": "6ccbe318137d8c1fb8dda16f5c82d0fd0e8e2ae868e6cce806e0a509e6b88af5",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-22-recurrence-dimension-and-clocks.html",
+      "status": 200,
+      "sha256": "435805ff5f933a52511dce8f1a16a1056f74a5c56b5f7950cce58aaf5fa3e4f9",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-22-recurrence-dimension-and-clocks.meta.json",
+      "status": 200,
+      "sha256": "8edd49b6ae04e49c9f10e0849af72f040ae060e56fe5e116cac793621427d851",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-23-nonmarkovian-anomalous-transport.html",
+      "status": 200,
+      "sha256": "11a7aae1c2f69b087ccf3a1de880c9bc76cfd5f502b3acf17d640080b475a8f5",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-23-nonmarkovian-anomalous-transport.meta.json",
+      "status": 200,
+      "sha256": "cfa0bef64e022132c460ff6e55da99a4d675b7f34862cfba39bdb768b70f877b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-24-deterministic-probability.html",
+      "status": 200,
+      "sha256": "db1ac2b510fe59e117e20b9e0a9f18dfc32014285c25c2dd756cb2f396f54141",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-24-deterministic-probability.meta.json",
+      "status": 200,
+      "sha256": "f0f207333e0eea22c0033645e2bfe1dd1c1fb162be37b6a177b007cf0aec43b3",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-25-sojourn-and-dynamical-recurrence.html",
+      "status": 200,
+      "sha256": "7e4ccac508914d6648c6071f6e6c4cd31755a3f74483814fd54ae52ef9e26de2",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-25-sojourn-and-dynamical-recurrence.meta.json",
+      "status": 200,
+      "sha256": "b4a75fe052728d387f7a79cec21501070fd772afbc35f1bd8c8a659d77825c3b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "chapter-manifest.json",
+      "status": 200,
+      "sha256": "97e77eb32900b7e1b6352fcfefe217eed0b28e9d74c851892d8d4071b9511543",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch01-output.txt",
+      "status": 200,
+      "sha256": "99b3ae68d269c81f9fdcdf9fa4165fc6541a6365d98c17a93539a56446ab6fce",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch01-results.json",
+      "status": 200,
+      "sha256": "61464e731cad743733e531975e3986c89d8ab4e2c14dc06c22510c7e522bda2f",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch01_counting.py",
+      "status": 200,
+      "sha256": "a9458da0116572b25bea8c1820959499fd5a6d6126ba871d68138e7fc4d5135f",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch02-output.txt",
+      "status": 200,
+      "sha256": "93ab6587486ffb70e936cba98ffc8e62ca8306c9f16a941ae7ed910de80070b0",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch02-results.json",
+      "status": 200,
+      "sha256": "3e1b5cfa786375edcf59106463cf99b2f3bbe27e207177741860376d201f377e",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch02_energy.py",
+      "status": 200,
+      "sha256": "56b238310e075a33cea5fb2731752bcbfffdf01da985161f2f50156756ea73cf",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch03-output.txt",
+      "status": 200,
+      "sha256": "0823c924fd37bdf3eea0823c2e2e3253fefc0fc6a787bcf1229be64385a6ff8e",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch03-results.json",
+      "status": 200,
+      "sha256": "a4ec9804b886ca8bb28915b174db61627c45c54870a7aa9792e02b3bd8944e70",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch03_diffusion.py",
+      "status": 200,
+      "sha256": "afd9e75b65cdb6d803098e0943501366126183c571ef6b5ef536bf29c8bb27a1",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch04-output.txt",
+      "status": 200,
+      "sha256": "b58f761429cce742397b98ffd2e24730dadfef5eb79eb3c967a988438d648a2e",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch04-results.json",
+      "status": 200,
+      "sha256": "f4b0a96ba26130f6057e1d62399cd9c46517529f1f3d2c77f0c1696aa5102999",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch04_stable.py",
+      "status": 200,
+      "sha256": "c5648743cdb0908e1eecc3b403182c352d235216c2252b527364f9d29acef1e7",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch05-output.txt",
+      "status": 200,
+      "sha256": "256c05d0fdf83b98411f0d757b783ed5bb98c5099d01c14097a57e5211f0c3b4",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch05-results.json",
+      "status": 200,
+      "sha256": "fc03add4971878d8e373d1141703d3e44860f34fc3c00d32da79027b52a94a50",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch05_markov.py",
+      "status": 200,
+      "sha256": "c8ff61a4e468af4b237b694d29f14b4642f156e9e8386649006d144e41c204dd",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch06-output.txt",
+      "status": 200,
+      "sha256": "81bb3fd3c0d12698a50eee0cd107629259ad49eed7f6811047a32d30b0bd68bd",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch06-results.json",
+      "status": 200,
+      "sha256": "32a18944fd47bdc88dffdaecddbb359e212ca5924f6d192bf5330eeb2a52c5e1",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch06_jumps.py",
+      "status": 200,
+      "sha256": "666ce681ea2cd1940c34e4f07f235e112126e061aafb9a73265beb3ba715785c",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch07-output.txt",
+      "status": 200,
+      "sha256": "a2abb03fe5d67c207fe06689b559201610d3aaf18e8047e423b20cc3d7f453be",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch07-results.json",
+      "status": 200,
+      "sha256": "79046bfe5a560c3a31cd9f6f03ca7d392c9e3b574fc760485bd3bc1ea1224852",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch07_populations.py",
+      "status": 200,
+      "sha256": "24644060335cf93ce77ea3892e12958f6bd787ce76e25fd2dfa3b70548e40494",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch08-output.txt",
+      "status": 200,
+      "sha256": "d3a23f258572daa21b76230b7a1c678ccb049936d9a991d6cfc0af10eea2e1dd",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch08-results.json",
+      "status": 200,
+      "sha256": "f29fae96b69b33afebc4248a888608ab044129de469a30bb4bceb2715cb53a87",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch08_equilibrium.py",
+      "status": 200,
+      "sha256": "4c40bb9481ad57ceacf98a4fa2f9a04e3436e93efa892b2a72e2a920ca143e56",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch09-output.txt",
+      "status": 200,
+      "sha256": "61ad808f7c3b61d670d64b63172d0cfae177e81dab654b65cf52b6a78cf0e1a3",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch09-results.json",
+      "status": 200,
+      "sha256": "4969e68558b8b1bc8f4a84d356686fa852b000caecf2037e5ac3bff24ea50ed9",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch09_diffusion_limit.py",
+      "status": 200,
+      "sha256": "b9388921f3575e181a1a213762c8656508df22f6b44d51b5a25a7afc6462dee4",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch10-output.txt",
+      "status": 200,
+      "sha256": "779335c5fb8a8433ae970e59c8400c6b09cf29baff0049505bde0b43700f921b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch10-results.json",
+      "status": 200,
+      "sha256": "31bb2ef77562e6d5776bff8ac3a9b3fea0bc14223936d97140b1641bee52df29",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch10_ou.py",
+      "status": 200,
+      "sha256": "e02cbfa22738a61c9d5ace822bb9465349dd618b3c57b21f8d251ad33f2223da",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch11-output.txt",
+      "status": 200,
+      "sha256": "3b6efb80618bf83a27bcb91e1e268bceb20a76585b938a0f95026c70397ac87d",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch11-results.json",
+      "status": 200,
+      "sha256": "3528b085ee625ddb2cd8af53595cbf4b4715160f5740029b035a7f435c9dd168",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch11_trap.py",
+      "status": 200,
+      "sha256": "1b74801771c215a642e1c913c26206410d24e80985cd7edda0cedfe0239c50cc",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch12-output.txt",
+      "status": 200,
+      "sha256": "6135d94e367e5d713d9de392495393b24899a25c945c4a3e4e6f60671062517d",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch12-results.json",
+      "status": 200,
+      "sha256": "600d65653a0e406b4e13599f2e2e277b1ae311cc06c48a14b4b219a60f7bd508",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch12_wiener.py",
+      "status": 200,
+      "sha256": "30f431fefe51a36e9341f23fa78fb3b3fb1820edab9c1f3f957f8f5d8fb7581c",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch13-output.txt",
+      "status": 200,
+      "sha256": "aea2f8dfd6743311419113db256e586b881c3bfb6ee60519f7b89ef31cc591cc",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch13-results.json",
+      "status": 200,
+      "sha256": "5e60cca232b254edc07693772933dc285d765216c658557311298a5ad7b15778",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch13_transform.py",
+      "status": 200,
+      "sha256": "754966ae2fb0e1ec809e6cd958e0febb3783cd211261f9d66e63f944f3bd5635",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch14-output.txt",
+      "status": 200,
+      "sha256": "0f44704360f38d2f54d99dd97e5653b64c73608c48d803403eb7bda8b8ed2b14",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch14-results.json",
+      "status": 200,
+      "sha256": "29fc4f9c25bc30a34d24bfb9de2dc6fd58d090bfc7932da2f26462cc149e4cf9",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch14_crossings.py",
+      "status": 200,
+      "sha256": "52fcdd0cfc93ea524e5b5f5a9787f9b8e8c07ae860989305954ab7b6fe09e831",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch15-output.txt",
+      "status": 200,
+      "sha256": "2e5f36dceedde4f6ec7577de5635d216664d94abed594ee48d18845a69a4533f",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch15-results.json",
+      "status": 200,
+      "sha256": "93fb67d5b89545fb20a1edeef42788964ec28ea8db7a2f2348e8e7c726dd1711",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch15_magnetic.py",
+      "status": 200,
+      "sha256": "fb0ac2082eb75db2f3b833080139e53e6b8260f55948108a89dd50a8ea1555cd",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch16-output.txt",
+      "status": 200,
+      "sha256": "e96bd1f91c82c167dd1df50e2f2a598cb3be558f333c71040fa2e3683dd4c3b2",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch16-results.json",
+      "status": 200,
+      "sha256": "4214bc8f319ed28727f12f36977be29e0da474f59cf3fdbe2975d31493d42f82",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch16_spectra.py",
+      "status": 200,
+      "sha256": "91dd861a9d2e03e2d025dd1c7a669eb214b8274fed58fb7ca97d0154ee99c97b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch17-output.txt",
+      "status": 200,
+      "sha256": "6a757e61696c37b2d20218f52ecc5ddde5dbcca47193fcfd460852920d4356b4",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch17-results.json",
+      "status": 200,
+      "sha256": "2948e198f17e9b6943cc2faf86149b85e4b12bcd42b35507166f7157c96c1cd0",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch17_response.py",
+      "status": 200,
+      "sha256": "227bf89c21d4bb655478c66f931905f18f5291d6b646ab065ab310c515c886c4",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch18-output.txt",
+      "status": 200,
+      "sha256": "67a384e4b87bf6e6000cc5712dfae00adca6df94e2b69a4f49c27bfd94178ea0",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch18-results.json",
+      "status": 200,
+      "sha256": "b9e78ac7f56bdbfc704e2188706357560002d1aaf985c036dfa1ab558120f598",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch18_shot_noise.py",
+      "status": 200,
+      "sha256": "18a55dff5bb8399ed080f36db74df472254be70c94df7be19931093d24d0e749",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch19-output.txt",
+      "status": 200,
+      "sha256": "1d9e8ab81a76e8dc953fd84a12a98b7ebf67742e2b2bcd052029ea483b20d653",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch19-results.json",
+      "status": 200,
+      "sha256": "98016490a3f6d1d0a26f9c06fc1d7997b12e027e0b31883cf932a794908fb4d7",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch19_telegraph.py",
+      "status": 200,
+      "sha256": "4ba85c7f90e655f30b9fc113a97bc7b68e9231a6e1c243db0438f7329f154788",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch20-output.txt",
+      "status": 200,
+      "sha256": "0f025df27054420ac878af406b31341dce5558de7f1d62d6fceb4ec8ccb3b255",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch20-results.json",
+      "status": 200,
+      "sha256": "0e438061813b637f4c5c4ff3369c6221b5b2313f1282b7764a6142d4b3e4e1d2",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch20_first_passage.py",
+      "status": 200,
+      "sha256": "7cced270b67958c811b7ec43abc5ba40a65c8ce77861e38ea7ded6dde3d28cbc",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch21-output.txt",
+      "status": 200,
+      "sha256": "60455f107c066c79cdd810702c222ec8158042b16c18b98f261438701460a1c4",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch21-results.json",
+      "status": 200,
+      "sha256": "5ad3929f78420aec728d9817b083e48dd6bf52b61f18e29f8088ae13a2ef80ad",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch21_returns_graphs.py",
+      "status": 200,
+      "sha256": "155d7d765733d9ab9682c780a8dd360e646d88c79ec4350d7d70496005a7cc4c",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch22-output.txt",
+      "status": 200,
+      "sha256": "58a59b8a7141d1b35a45f4722db6e01b1f6770e59fe8838d9db31c0fdbe934a4",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch22-results.json",
+      "status": 200,
+      "sha256": "9b9369fbae60e122911453f6a87ac3db9d83450185c81ad573ac34c2d8614248",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch22_dimension_clocks.py",
+      "status": 200,
+      "sha256": "7fffee10983892def5362936bc77a0a7a672bf26dc288475497ef212bd6f82d3",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch23-output.txt",
+      "status": 200,
+      "sha256": "7f68b04f3a409e11e8404e78bb998fa09bb68a45bb2b2b29b9ad606d1791f62d",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch23-results.json",
+      "status": 200,
+      "sha256": "c32c61bdb740c4ff92bf2bc5199f7344f9aabd9c84a201d25ab51ff8e76d7c64",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch23_anomalous.py",
+      "status": 200,
+      "sha256": "d0c2b206cb3a4b09986064aa972667744bc5ad6aac175a618a17d0dbc0fdf491",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch24-output.txt",
+      "status": 200,
+      "sha256": "d58bb0a8e1e4aa13b5eb9ff24790b6c2a1168337855caea6a5be1de220596aa3",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch24-results.json",
+      "status": 200,
+      "sha256": "b43df26bc92583a29c705a734e6703156d076a5ba691a71661b13718fa5d8e6f",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch24_deterministic.py",
+      "status": 200,
+      "sha256": "bcee110bd0451c3beb50c512f36e8c677e58a8a925ffc07e0b35fec8c9d2b73b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch25-output.txt",
+      "status": 200,
+      "sha256": "b15bcfd11f940790aa5326f6e29537ba9585aa6d473557dae491cc52cb1af5e5",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch25-results.json",
+      "status": 200,
+      "sha256": "51776f0c37c543808462764a9eb86ba3f2c35d2aafcd2e41bb675ca51c5e920c",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "code/ch25_sojourn.py",
+      "status": 200,
+      "sha256": "e30759c42645816f34cd694d8b07ea15aa3b2166d676296b82864fccd7cde4ec",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "completion.json",
+      "status": 200,
+      "sha256": "37e0434a31de21239bc8c8dda10f745a667ab032c8390729d97b31f485b21ce1",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "course-notes.pdf",
+      "status": 200,
+      "sha256": "839e44c9ec26838869343a31fc3dd674e7119bb6c09ea35037225c54e693f598",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch01_equal_mean.py",
+      "status": 200,
+      "sha256": "bec28468bdb8b69cd85c04495ea34de0cf3270524d4d73f24fa72cccce9e92f9",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch02_energy.py",
+      "status": 200,
+      "sha256": "7140acf4734b67b62239075b06dec78e872d2bc1978324bf77065bceb9c325cc",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch03_diffusion.py",
+      "status": 200,
+      "sha256": "ee37724f99bc363a244106d361c69a3ee9b6bf2ea83188a612f583316409c11b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch04_stable.py",
+      "status": 200,
+      "sha256": "3cfa48048407d1630bbe275a27b9d0c597e995c08a75423228a4a7dce38b396e",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch05_markov.py",
+      "status": 200,
+      "sha256": "aea423b9ee463fc406d992f97a8d253bbe4fe885738c28ce5427d4bbd47efcfe",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch06_jumps.py",
+      "status": 200,
+      "sha256": "5c6321ad910d5755730cd100c45048c28c82e651930c96aa10de78da4f101494",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch07_populations.py",
+      "status": 200,
+      "sha256": "4e11f413b2de89030e70977f1c2ce143913819360b128cc967c23d2e2b465860",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch08_equilibrium.py",
+      "status": 200,
+      "sha256": "e11ff35f6dca697127cacae8cb2ed7030650d83ee05e7d8fafd91c3fb9079865",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch09_diffusion_limit.py",
+      "status": 200,
+      "sha256": "2a56bc3b489454def3c1262ae654b5bd02f1c46c84742441c4e193f6d60c72b3",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch10_crossover.py",
+      "status": 200,
+      "sha256": "d19a9e8b3c0698155b103ccd4c7fcb41e5212213c1068f73ba9fcd3f446a15fa",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch11_relaxation.py",
+      "status": 200,
+      "sha256": "96c4b2d48b776f5ed3e5e4c7b0ad71c4e2051ba10510432a6e74a4df07806955",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch12_roughness.py",
+      "status": 200,
+      "sha256": "d886034ab8e22acb60f6c00e5f326179332354c8404edc40b6198b4c908b5fab",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch13_radial.py",
+      "status": 200,
+      "sha256": "61ca3e5f3d6bf8ce8018fdbbf03ca3732459ab729e3e0c49dac245d97eb7be2b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch14_sampling.py",
+      "status": 200,
+      "sha256": "a366283b946480ce5251817f927ad9b4f03145956863039ecd878434fdee9653",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch15_magnetic.py",
+      "status": 200,
+      "sha256": "3e90fea0f657a3a94f6d68192618630746aa8a266464f97c1ef027bc5aa77252",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch16_spectra.py",
+      "status": 200,
+      "sha256": "398cff920258eea94b39f231b08d13e01ea69f4e6cf731f9bbb84b4bb32fdf53",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch17_response.py",
+      "status": 200,
+      "sha256": "952f554e6bbfe1b0d264bf8e6c4d28ba9e9e0e74c930dd367c2f139c8a60de4d",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch18_shot_noise.py",
+      "status": 200,
+      "sha256": "a58080a01eb4d88897075adbaaabc999bf0447070bdd60b0e7819b30c1818b86",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch19_telegraph.py",
+      "status": 200,
+      "sha256": "fce78b61333d66e554f8497e765e75c0f10f3d356a193686f447cc63fbe4258e",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch20_first_passage.py",
+      "status": 200,
+      "sha256": "95c7fe13ee820926e07602f2cdc7c0b9475879c542f449030ace972d04858029",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch21_returns_graphs.py",
+      "status": 200,
+      "sha256": "71204b3c40011b813aaddb57e291df5663c56ce6d6b0211a20e2f0ce91c3c241",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch22_dimension_clocks.py",
+      "status": 200,
+      "sha256": "c40eee934471a1f2417f79ca65b8ae25f97db61ed0f99da7171ae29e13002e05",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch23_anomalous.py",
+      "status": 200,
+      "sha256": "54d63c0f7cdebb976377ba8ac061d12e09642fed67883cc1e68e98b9fe1e677b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch24_deterministic.py",
+      "status": 200,
+      "sha256": "0d84c860b3dac67cb396fb6904d07b9a8c931e4a4a95a329521f7b031f605c15",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "figures/ch25_sojourn.py",
+      "status": 200,
+      "sha256": "05d87194788dd6bac4d92b23f50215a1bd7fdd6d813e6c8441767d5725c15dab",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "b38c051960b35d58b0ac5d91cf23a5658509afc13ebb1a63b8bcec6b363ecced",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "laboratories.html",
+      "status": 200,
+      "sha256": "94406625b18bbe71d4ac837f623405b78528f116589f3e4d9e1dba902405bb99",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "plan/architecture.md",
+      "status": 200,
+      "sha256": "0c9d8dabff1dbe89e35cbb80594350effb56cf4c36eed6aa2a4729823bb99541",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "plan/course-plan.json",
+      "status": 200,
+      "sha256": "f5d9c085a60d9c323e4ee00204a3f02957341adb56e921107dd7c4977534b8c8",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "plan/notation.md",
+      "status": 200,
+      "sha256": "31c49f7fa9dc55fdb910f3fbb62aad67433454e71da9d33e78c8531a4d42dc64",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "plan/outline.md",
+      "status": 200,
+      "sha256": "3b7f620f6a1a191867065ae5240a80b20766e034fe0728abe87bb5021e008451",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "plan/results.yaml",
+      "status": 200,
+      "sha256": "4cf7ec063ab672614051325a63cdbed0bb500949c9d14c01a4117974c9b94191",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "publication.json",
+      "status": 200,
+      "sha256": "cb39323db0efba8dfe3794edd054d5bd4e486bf1f4341cea4d1336c05719aa82",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "reader-preview.png",
+      "status": 200,
+      "sha256": "2eee484457f5a57442a372ede0cdc32df1ea75df25ca768b79020fd9b3ea9559",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "requirements-numerical-lock.txt",
+      "status": 200,
+      "sha256": "f1490df47a0549b493800ea342071dfeec30bbd4d9cff2d002949d5709e4ddbd",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "requirements-validation.txt",
+      "status": 200,
+      "sha256": "1722aed402919339e2e5ef3b3b05107b2cea921402d432fae3954606b5606d27",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "requirements.txt",
+      "status": 200,
+      "sha256": "6e311e2646c60426ccefbbf7b443bfa5cffdc84d5c1052560b0056151fb978d1",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "runtime-versions.json",
+      "status": 200,
+      "sha256": "52c2beb71c0ee5f89f54d01db86df35254d690d5812294de527e758eaa2b4700",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "source-manifest.json",
+      "status": 200,
+      "sha256": "aa27aa3760a4558eed9ecf6a77c2fee763869ad6e3e0e89603e5d56989d06af5",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "source-map.html",
+      "status": 200,
+      "sha256": "15cb5b09ef6082dff0943ee3fafac4d99ab66e29e16f498b951f6c648f703ed6",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "spec/book-spec.md",
+      "status": 200,
+      "sha256": "f39a6e407ccdcfe21c0baadda989408d0b9e6310ed7c40a179114bc43159eeb8",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "spec/house-style.md",
+      "status": 200,
+      "sha256": "3dbb1cb4fd1a9eb9acb76edc9343c059981960f33b00f02739b03d423743ba09",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "spec/sources.yaml",
+      "status": 200,
+      "sha256": "9015ee1a0982204373aff978882eb64d589314f677a65726ec470934202de950",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/acquire_sources.py",
+      "status": 200,
+      "sha256": "a96f9240cef62000399af93673690e1442c244b9f41551124949c5936d700639",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/audit_pilot_reviews.py",
+      "status": 200,
+      "sha256": "c7c1cd42229d1d071bd00dc03b966709b5d15a937eaad3993a20ec65b6f92f2d",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/build_course.py",
+      "status": 200,
+      "sha256": "1b99991f8decf65b144a27055c8374b5ef6b7569bb44a3414ea70c1c998eceae",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/build_plan.py",
+      "status": 200,
+      "sha256": "725404e0a3d56b53fe5872ee258bcddc98690505bb25e03bcf43f8500ab32fdd",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/chapter_hashes.py",
+      "status": 200,
+      "sha256": "63f7477556bcbdbe0bb9a7e08c40b87e14571d38e9bc3da670ac1d61b9c99ab7",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/check_course.py",
+      "status": 200,
+      "sha256": "5d22b13f35acbb7a91d9e24b29a159f663cebff634b36b7c954381a8e81795eb",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/check_reader.py",
+      "status": 200,
+      "sha256": "6bc3d5f3d5369d88fb4a38daa825470a2c5a4a0ff05027dd1aa781619b736301",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/export_validation.py",
+      "status": 200,
+      "sha256": "3cb330ef6d2975de6208b12a27a27ff7412d1c65806f62b259bd1a05f8bfc75d",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/finalize_course.py",
+      "status": 200,
+      "sha256": "9c083ec55fdf491134a69acef4987513203ec4a787ccfa653234034b037fc012",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/package_course.py",
+      "status": 200,
+      "sha256": "e4178b708fe2ac3c219472433c392a5440a495b999c414dd6204ed5829d700f7",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/reproduce_course.py",
+      "status": 200,
+      "sha256": "0244369645f1f0025e8c6daa7684aaa99e44ad3751ffb1c7e35e7d0a9c718c6c",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/review_evidence.py",
+      "status": 200,
+      "sha256": "3b6de969317f565e95587f295a602864664acc81928c919a23a1fb6f489940dc",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "tools/validate_plan.py",
+      "status": 200,
+      "sha256": "85c23b59132ae3e2b4ebf4b8fc5088af243fd1a0b1084d6f6789de32d09850cd",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/README.md",
+      "status": 200,
+      "sha256": "a4a3d49ef5adb3af06d211e0ffdfb67a4a52664a14619c45ea7b3f6b612e5cb9",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch01.json",
+      "status": 200,
+      "sha256": "7dc6d85b494d2a5e8f5f36be377b0c61cf774ba3f572e8e44e65237494f84173",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch02.json",
+      "status": 200,
+      "sha256": "001f86e87b590501e2c3774e4094e0c39bc7969e911316150d65864f7f2964da",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch03.json",
+      "status": 200,
+      "sha256": "347e4362d54891519323f8d9f492108270c82825966ea75842a883384fc606ec",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch04.json",
+      "status": 200,
+      "sha256": "17cbe930d693d6706d8784d3e8844d9157318a663a90190f553ea37d78267352",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch05.json",
+      "status": 200,
+      "sha256": "c559ac36f0072484b27da78285c8f53210aa86c7fd02fbec8922c13d7cf3b75c",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch06.json",
+      "status": 200,
+      "sha256": "c9ec446a7a0553d91fd52f79520e43eb61abf7510157226bba9ea9374e4dd78e",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch07.json",
+      "status": 200,
+      "sha256": "3e009b3335fb7151402d9502dbbaf4c7c7b2147662b9144eb26022510179629a",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch08.json",
+      "status": 200,
+      "sha256": "5af755512be2597883b4b2ed72404bf5ca50ef121398e800544d3ecb0717e5b9",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch09.json",
+      "status": 200,
+      "sha256": "fb5f97b67faa048870a8366d34aab3e6ba28bd79dbd73a482fd0d043dd492d11",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch10.json",
+      "status": 200,
+      "sha256": "3442f86250ec1850a76dd5045fd75c566f2609b3037acc223608b0f681c5625b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch11.json",
+      "status": 200,
+      "sha256": "14de6190e53c78fe61b811be23e3d82ad9998feeddd077ff7ef730d47b90ad17",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch12.json",
+      "status": 200,
+      "sha256": "7841d262d6b9d1406834a0fa2c1d37f8f1ab5857e31fdcc5d77572eaf572c41e",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch13.json",
+      "status": 200,
+      "sha256": "a9ce14881b3dce2cc7e70ebb2d584b6bd90fbb14946ffbc8971e2f4e58de5e27",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch14.json",
+      "status": 200,
+      "sha256": "be57ac863429cc4617962250e08f8d2f2bf21ddf12870bf0cdf209cad5f9bd0a",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch15.json",
+      "status": 200,
+      "sha256": "92bd5235c3321a49a7cd289f57513e05d1257d6fac5ab8a4c9a90953c4cf821b",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch16.json",
+      "status": 200,
+      "sha256": "eceef833bf208a3d74b49108837ea2f8f571192f2b9e5c30c9949cd2064f0f40",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch17.json",
+      "status": 200,
+      "sha256": "1437dde37433dab038a140042a4f226dc54c1a60e6ddec9e3f7541840a9d4638",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch18.json",
+      "status": 200,
+      "sha256": "dfd385516839e3e2e001bfb83bcbd5dc7f395083f2ced5c714da2147e315f39f",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch19.json",
+      "status": 200,
+      "sha256": "89a139d2fc3f4240971148b628c5675d6b85c6ed2919db6d9ae08052c070a2d0",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch20.json",
+      "status": 200,
+      "sha256": "0d28f24acbafa88b877a64b1390d142ee768c0a29ab1674c65bacc8ee3db776e",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch21.json",
+      "status": 200,
+      "sha256": "202dca9b5bd6dbec59bd3922ca65853f5984e45a49c4608cb5c89fee68b22b9e",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch22.json",
+      "status": 200,
+      "sha256": "9d3ec9afb85f1e9f415a7deadc702e1e4ed822060481488e1510abd6f7065439",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch23.json",
+      "status": 200,
+      "sha256": "f20365db23e15ddf0962e00e352183a29bcd9845811c2ee92b053f44b53583c0",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch24.json",
+      "status": 200,
+      "sha256": "0e0b700755713559a4199830d3df2ccae6b9ad4078d04426bd1c4c5e405e9521",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/chapters/ch25.json",
+      "status": 200,
+      "sha256": "f1b5e9b7539418127bef262de254bc42a54afbd64beb5831ad34382634ee6657",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/export-checks.json",
+      "status": 200,
+      "sha256": "96c405d33876ef2b176c804f67544dd4446750cbd020d526e0d25001827b339c",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/reader-checks.json",
+      "status": 200,
+      "sha256": "ad100d6af53e58801d39807677c7811e7afc4244cb6b05565ba7d68d362867cd",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/release-checks.json",
+      "status": 200,
+      "sha256": "b3b04fe04b1fe4cea1dc2275ad0c61f5400a7761662beea74530728b4bed5ae0",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/reproduction-checks.json",
+      "status": 200,
+      "sha256": "17e4a3512b9357f10b0064ffdbee03b6e2b642cd600c87f4e230c5570cba0ff1",
+      "matches_commit_bytes": true
+    },
+    {
+      "path": "validation/structure-checks.json",
+      "status": 200,
+      "sha256": "9e676b12a74497d1532fdd45c9effcf6f1733771d78c3ac718ef5fa4ecc0004f",
+      "matches_commit_bytes": true
+    }
+  ],
+  "browser_checks": [
+    {
+      "page": "index.html",
+      "width": 1440,
+      "passed": true,
+      "js_errors": []
+    },
+    {
+      "page": "chapter-01-discrete-distributions.html",
+      "width": 1440,
+      "passed": true,
+      "js_errors": []
+    },
+    {
+      "page": "chapter-09-master-to-fokker-planck.html",
+      "width": 1440,
+      "passed": true,
+      "js_errors": []
+    },
+    {
+      "page": "chapter-25-sojourn-and-dynamical-recurrence.html",
+      "width": 1440,
+      "passed": true,
+      "js_errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "passed": true,
+      "js_errors": []
+    },
+    {
+      "page": "chapter-01-discrete-distributions.html",
+      "width": 390,
+      "passed": true,
+      "js_errors": []
+    },
+    {
+      "page": "chapter-09-master-to-fokker-planck.html",
+      "width": 390,
+      "passed": true,
+      "js_errors": []
+    },
+    {
+      "page": "chapter-25-sojourn-and-dynamical-recurrence.html",
+      "width": 390,
+      "passed": true,
+      "js_errors": []
+    }
+  ],
+  "limits": [
+    "live browser checks sample the index and chapters1,9,25 at two widths",
+    "all25 chapters have separate full-course offline browser checks",
+    "repository dotfiles are excluded from website-byte checks"
+  ]
+}

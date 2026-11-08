@@ -114,6 +114,8 @@ Print proofs include all 150 worked solutions.
   [source-free reproduction](validation/reproduction-checks.json).
 - [Evidence semantics](validation/README.md), [validation limits](VALIDATION.md),
   [production workflow](WORKFLOW.md) and [outline](plan/outline.md).
+- [Publication verification](validation/publication-checks.json): 256 served
+  files match the content commit, with eight live desktop/phone browser checks.
 
 All 29 acquired caption tracks were read sequentially. Visual checks use sampled
 stills with lecture-specific limits; lecture 24 has no visual review. This is

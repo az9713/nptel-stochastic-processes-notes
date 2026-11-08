@@ -17,7 +17,7 @@ expert certification; mechanical consistency checks do not prove mathematics.
 The full-course release checks passed against one final content digest:
 
 - Structure, backward prerequisite graph, numbering, all six solutions per
-  chapter, 918 local links and 143 bounded recording-timestamp links.
+  chapter, 919 local links and 143 bounded recording-timestamp links.
 - Installed Microsoft Edge with networking disabled, at 1440px and 390px widths:
   all chapters render mathematics with zero MathJax or JavaScript errors, load
   figures, and avoid page-wide overflow. Theme, text size, code copying, mobile
@@ -65,3 +65,9 @@ The archive preserves original acceptance records without private reports. Run
 `python tools/build_course.py --exported-evidence` there to check unchanged
 scientific hashes and rebuild navigation. This preserves original acceptance;
 it does not reopen or authenticate private review reports.
+
+The public GitHub Pages deployment is checked separately in
+`validation/publication-checks.json`: 256 served files match the recorded content
+commit, and eight live browser checks cover the index and chapters1,9,25 at
+desktop and phone widths. This bounded live sample complements the full-course
+offline checks; it does not replace scientific review or source validation.

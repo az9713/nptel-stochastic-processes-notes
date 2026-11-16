@@ -269,7 +269,7 @@
       "source_dependencies": [
         "S001"
       ],
-      "sha256": "05e8809b9316228cca5611db32f905f9853ec8e712aab72e366685aed454b9be"
+      "sha256": "1c7ba0e8dfdf34157a991cb82e8f3a512fd6f3e7b1573024aba2dbdf39d24145"
     },
     {
       "path": "assets/chapter.js",
